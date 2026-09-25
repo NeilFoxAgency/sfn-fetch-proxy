@@ -1,0 +1,502 @@
+[
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Best Hotels in Lincoln County",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Explore Lincoln NM Hotels for Your 2026 Getaway",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:airbnb.com",
+    "business_name": "Lincoln County Hotels",
+    "website": "https://www.airbnb.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitlinco.com",
+    "business_name": "Stay",
+    "website": "https://visitlinco.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:wortleyhotel.com",
+    "business_name": "Old Wortley Hotel",
+    "website": "https://www.wortleyhotel.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hoteles.com",
+    "business_name": "Best Hotels in Lincoln County",
+    "website": "https://www.hoteles.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:menupix.com",
+    "business_name": "Lincoln County, NM Restaurant Guide",
+    "website": "https://www.menupix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:discoverruidoso.com",
+    "business_name": "5 Lincoln County Eateries Worth the Drive",
+    "website": "https://www.discoverruidoso.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:restaurantji.com",
+    "business_name": "Restaurants in Lincoln, NM",
+    "website": "https://www.restaurantji.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitlinco.com",
+    "business_name": "Eat+Drink",
+    "website": "https://visitlinco.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:menupix.com",
+    "business_name": "Lincoln County, NM Southwestern Restaurants Guide",
+    "website": "https://www.menupix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lcgrill.com",
+    "business_name": "Lincoln County Grill",
+    "website": "https://lcgrill.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lcgrill.com",
+    "business_name": "Menu",
+    "website": "https://lcgrill.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Churches in Lincoln, NM",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:eclc.us",
+    "business_name": "Home",
+    "website": "https://eclc.us"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churches-in.com",
+    "business_name": "Lincoln New Mexico Churches",
+    "website": "https://www.churches-in.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchesinusa.com",
+    "business_name": "Churches in Lincoln",
+    "website": "https://churchesinusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:eclc.us",
+    "business_name": "Come And See",
+    "website": "https://eclc.us"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:findglocal.com",
+    "business_name": "Episcopal Church in Lincoln County, 121 Mescalero Trl, Ruidoso, NM",
+    "website": "https://www.findglocal.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Ruidoso",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:autonetusa.com",
+    "business_name": "Lincoln County, NM Auto Dealers \u2014 AutoNet USA",
+    "website": "https://autonetusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lincoln.com",
+    "business_name": "Find A Lincoln\u00ae Dealership Near You",
+    "website": "https://www.lincoln.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:themotoring.com",
+    "business_name": "Lincoln County Auto Brokers, LLC",
+    "website": "https://themotoring.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:corleynewmexico.com",
+    "business_name": "Corley's Albuquerque Lincoln",
+    "website": "https://www.corleynewmexico.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:carunion.org",
+    "business_name": "Lincoln County, NM",
+    "website": "https://www.carunion.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:local.dmv.org",
+    "business_name": "Car & Truck Dealerships, Lincoln County, New Mexico",
+    "website": "https://local.dmv.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:chalmersford.com",
+    "business_name": "Ford Dealership in Rio Rancho",
+    "website": "https://www.chalmersford.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:top-car-dealership.com",
+    "business_name": "Distinguished Car Dealerships in Ruidoso NM neighborhood",
+    "website": "https://www.top-car-dealership.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:alto-auto.com",
+    "business_name": "Auto Repair in Alto, NM",
+    "website": "https://alto-auto.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:alto-auto.com",
+    "business_name": "Auto Repair in Capitan, NM",
+    "website": "https://alto-auto.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:autorepairme.com",
+    "business_name": "Mike Lamb",
+    "website": "https://autorepairme.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:bizapedia.com",
+    "business_name": "LINCOLN COUNTY AUTO REPAIR, LLC in Ruidoso, NM",
+    "website": "https://www.bizapedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:instantcarfix.com",
+    "business_name": "Best Mobile Mechanic & Auto Repair in Lincoln, NM",
+    "website": "https://www.instantcarfix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mitchelsautorepair.com",
+    "business_name": "Mitchel's Auto Service & Repair LLC",
+    "website": "https://www.mitchelsautorepair.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitlinco.com",
+    "business_name": "Shop",
+    "website": "https://visitlinco.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ruidosonow.com",
+    "business_name": "Ruidoso Valley Chamber of Commerce",
+    "website": "https://www.ruidosonow.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:discoverruidoso.com",
+    "business_name": "Shopping in Ruidoso, New Mexico",
+    "website": "https://www.discoverruidoso.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:villageofcapitan.org",
+    "business_name": "Lincoln County Mercantile",
+    "website": "https://www.villageofcapitan.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:nmhistoricsites.org",
+    "business_name": "Lincoln Historic Site \u00bb New Mexico Historic Sites",
+    "website": "https://nmhistoricsites.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitlinco.com",
+    "business_name": "Home",
+    "website": "https://visitlinco.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:thecountyoffice.com",
+    "business_name": "Visitors Center in Lincoln County, NM",
+    "website": "https://www.thecountyoffice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lincolnstationstorage.com",
+    "business_name": "Self Storage in Alto, New Mexico",
+    "website": "https://lincolnstationstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ustorage.com",
+    "business_name": "Storage and Self Storage Lincoln, NM",
+    "website": "https://www.ustorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:smile-moving.com",
+    "business_name": "Self Storage Lincoln County, NM",
+    "website": "https://smile-moving.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:altoselfstorage.com",
+    "business_name": "Alto Self Storage- Airport Road: Home",
+    "website": "https://www.altoselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "0 Lincoln County, NM Car, RV, Boat Storage Units from $19",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "Lincoln County, NM. Car, Boat, RV Storage from $19",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:propertyvendors.com",
+    "business_name": "Property Preservation Services in Nogal, New Mexico",
+    "website": "https://propertyvendors.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:purepm.co",
+    "business_name": "Homepage",
+    "website": "https://purepm.co"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:monarchnm.com",
+    "business_name": "Welcome",
+    "website": "https://www.monarchnm.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lpc.com",
+    "business_name": "Global Commercial Real Estate Services",
+    "website": "https://lpc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:inven.ai",
+    "business_name": "Top 23 Property Management Companies in New Mexico",
+    "website": "https://www.inven.ai"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:horizonrentals.com",
+    "business_name": "Home",
+    "website": "https://www.horizonrentals.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lincolncountynm.gov",
+    "business_name": "Welcome to Lincoln County",
+    "website": "https://www.lincolncountynm.gov"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:propertymanagementinc.com",
+    "business_name": "Property Management",
+    "website": "https://www.propertymanagementinc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Lincoln County, NM Warehouses for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Lincoln County, NM Warehouses For Sale",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "Lincoln County Warehouses for Sale",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:showcase.com",
+    "business_name": "Lincoln County Warehouses For Sale",
+    "website": "https://www.showcase.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "Lincoln County Industrial Properties for Sale",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Lincoln County, NM Industrial properties for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Lincoln County, NM Warehouses For Sale",
+    "website": "https://www.cityfeet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:showcase.com",
+    "business_name": "Lincoln County Industrial and Warehouse Space For Rent",
+    "website": "https://www.showcase.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:landwatch.com",
+    "business_name": "Lincoln County, NM Commercial Properties, Homesites for Sale",
+    "website": "https://www.landwatch.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:commercial.century21.com",
+    "business_name": "Lincoln County, NM Commercial Real Estate for Sale and Lease",
+    "website": "https://commercial.century21.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:thecountyoffice.com",
+    "business_name": "Government Offices in Lincoln County, NM",
+    "website": "https://www.thecountyoffice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:newmexicocountyoffices.com",
+    "business_name": "Lincoln County Offices",
+    "website": "https://newmexicocountyoffices.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Lincoln County, NM Office Buildings for Sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:thecountyoffice.com",
+    "business_name": "Building Department in Lincoln County, NM",
+    "website": "https://www.thecountyoffice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "2 Lincoln County Office Spaces for Sale",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:localoffices.org",
+    "business_name": "Lincoln County Recorder of Deeds in Lincoln County, New Mexico",
+    "website": "https://www.localoffices.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Lincoln County, NM Office Spaces for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mapcarta.com",
+    "business_name": "Lincoln County Office Annex Map",
+    "website": "https://mapcarta.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Churches in Lincoln, NM",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churches-in.com",
+    "business_name": "Lincoln New Mexico Churches",
+    "website": "https://www.churches-in.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Ruidoso Churches",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "The Chapel of San Juan",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:friendsoflincoln.org",
+    "business_name": "Iglesia de San Juan Bautista",
+    "website": "https://www.friendsoflincoln.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:joinmychurch.org",
+    "business_name": "Chapel of San Juan Service Times",
+    "website": "https://www.joinmychurch.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:corleynewmexico.com",
+    "business_name": "Corley's Albuquerque Lincoln",
+    "website": "https://www.corleynewmexico.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lincoln.com",
+    "business_name": "Find A Lincoln\u00ae Dealership Near You",
+    "website": "https://www.lincoln.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dealerrater.com",
+    "business_name": "Lincoln Dealerships in New Mexico",
+    "website": "https://www.dealerrater.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ziemslincoln.com",
+    "business_name": "Lincoln Dealership in Farmington, NM",
+    "website": "https://www.ziemslincoln.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:corleynewmexico.com",
+    "business_name": "Inventory",
+    "website": "https://www.corleynewmexico.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:car.carslyst.com",
+    "business_name": "Lincoln Dealers in New Mexico",
+    "website": "https://car.carslyst.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:bravolascruces.com",
+    "business_name": "Lincoln Dealer Near Me",
+    "website": "https://www.bravolascruces.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cars.com",
+    "business_name": "Corley's Albuquerque Lincoln",
+    "website": "https://www.cars.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:poidata.io",
+    "business_name": "How many Lincoln dealers are there in New Mexico, United States in 2026",
+    "website": "https://www.poidata.io"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mystore411.com",
+    "business_name": "Lincohn Lincoln Dealer",
+    "website": "https://www.mystore411.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Explore Lincoln NM Hotels for Your 2026 Getaway",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:expedia.com",
+    "business_name": "Find hotels in Lincoln, NM from $69",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:wortleyhotel.com",
+    "business_name": "Old Wortley Hotel",
+    "website": "https://www.wortleyhotel.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:newmexico.org",
+    "business_name": "The Wortley Hotel",
+    "website": "https://www.newmexico.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:uk.hotels.com",
+    "business_name": "The Best Hotels in Lincoln, New Mexico",
+    "website": "https://uk.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotelplanner.com",
+    "business_name": "Cheap HOTELS in Lincoln",
+    "website": "https://www.hotelplanner.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Best Hotels in Lincoln County",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:movingideas.org",
+    "business_name": "Lincoln, NM Self Storage",
+    "website": "https://www.movingideas.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ustorage.com",
+    "business_name": "Storage and Self Storage Lincoln, NM",
+    "website": "https://www.ustorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lincolnroadstorage.com",
+    "business_name": "Storage Locations",
+    "website": "https://www.lincolnroadstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:movingideas.org",
+    "business_name": "Lincoln, NM 88338 Storage Units and Storage Facilities",
+    "website": "https://www.movingideas.org"
+  }
+]
