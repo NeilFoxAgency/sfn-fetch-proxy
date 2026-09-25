@@ -286,12 +286,16 @@ def detect_contact_form(soup: BeautifulSoup) -> dict | None:
     """Detect a contact form on the page. Returns form info or None.
     
     Looks for <form> elements with typical contact fields (name, email, message).
+    Excludes login forms (username/password).
     Returns: {"action": form_action_url, "fields": [field_info, ...]}
     """
     for form in soup.find_all("form"):
         fields = []
         has_email = False
         has_message = False
+        has_password = False
+        has_name = False
+        has_phone = False
         
         # Check all input, textarea, select elements
         for field in form.find_all(["input", "textarea", "select"]):
@@ -310,6 +314,11 @@ def detect_contact_form(soup: BeautifulSoup) -> dict | None:
             if field_type in ("hidden", "submit", "button", "image"):
                 continue
             
+            # If it's a password field, this is a login form, not contact
+            if field_type == "password":
+                has_password = True
+                break
+            
             field_info = {
                 "name": field.get("name") or field.get("id") or "",
                 "type": field_type,
@@ -317,17 +326,31 @@ def detect_contact_form(soup: BeautifulSoup) -> dict | None:
             }
             fields.append(field_info)
             
-            # Check if this looks like an email field
+            # Check field types
             combined = f"{field_name} {field_placeholder} {field_label}"
             if "email" in combined or field_type == "email":
                 has_email = True
-            if any(w in combined for w in ("message", "comment", "inquiry", "details")):
+            if any(w in combined for w in ("message", "comment", "inquiry", "details", "question")):
                 has_message = True
             if field.name == "textarea":
                 has_message = True
+            if any(w in combined for w in ("name", "full name", "first name", "last name")):
+                has_name = True
+            if any(w in combined for w in ("phone", "tel", "mobile")):
+                has_phone = True
         
-        # A contact form typically has email + message, or at least 2+ fields
-        if (has_email and has_message) or (has_email and len(fields) >= 2) or len(fields) >= 3:
+        # Skip login forms
+        if has_password:
+            continue
+        
+        # A contact form needs: (email + message) OR (email + name) OR (name + phone + message)
+        is_contact = (
+            (has_email and has_message) or
+            (has_email and has_name) or
+            (has_name and has_phone and has_message) or
+            (has_email and has_phone)
+        )
+        if is_contact and len(fields) >= 2:
             action = form.get("action") or ""
             return {
                 "action": action,
