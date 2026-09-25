@@ -1,0 +1,17 @@
+[
+  {
+    "business_id": "t1",
+    "business_name": "Starka Property Management",
+    "website": "starkapm.com"
+  },
+  {
+    "business_id": "t2",
+    "business_name": "Example Business",
+    "website": "example.com"
+  },
+  {
+    "business_id": "t3",
+    "business_name": "Nonexistent Test",
+    "website": "nonexistent-domain-xyz12345.com"
+  }
+]
