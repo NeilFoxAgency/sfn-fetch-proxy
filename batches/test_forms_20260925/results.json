@@ -1,0 +1,220 @@
+[
+  {
+    "business_id": "partner:Mike Goodson Roofing LLC:AL",
+    "business_name": "Mike Goodson Roofing LLC",
+    "website": "http://dothanroofing.com/",
+    "status": "error",
+    "email": null,
+    "source_url": null,
+    "reason": "website_unavailable",
+    "contact_pages": []
+  },
+  {
+    "business_id": "test:drytopps",
+    "business_name": "DryTopps",
+    "website": "https://drytopps.com/",
+    "status": "not_found",
+    "email": null,
+    "source_url": null,
+    "reason": "no_valid_first_party_email",
+    "contact_pages": []
+  },
+  {
+    "business_id": "test:stanley",
+    "business_name": "Stanley Steemer",
+    "website": "https://www.stanleysteemer.com/",
+    "status": "not_found",
+    "email": null,
+    "source_url": null,
+    "reason": "no_valid_first_party_email",
+    "contact_pages": [
+      {
+        "url": "https://www.stanleysteemer.com/",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/locations---find-by-zip",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/cleaning-quote-pricing",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/commercial-cleaning-quote-pricing",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/about/our-story",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/about/trained-technicians",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/about/steam-cleaning-vs-hot-water-extraction",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/about/made-in-america",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/cleaning-quote-pricing#/cleaning-quote-pricing",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/about/safer-cleaning",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      },
+      {
+        "url": "https://www.stanleysteemer.com/location-state-list",
+        "has_form": true,
+        "form_fields": [
+          {
+            "name": "Username",
+            "type": "email",
+            "placeholder": "Email Address"
+          },
+          {
+            "name": "Password",
+            "type": "password",
+            "placeholder": "Password"
+          }
+        ],
+        "form_action": ""
+      }
+    ]
+  }
+]
