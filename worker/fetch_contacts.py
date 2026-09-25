@@ -15,16 +15,11 @@ status is "found", "not_found", or "error". This worker never attempts to
 evade access controls: CAPTCHA/challenge pages, logins, and denied robots
 rules are recorded as fetch failures, never bypassed.
 
-Improvements v2 (2026-09-25):
-- Wayback Machine fallback: when live fetch fails (IP blocked, 403, timeout),
-  try web.archive.org cached copy. The site cannot block us because we're not
-  hitting their server.
-- Realistic browser User-Agents (rotated): the old "StormFixNow contact
-  research/1.0" UA was blocked by many sites as an obvious bot.
-- Email de-obfuscation: handles "info [at] example [dot] com", HTML entities,
-  and other common obfuscation patterns.
-- Mailto extraction: harvest emails from mailto: links (was skipped entirely).
-- More pages and contact hints for better coverage.
+Improvements v3 (2026-09-25):
+- Deeper crawling: MAX_PAGES 5 -> 20, expanded contact hints
+- Sitemap.xml parsing: find all site pages without guessing URLs
+- Link scoring: match on link text ("Contact Us", "Our Team") not just URL
+- Ranked by likelihood, highest-score pages crawled first
 """
 
 from __future__ import annotations
@@ -54,10 +49,22 @@ USER_AGENTS = [
 ]
 
 REQUEST_TIMEOUT = 15.0
-MAX_PAGES = 5
+MAX_PAGES = 20
+# Expanded contact signals: URL hints, link text hints, and common paths.
+# Since GitHub Actions gives us unlimited minutes, we crawl deeper.
 CONTACT_HINTS = (
     "contact", "about", "team", "location", "support", "staff",
     "people", "company", "office", "reach", "connect", "hello",
+    "get-in-touch", "getintouch", "contact-us", "contactus",
+    "our-team", "ourteam", "meet-the-team", "leadership",
+    "customer-service", "customerservice", "help", "info",
+    "quote", "estimate", "locations", "offices", "directory",
+)
+# Link text that suggests a contact page (checked in addition to URL)
+LINK_TEXT_HINTS = (
+    "contact", "about us", "our team", "meet the team", "get in touch",
+    "reach us", "find us", "locations", "our offices", "support",
+    "customer service", "talk to us", "email us", "call us",
 )
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 
@@ -208,6 +215,66 @@ def email_matches_website_domain(email: str, website_url: str) -> bool:
 def is_challenge_page(html_text: str) -> bool:
     lowered = html_text.lower()
     return any(marker in lowered for marker in CHALLENGE_MARKERS)
+
+
+def fetch_sitemap_urls(home_url: str, client: httpx.Client) -> list[str]:
+    """Parse sitemap.xml to find all site pages. Returns contact-relevant URLs.
+    
+    Sitemaps give us the full page list without guessing URLs.
+    """
+    found: list[str] = []
+    try:
+        parsed = urlparse(home_url)
+        sitemap_url = f"{parsed.scheme}://{parsed.netloc}/sitemap.xml"
+        resp = client.get(sitemap_url, headers={"User-Agent": get_ua()})
+        if resp.status_code != 200:
+            return found
+        # Parse sitemap XML (handles both urlset and sitemapindex)
+        import xml.etree.ElementTree as ET
+        root = ET.fromstring(resp.text)
+        ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        # If it's a sitemap index, get the first sub-sitemap
+        sitemaps = root.findall("s:sitemap/s:loc", ns)
+        urls_to_check = []
+        if sitemaps:
+            # Fetch first sub-sitemap
+            sub_resp = client.get(sitemaps[0].text, headers={"User-Agent": get_ua()})
+            if sub_resp.status_code == 200:
+                sub_root = ET.fromstring(sub_resp.text)
+                urls_to_check = [loc.text for loc in sub_root.findall("s:url/s:loc", ns)]
+        else:
+            urls_to_check = [loc.text for loc in root.findall("s:url/s:loc", ns)]
+        home_host = normalized_host(home_url)
+        for url in urls_to_check:
+            if not url or normalized_host(url) != home_host:
+                continue
+            if any(hint in url.casefold() for hint in CONTACT_HINTS):
+                if url not in found:
+                    found.append(url)
+            if len(found) >= MAX_PAGES:
+                break
+    except Exception:
+        pass
+    return found
+
+
+def score_contact_link(href: str, link_text: str) -> int:
+    """Score how likely a link leads to contact info. Higher = more likely."""
+    score = 0
+    href_lower = href.casefold()
+    text_lower = link_text.casefold().strip()
+    # URL hints
+    for hint in CONTACT_HINTS:
+        if hint in href_lower:
+            score += 3 if hint in ("contact", "contact-us", "contactus") else 2
+            break
+    # Link text hints (stronger signal than URL)
+    for hint in LINK_TEXT_HINTS:
+        if hint in text_lower:
+            score += 4
+            break
+    # Footer links often have contact info
+    return score
 
 
 def fetch_tier1(url: str, client: httpx.Client) -> str | None:
@@ -380,22 +447,41 @@ def discover_one(
     pages = [(home_url, home_text)]
     home_host = normalized_host(home_url)
     soup = BeautifulSoup(home_text, "html.parser")
-    
-    # Collect contact-hint pages (up to MAX_PAGES)
+
+    # Strategy 1: Sitemap.xml (gives us all pages without guessing)
+    sitemap_urls = fetch_sitemap_urls(home_url, client)
+
+    # Strategy 2: Score all links by contact likelihood (URL + link text)
+    scored_links: list[tuple[int, str]] = []
     for anchor in soup.find_all("a", href=True):
-        if len(pages) >= MAX_PAGES:
-            break
         href = str(anchor["href"]).strip()
         if not href or href.startswith(("tel:", "javascript:", "#")):
             continue
-        # Don't follow mailto: as a page, but we'll extract emails from them later
         if href.lower().startswith("mailto:"):
             continue
         url = urljoin(home_url, href)
         if normalized_host(url) != home_host:
             continue
-        if not any(hint in url.casefold() for hint in CONTACT_HINTS):
-            continue
+        link_text = anchor.get_text(" ", strip=True)[:100]
+        score = score_contact_link(href, link_text)
+        if score > 0:
+            scored_links.append((score, url))
+
+    # Deduplicate, sort by score (highest first)
+    seen_urls = set()
+    ranked_urls: list[str] = []
+    for score, url in sorted(scored_links, key=lambda x: -x[0]):
+        if url not in seen_urls:
+            seen_urls.add(url)
+            ranked_urls.append(url)
+
+    # Combine: sitemap URLs first, then ranked links
+    candidate_urls = sitemap_urls + [u for u in ranked_urls if u not in sitemap_urls]
+
+    # Fetch up to MAX_PAGES contact-candidate pages
+    for url in candidate_urls:
+        if len(pages) >= MAX_PAGES:
+            break
         if not robots_allows(url, client):
             continue
         text = fetch_tier1(url, client) or fetch_tier2_rendered(url)
