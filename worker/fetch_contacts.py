@@ -15,6 +15,13 @@ status is "found", "not_found", or "error". This worker never attempts to
 evade access controls: CAPTCHA/challenge pages, logins, and denied robots
 rules are recorded as fetch failures, never bypassed.
 
+Improvements v5 (2026-09-25):
+- Registrable-domain email matching: sales@example.com now counts for
+  tampa.example.com (Public Suffix List via tldextract, naive fallback)
+- Sitemap index: follow up to 8 child sitemaps, not just the first
+- source_url is always a clean URL; archive provenance moved to new
+  fields "archive_url" and "source_transport" ("live" or "wayback")
+
 Improvements v4 (2026-09-25):
 - Contact form detection: records contact page URLs and form field info
   even when no email is found, enabling browser-based form submission later
@@ -42,6 +49,11 @@ from urllib.robotparser import RobotFileParser
 
 import httpx
 from bs4 import BeautifulSoup
+
+try:
+    import tldextract as _tldextract
+except ImportError:  # runners without tldextract use the naive fallback below
+    _tldextract = None
 
 # Realistic browser User-Agents, rotated per request. The old custom UA was
 # blocked as an obvious bot by many sites.
@@ -71,6 +83,21 @@ LINK_TEXT_HINTS = (
     "reach us", "find us", "locations", "our offices", "support",
     "customer service", "talk to us", "email us", "call us",
 )
+# Explicit contact paths to try directly (cheap guesses before crawling).
+KNOWN_CONTACT_PATHS = (
+    "/contact", "/contact-us", "/contactus", "/about", "/about-us",
+    "/aboutus", "/team", "/our-team", "/locations", "/our-locations",
+    "/support", "/get-in-touch", "/reach-us", "/staff", "/directory",
+)
+# Per-source page quotas under the MAX_PAGES crawl budget (1 homepage + these).
+QUOTA_KNOWN_PATHS = 4
+QUOTA_SCORED_LINKS = 6
+QUOTA_SITEMAP = 5
+QUOTA_WAYBACK = 4
+# URL hints used to rank archived (Wayback) page candidates.
+WAYBACK_HINTS = ("contact", "about", "team", "staff", "directory", "location")
+MAX_SITEMAP_CHILDREN = 8
+MAX_SITEMAP_URLS = 500
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 
 # Markers that indicate an access-control challenge page. We treat these as
@@ -209,12 +236,41 @@ def _looks_valid(email: str) -> bool:
     return True
 
 
+def registrable_domain(host: str) -> str:
+    """Return the registrable domain (eTLD+1) of a host.
+
+    Uses the Public Suffix List via tldextract when available. Falls back to a
+    naive last-two-labels comparison when tldextract is unavailable (wrong for
+    multi-level public suffixes like co.uk, but still an improvement over
+    exact host matching).
+    """
+    host = (host or "").lower().strip().strip(".")
+    if not host:
+        return ""
+    if _tldextract is not None:
+        try:
+            ext = _tldextract.extract(host)
+            if ext.domain and ext.suffix:
+                return f"{ext.domain}.{ext.suffix}".lower()
+        except Exception:
+            pass
+        return host
+    labels = host.split(".")
+    return ".".join(labels[-2:]) if len(labels) >= 2 else host
+
+
 def email_matches_website_domain(email: str, website_url: str) -> bool:
     domain = email.split("@", 1)[-1].lower()
     host = normalized_host(website_url)
-    return bool(domain and host) and (
-        domain == host or domain.endswith(f".{host}")
-    )
+    if not domain or not host:
+        return False
+    if domain == host or domain.endswith(f".{host}"):
+        return True
+    # Registrable-domain comparison: sales@example.com counts for a site at
+    # tampa.example.com (subdomain of the same registrable domain), and
+    # info@example.com counts for www.example.com. This rejects the reverse
+    # mismatch too (unrelated.com never shares a registrable domain).
+    return registrable_domain(domain) == registrable_domain(host)
 
 
 def is_challenge_page(html_text: str) -> bool:
@@ -222,42 +278,61 @@ def is_challenge_page(html_text: str) -> bool:
     return any(marker in lowered for marker in CHALLENGE_MARKERS)
 
 
+def _sitemap_locs(root, path: str) -> list[str]:
+    """Extract <loc> texts from a sitemap XML element tree.
+
+    Tolerates sitemap files that omit the standard sitemap.org namespace.
+    """
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    els = root.findall(path, ns)
+    if not els:
+        els = root.findall(path.replace("s:", ""))
+    return [(el.text or "").strip() for el in els if el.text]
+
+
 def fetch_sitemap_urls(home_url: str, client: httpx.Client) -> list[str]:
-    """Parse sitemap.xml to find all site pages. Returns contact-relevant URLs.
-    
-    Sitemaps give us the full page list without guessing URLs.
+    """Parse sitemap.xml to find contact-relevant site pages.
+
+    Handles both plain urlsets and sitemap indexes. For an index, fetches up
+    to MAX_SITEMAP_CHILDREN child sitemaps and collects contact-like URLs
+    from each. Sitemaps give us the full page list without guessing URLs.
     """
     found: list[str] = []
     try:
+        import xml.etree.ElementTree as ET
         parsed = urlparse(home_url)
         sitemap_url = f"{parsed.scheme}://{parsed.netloc}/sitemap.xml"
         resp = client.get(sitemap_url, headers={"User-Agent": get_ua()})
         if resp.status_code != 200:
             return found
-        # Parse sitemap XML (handles both urlset and sitemapindex)
-        import xml.etree.ElementTree as ET
         root = ET.fromstring(resp.text)
-        ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-        # If it's a sitemap index, get the first sub-sitemap
-        sitemaps = root.findall("s:sitemap/s:loc", ns)
-        urls_to_check = []
-        if sitemaps:
-            # Fetch first sub-sitemap
-            sub_resp = client.get(sitemaps[0].text, headers={"User-Agent": get_ua()})
-            if sub_resp.status_code == 200:
-                sub_root = ET.fromstring(sub_resp.text)
-                urls_to_check = [loc.text for loc in sub_root.findall("s:url/s:loc", ns)]
+        child_sitemaps = _sitemap_locs(root, "s:sitemap/s:loc")
+        urlsets = []
+        if child_sitemaps:
+            # Sitemap index: process up to MAX_SITEMAP_CHILDREN children
+            for child_url in child_sitemaps[:MAX_SITEMAP_CHILDREN]:
+                try:
+                    sub_resp = client.get(child_url, headers={"User-Agent": get_ua()})
+                except httpx.HTTPError:
+                    continue
+                if sub_resp.status_code != 200:
+                    continue
+                try:
+                    urlsets.append(ET.fromstring(sub_resp.text))
+                except ET.ParseError:
+                    continue
         else:
-            urls_to_check = [loc.text for loc in root.findall("s:url/s:loc", ns)]
+            urlsets.append(root)
         home_host = normalized_host(home_url)
-        for url in urls_to_check:
-            if not url or normalized_host(url) != home_host:
-                continue
-            if any(hint in url.casefold() for hint in CONTACT_HINTS):
-                if url not in found:
-                    found.append(url)
-            if len(found) >= MAX_PAGES:
-                break
+        for sub_root in urlsets:
+            for url in _sitemap_locs(sub_root, "s:url/s:loc"):
+                if not url or normalized_host(url) != home_host:
+                    continue
+                if any(hint in url.casefold() for hint in CONTACT_HINTS):
+                    if url not in found:
+                        found.append(url)
+                if len(found) >= MAX_SITEMAP_URLS:
+                    return found
     except Exception:
         pass
     return found
@@ -491,10 +566,12 @@ def discover_one(
         "source_url": None,
         "reason": None,
         "contact_pages": [],  # List of {url, has_form, form_fields, form_action}
+        "archive_url": None,  # web.archive.org snapshot URL when email came from an archive
+        "source_transport": "live",  # "live" or "wayback"
     }
     home_url = ""
     home_text: str | None = None
-    source_note = ""
+    home_archive: str | None = None
     
     # Tier 0: Try live fetch first (fastest when it works)
     for variant in website_variants(website):
@@ -512,7 +589,7 @@ def discover_one(
             text, archived_url = fetch_wayback(variant, client)
             if text:
                 home_url, home_text = variant, text
-                source_note = f" (via wayback {archived_url})"
+                home_archive = archived_url
                 break
     
     if not home_text:
@@ -585,11 +662,14 @@ def discover_one(
         if form_info:
             is_contact_page = True
         if is_contact_page:
+            page_from_archive = home_archive if page_url == home_url else None
             base["contact_pages"].append({
-                "url": page_url + source_note,
+                "url": page_url,
                 "has_form": bool(form_info),
                 "form_fields": form_info["fields"] if form_info else [],
                 "form_action": form_info["action"] if form_info else "",
+                "archive_url": page_from_archive,
+                "source_transport": "wayback" if page_from_archive else "live",
             })
         
         if not identity_matches_content(business_name, visible):
@@ -600,7 +680,10 @@ def discover_one(
                 continue
             base["status"] = "found"
             base["email"] = email
-            base["source_url"] = page_url + source_note
+            base["source_url"] = page_url
+            page_from_archive = home_archive if page_url == home_url else None
+            base["archive_url"] = page_from_archive
+            base["source_transport"] = "wayback" if page_from_archive else "live"
             return base
 
     base["reason"] = "no_valid_first_party_email"
@@ -647,7 +730,7 @@ def main() -> int:
     Path(args.out).write_text(json.dumps(results, indent=2))
     elapsed = time.time() - started
     found = sum(1 for r in results if r["status"] == "found")
-    wayback_used = sum(1 for r in results if r.get("source_url") and "wayback" in r["source_url"])
+    wayback_used = sum(1 for r in results if r.get("source_transport") == "wayback")
     print(f"done: {found}/{len(results)} found in {elapsed:.1f}s ({wayback_used} via wayback)", flush=True)
     return 0
 
