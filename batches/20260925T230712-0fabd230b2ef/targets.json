@@ -1,0 +1,12 @@
+[
+  {
+    "business_id": "t3",
+    "business_name": "Example Three",
+    "website": "https://example.net"
+  },
+  {
+    "business_id": "t4",
+    "business_name": "Example Four",
+    "website": "https://example.edu"
+  }
+]
