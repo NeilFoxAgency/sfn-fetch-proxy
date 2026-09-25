@@ -40,10 +40,10 @@ jobs:
             --targets "batches/${{ inputs.batch_id }}/targets.json" \
             --out "batches/${{ inputs.batch_id }}/results.json"
 
-      - name: Commit results
-        run: |
-          git config user.name "sfn-fetch-bot"
-          git config user.email "sfn-fetch-bot@users.noreply.github.com"
-          git add "batches/${{ inputs.batch_id }}/results.json"
-          git commit -m "results for batch ${{ inputs.batch_id }}" || echo "nothing to commit"
-          git push
+      - name: Upload contact results
+        uses: actions/upload-artifact@v4
+        with:
+          name: contacts-${{ inputs.batch_id }}
+          path: batches/${{ inputs.batch_id }}/results.json
+          retention-days: 1
+          if-no-files-found: error
