@@ -15,6 +15,11 @@ status is "found", "not_found", or "error". This worker never attempts to
 evade access controls: CAPTCHA/challenge pages, logins, and denied robots
 rules are recorded as fetch failures, never bypassed.
 
+Improvements v4 (2026-09-25):
+- Contact form detection: records contact page URLs and form field info
+  even when no email is found, enabling browser-based form submission later
+- contact_pages in output: [{url, has_form, form_fields, form_action}]
+
 Improvements v3 (2026-09-25):
 - Deeper crawling: MAX_PAGES 5 -> 20, expanded contact hints
 - Sitemap.xml parsing: find all site pages without guessing URLs
@@ -277,6 +282,62 @@ def score_contact_link(href: str, link_text: str) -> int:
     return score
 
 
+def detect_contact_form(soup: BeautifulSoup) -> dict | None:
+    """Detect a contact form on the page. Returns form info or None.
+    
+    Looks for <form> elements with typical contact fields (name, email, message).
+    Returns: {"action": form_action_url, "fields": [field_info, ...]}
+    """
+    for form in soup.find_all("form"):
+        fields = []
+        has_email = False
+        has_message = False
+        
+        # Check all input, textarea, select elements
+        for field in form.find_all(["input", "textarea", "select"]):
+            field_type = field.get("type", "text").lower()
+            field_name = (field.get("name") or field.get("id") or "").lower()
+            field_placeholder = (field.get("placeholder") or "").lower()
+            field_label = ""
+            # Try to find associated label
+            field_id = field.get("id")
+            if field_id:
+                label = soup.find("label", attrs={"for": field_id})
+                if label:
+                    field_label = label.get_text(" ", strip=True).lower()
+            
+            # Skip hidden, submit, button fields
+            if field_type in ("hidden", "submit", "button", "image"):
+                continue
+            
+            field_info = {
+                "name": field.get("name") or field.get("id") or "",
+                "type": field_type,
+                "placeholder": field.get("placeholder") or "",
+            }
+            fields.append(field_info)
+            
+            # Check if this looks like an email field
+            combined = f"{field_name} {field_placeholder} {field_label}"
+            if "email" in combined or field_type == "email":
+                has_email = True
+            if any(w in combined for w in ("message", "comment", "inquiry", "details")):
+                has_message = True
+            if field.name == "textarea":
+                has_message = True
+        
+        # A contact form typically has email + message, or at least 2+ fields
+        if (has_email and has_message) or (has_email and len(fields) >= 2) or len(fields) >= 3:
+            action = form.get("action") or ""
+            return {
+                "action": action,
+                "fields": fields,
+                "field_count": len(fields),
+            }
+    
+    return None
+
+
 def fetch_tier1(url: str, client: httpx.Client) -> str | None:
     """Plain HTTP fetch with realistic browser headers. None on failure."""
     # Rotate UA per request
@@ -406,6 +467,7 @@ def discover_one(
         "email": None,
         "source_url": None,
         "reason": None,
+        "contact_pages": [],  # List of {url, has_form, form_fields, form_action}
     }
     home_url = ""
     home_text: str | None = None
@@ -488,10 +550,25 @@ def discover_one(
         if text:
             pages.append((url, text))
 
-    # Extract emails from all pages
+    # Extract emails from all pages, and record contact pages/forms
     for page_url, content in pages:
         page_soup = BeautifulSoup(content, "html.parser")
         visible = page_soup.get_text(" ")
+        
+        # Record this as a contact page (for form submission later)
+        # Only record pages beyond the homepage, or homepage if it has a form
+        is_contact_page = (page_url != home_url)
+        form_info = detect_contact_form(page_soup)
+        if form_info:
+            is_contact_page = True
+        if is_contact_page:
+            base["contact_pages"].append({
+                "url": page_url + source_note,
+                "has_form": bool(form_info),
+                "form_fields": form_info["fields"] if form_info else [],
+                "form_action": form_info["action"] if form_info else "",
+            })
+        
         if not identity_matches_content(business_name, visible):
             continue
         # Pass soup to extract mailto: links too
@@ -502,7 +579,7 @@ def discover_one(
             base["email"] = email
             base["source_url"] = page_url + source_note
             return base
-    
+
     base["reason"] = "no_valid_first_party_email"
     return base
 
