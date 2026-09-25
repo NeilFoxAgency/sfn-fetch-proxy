@@ -1,0 +1,502 @@
+[
+  {
+    "business_id": "partner:Mike Goodson Roofing LLC:AL",
+    "business_name": "Mike Goodson Roofing LLC",
+    "website": "http://dothanroofing.com/"
+  },
+  {
+    "business_id": "partner:DryTopps:AL",
+    "business_name": "DryTopps",
+    "website": "https://drytopps.com/"
+  },
+  {
+    "business_id": "partner:Stanley Steemer:AL",
+    "business_name": "Stanley Steemer",
+    "website": "https://www.stanleysteemer.com/location-details/AL/Dothan/1040"
+  },
+  {
+    "business_id": "partner:Hurricane Roofing:AL",
+    "business_name": "Hurricane Roofing",
+    "website": "http://www.hurricaneroofingalabama.com/"
+  },
+  {
+    "business_id": "partner:B & B Roof and Gutter:AL",
+    "business_name": "B & B Roof and Gutter",
+    "website": "https://www.bbroofandgutter.com/"
+  },
+  {
+    "business_id": "partner:Monarch Roofing:AL",
+    "business_name": "Monarch Roofing",
+    "website": "https://monarchroofingllc.com/"
+  },
+  {
+    "business_id": "partner:SERVPRO of Dothan:AL",
+    "business_name": "SERVPRO of Dothan",
+    "website": "http://www.servprodothan.com/"
+  },
+  {
+    "business_id": "partner:ServiceMaster Clean:AL",
+    "business_name": "ServiceMaster Clean",
+    "website": "http://www.servicemasterclean.com/"
+  },
+  {
+    "business_id": "partner:Stanley Steemer:AL",
+    "business_name": "Stanley Steemer",
+    "website": "http://www.stanleysteemer.com/location-details/Dothan-AL/2000011"
+  },
+  {
+    "business_id": "partner:1-800 Water Damage of Rogers & Bentonville:AR",
+    "business_name": "1-800 Water Damage of Rogers & Bentonville",
+    "website": "https://www.1800waterdamage.com/rogers-bentonville/"
+  },
+  {
+    "business_id": "partner:A1 Emergency Leak Detection & Water Restoration:AR",
+    "business_name": "A1 Emergency Leak Detection & Water Restoration",
+    "website": "https://a1leakdetectionar.com/"
+  },
+  {
+    "business_id": "partner:AAA Seamless Gutters, Roofing And More:AR",
+    "business_name": "AAA Seamless Gutters, Roofing And More",
+    "website": "https://aaaguttersroofingandmore.com/"
+  },
+  {
+    "business_id": "partner:Absolute Roofing Solutions, LLC:AR",
+    "business_name": "Absolute Roofing Solutions, LLC",
+    "website": "http://www.absoluteroofingsolutions.net/"
+  },
+  {
+    "business_id": "partner:Adams & Son Roofing and Construction LLC:AR",
+    "business_name": "Adams & Son Roofing and Construction LLC",
+    "website": "http://adamsroofingandconstruction.com/"
+  },
+  {
+    "business_id": "partner:Advanced Roofing:AR",
+    "business_name": "Advanced Roofing",
+    "website": "http://advancedroofers.com/"
+  },
+  {
+    "business_id": "partner:B & B Roofing and Construction:AR",
+    "business_name": "B & B Roofing and Construction",
+    "website": "http://www.bb-rc.com"
+  },
+  {
+    "business_id": "partner:BELFOR:AR",
+    "business_name": "BELFOR",
+    "website": "https://www.belfor.com/us/en/locations/"
+  },
+  {
+    "business_id": "partner:Born to Roof:AR",
+    "business_name": "Born to Roof",
+    "website": "https://www.borntoroofar.com/"
+  },
+  {
+    "business_id": "partner:Brown's Roofing:AR",
+    "business_name": "Brown's Roofing",
+    "website": "https://brownsroofingla.com/little-rock/"
+  },
+  {
+    "business_id": "partner:Capital Home Improvement, LLC:AR",
+    "business_name": "Capital Home Improvement, LLC",
+    "website": "http://capitalhomeimprovement.net/"
+  },
+  {
+    "business_id": "partner:Capital Roofing Solutions:AR",
+    "business_name": "Capital Roofing Solutions",
+    "website": "https://www.capitalroofingar.com/"
+  },
+  {
+    "business_id": "partner:Central Arkansas Roofing:AR",
+    "business_name": "Central Arkansas Roofing",
+    "website": "http://www.centralarkansasroofing.com/"
+  },
+  {
+    "business_id": "partner:Dale Crampton Co:AR",
+    "business_name": "Dale Crampton Co",
+    "website": "http://www.dalecramptonroofing.com/"
+  },
+  {
+    "business_id": "partner:Excel Roofing and Restoration Corp.:AR",
+    "business_name": "Excel Roofing and Restoration Corp.",
+    "website": "https://myexcelroof.com/"
+  },
+  {
+    "business_id": "partner:Fort Smith Restoration Services:AR",
+    "business_name": "Fort Smith Restoration Services",
+    "website": "http://certifiedrestorationpros.com/our-locations/"
+  },
+  {
+    "business_id": "partner:Freet Roofing:AR",
+    "business_name": "Freet Roofing",
+    "website": "http://www.freetroofing.com/"
+  },
+  {
+    "business_id": "partner:Harness Roofing Inc:AR",
+    "business_name": "Harness Roofing Inc",
+    "website": "http://www.harnessroofing.com"
+  },
+  {
+    "business_id": "partner:Holliday Roofing:AR",
+    "business_name": "Holliday Roofing",
+    "website": "http://hollidayroofing1.placeweb.site/"
+  },
+  {
+    "business_id": "partner:Homestar Solutions:AR",
+    "business_name": "Homestar Solutions",
+    "website": "https://arhomestar.com/"
+  },
+  {
+    "business_id": "partner:Hot Springs Roofing:AR",
+    "business_name": "Hot Springs Roofing",
+    "website": "http://www.hotspringsroofing.com/"
+  },
+  {
+    "business_id": "partner:JAB Roofing & Exteriors:AR",
+    "business_name": "JAB Roofing & Exteriors",
+    "website": "http://www.jabroofing.com/"
+  },
+  {
+    "business_id": "partner:Jose Garcia Roofing:AR",
+    "business_name": "Jose Garcia Roofing",
+    "website": "http://activemember.com/josegarciaroofing/"
+  },
+  {
+    "business_id": "partner:Keith's ROOFING:AR",
+    "business_name": "Keith's ROOFING",
+    "website": "https://www.keithsroofs.com/"
+  },
+  {
+    "business_id": "partner:Kingdom Builders Roofing and Construction LLC:AR",
+    "business_name": "Kingdom Builders Roofing and Construction LLC",
+    "website": "https://www.kbroofingandconstruction.com/"
+  },
+  {
+    "business_id": "partner:Mccoy Roofing Company Llc:AR",
+    "business_name": "Mccoy Roofing Company Llc",
+    "website": "http://www.roofingcontractorfortsmith.com"
+  },
+  {
+    "business_id": "partner:Metal Roof Pros LLC:AR",
+    "business_name": "Metal Roof Pros LLC",
+    "website": "http://www.metalrp.com/"
+  },
+  {
+    "business_id": "partner:Mid-Ark Roofing Inc:AR",
+    "business_name": "Mid-Ark Roofing Inc",
+    "website": "http://midarkroofing.com/"
+  },
+  {
+    "business_id": "partner:Oltmans Roofing:AR",
+    "business_name": "Oltmans Roofing",
+    "website": "https://oltmansroofing.com/"
+  },
+  {
+    "business_id": "partner:PG Roofing&Construction:AR",
+    "business_name": "PG Roofing&Construction",
+    "website": "https://pgroofingandconstruction.com/"
+  },
+  {
+    "business_id": "partner:Precision Roof Contractors:AR",
+    "business_name": "Precision Roof Contractors",
+    "website": "https://www.prcroof.com"
+  },
+  {
+    "business_id": "partner:SERVPRO of Fort Smith:AR",
+    "business_name": "SERVPRO of Fort Smith",
+    "website": "https://www.servpro.com/locations/ar/servpro-of-fort-smith"
+  },
+  {
+    "business_id": "partner:SRS Building Products:AR",
+    "business_name": "SRS Building Products",
+    "website": "https://www.srsdistribution.com/en/markets/our-brands/SSFTS"
+  },
+  {
+    "business_id": "partner:Service Pro Restoration:AR",
+    "business_name": "Service Pro Restoration",
+    "website": "http://waterdamagebryant.com"
+  },
+  {
+    "business_id": "partner:Shelton Roofing:AR",
+    "business_name": "Shelton Roofing",
+    "website": "https://www.sheltonroofingcompany.com/"
+  },
+  {
+    "business_id": "partner:Shelton Roofing Company, LLC:AR",
+    "business_name": "Shelton Roofing Company, LLC",
+    "website": "http://www.sheltonroofingcompany.com/"
+  },
+  {
+    "business_id": "partner:Speedy Gonzalez Roofing:AR",
+    "business_name": "Speedy Gonzalez Roofing",
+    "website": "https://www.speedygonzalezroofing.com/"
+  },
+  {
+    "business_id": "partner:Steamatic Of Hot Springs:AR",
+    "business_name": "Steamatic Of Hot Springs",
+    "website": "https://www.steamaticar.com/"
+  },
+  {
+    "business_id": "partner:The Renovators:AR",
+    "business_name": "The Renovators",
+    "website": "http://www.renovatorsusa.com/"
+  },
+  {
+    "business_id": "partner:Top Notch Roofing & Construction:AR",
+    "business_name": "Top Notch Roofing & Construction",
+    "website": "http://topnotchroofingllcfs.com/"
+  },
+  {
+    "business_id": "partner:Xtreme Carpet Cleaning:AR",
+    "business_name": "Xtreme Carpet Cleaning",
+    "website": "http://xtremecarpetcleaninginc.com/"
+  },
+  {
+    "business_id": "partner:SERVPRO of Saline County and SERVPRO of Hot Springs:AR",
+    "business_name": "SERVPRO of Saline County and SERVPRO of Hot Springs",
+    "website": "https://www.servpro.com/locations/ar/servpro-of-saline-county-and-servpro-of-hot-springs"
+  },
+  {
+    "business_id": "partner:Stuckey Roofing Co.:AR",
+    "business_name": "Stuckey Roofing Co.",
+    "website": "https://stuckeyroofing.com/"
+  },
+  {
+    "business_id": "partner:JJ And Sons Roofing And Construction:AR",
+    "business_name": "JJ And Sons Roofing And Construction",
+    "website": "https://www.jjnsonsroofing.com/"
+  },
+  {
+    "business_id": "partner:AAA Construction:AR",
+    "business_name": "AAA Construction",
+    "website": "https://www.aaaconstructionpros.com/"
+  },
+  {
+    "business_id": "partner:AR Storm Restoration and Roofing:AR",
+    "business_name": "AR Storm Restoration and Roofing",
+    "website": "https://www.arstormrestorationandroofing.com/"
+  },
+  {
+    "business_id": "partner:All-Clean USA:AR",
+    "business_name": "All-Clean USA",
+    "website": "https://allcleanusa.com/locations/southwest/"
+  },
+  {
+    "business_id": "partner:Arcadia Roofing and Siding:AR",
+    "business_name": "Arcadia Roofing and Siding",
+    "website": "http://arcremodelingco.com/"
+  },
+  {
+    "business_id": "partner:Desert Rose Cat:AR",
+    "business_name": "Desert Rose Cat",
+    "website": "https://www.desertrosecat.com/?utm_source=Core70&utm_medium=organic&utm_campaign=WebsiteURL"
+  },
+  {
+    "business_id": "partner:Hostetler Roofing:AR",
+    "business_name": "Hostetler Roofing",
+    "website": "https://hostetlerroofing.com/"
+  },
+  {
+    "business_id": "partner:JJ & Son's Roofing:AR",
+    "business_name": "JJ & Son's Roofing",
+    "website": "http://www.jjnsonsroofing.com/"
+  },
+  {
+    "business_id": "partner:Jason\u2019s Roofing:AR",
+    "business_name": "Jason\u2019s Roofing",
+    "website": "https://fb.me/jasonsrroofing.com"
+  },
+  {
+    "business_id": "partner:P.I. Roofing:AR",
+    "business_name": "P.I. Roofing",
+    "website": "https://www.piroofing.com/"
+  },
+  {
+    "business_id": "partner:PuroClean of Little Rock:AR",
+    "business_name": "PuroClean of Little Rock",
+    "website": "https://www.puroclean.com/little-rock-ar-puroclean-little-rock"
+  },
+  {
+    "business_id": "partner:Puroclean of Little Rock, LLC:AR",
+    "business_name": "Puroclean of Little Rock, LLC",
+    "website": "https://www.puroclean.com/little-rock-ar-puroclean-little-rock/"
+  },
+  {
+    "business_id": "partner:Steamatic of Hot Springs:AR",
+    "business_name": "Steamatic of Hot Springs",
+    "website": "http://steamatichs.com/"
+  },
+  {
+    "business_id": "partner:Little Rock Roofing & Flat Roof:AR",
+    "business_name": "Little Rock Roofing & Flat Roof",
+    "website": "https://littlerockarroofing.com"
+  },
+  {
+    "business_id": "partner:SRS Distribution:AR",
+    "business_name": "SRS Distribution",
+    "website": "https://www.srsdistribution.com/en/markets/our-brands/srs-building-products/srs-building-products---ft-smith"
+  },
+  {
+    "business_id": "partner:Stanley Steemer:AZ",
+    "business_name": "Stanley Steemer",
+    "website": "https://www.stanleysteemer.com/locations/AZ/Tucson/991"
+  },
+  {
+    "business_id": "partner:PuroClean of Southeast Tucson:AZ",
+    "business_name": "PuroClean of Southeast Tucson",
+    "website": "https://www.puroclean.com/tucson-az-puroclean-southeast-tucson"
+  },
+  {
+    "business_id": "partner:ATI Restoration:AZ",
+    "business_name": "ATI Restoration",
+    "website": "https://atirestoration.com/regional-offices/tucson-az/?utm_source=citation&utm_medium=organic&utm_campaign=tucson"
+  },
+  {
+    "business_id": "partner:America Roofing:AZ",
+    "business_name": "America Roofing",
+    "website": "https://www.americaroofingco.com/"
+  },
+  {
+    "business_id": "partner:Artistic Roofing Systems LLC:AZ",
+    "business_name": "Artistic Roofing Systems LLC",
+    "website": "http://artisticroofingllc.com/"
+  },
+  {
+    "business_id": "partner:Arya Roofing Company:AZ",
+    "business_name": "Arya Roofing Company",
+    "website": "http://aryaroofing.com"
+  },
+  {
+    "business_id": "partner:BELFOR Property Restoration:AZ",
+    "business_name": "BELFOR Property Restoration",
+    "website": "https://www.belfor.com/en/us/belfor-usa-offices/arizona/tucson"
+  },
+  {
+    "business_id": "partner:Innovative Roofing System:AZ",
+    "business_name": "Innovative Roofing System",
+    "website": "https://innovativeroofingsystem.com/"
+  },
+  {
+    "business_id": "partner:JEV Roofing Co:AZ",
+    "business_name": "JEV Roofing Co",
+    "website": "http://www.jevroofing.com/"
+  },
+  {
+    "business_id": "partner:Landmark Metal Builders:AZ",
+    "business_name": "Landmark Metal Builders",
+    "website": "http://www.landmarkmetal.com/"
+  },
+  {
+    "business_id": "partner:Level Line Roofers LLC:AZ",
+    "business_name": "Level Line Roofers LLC",
+    "website": "http://www.levellineroofers.com/"
+  },
+  {
+    "business_id": "partner:Lyons Roofing:AZ",
+    "business_name": "Lyons Roofing",
+    "website": "http://www.lyonsroofing.com/"
+  },
+  {
+    "business_id": "partner:Mr. Fix It of Sierra Vista:AZ",
+    "business_name": "Mr. Fix It of Sierra Vista",
+    "website": "http://www.mrfixitsv.com/"
+  },
+  {
+    "business_id": "partner:North Construction:AZ",
+    "business_name": "North Construction",
+    "website": "https://www.northbuilds.com/"
+  },
+  {
+    "business_id": "partner:Pedroza Roofing LLC:AZ",
+    "business_name": "Pedroza Roofing LLC",
+    "website": "https://www.pedrozaroofingllc.com/"
+  },
+  {
+    "business_id": "partner:Rock Roofing:AZ",
+    "business_name": "Rock Roofing",
+    "website": "https://www.rockroofingtucson.com/"
+  },
+  {
+    "business_id": "partner:Roof Solutions LLC:AZ",
+    "business_name": "Roof Solutions LLC",
+    "website": "http://www.roofsolutionsllc.net/"
+  },
+  {
+    "business_id": "partner:Roto-Rooter Plumbing & Drain Service:AZ",
+    "business_name": "Roto-Rooter Plumbing & Drain Service",
+    "website": "https://www.myrotorooter.com/en/arizona/tucson/"
+  },
+  {
+    "business_id": "partner:Tucson Roof Coatings:AZ",
+    "business_name": "Tucson Roof Coatings",
+    "website": "http://tucsonroofcoatingsllc.com/"
+  },
+  {
+    "business_id": "partner:Westover Federal, LLC:AZ",
+    "business_name": "Westover Federal, LLC",
+    "website": "https://www.westoverroofing.com/"
+  },
+  {
+    "business_id": "partner:T & T Cleaning & Restoration:AZ",
+    "business_name": "T & T Cleaning & Restoration",
+    "website": "https://tandtaz.com/"
+  },
+  {
+    "business_id": "partner:Laid Rite Roofing:AZ",
+    "business_name": "Laid Rite Roofing",
+    "website": "http://laidriteroofing.com"
+  },
+  {
+    "business_id": "partner:US Roofing Home Service Tucson:AZ",
+    "business_name": "US Roofing Home Service Tucson",
+    "website": "https://ushomeservices.us/roofing"
+  },
+  {
+    "business_id": "partner:Westover Roofing LLC:AZ",
+    "business_name": "Westover Roofing LLC",
+    "website": "http://www.westoverroofing.com"
+  },
+  {
+    "business_id": "partner:About Yavapai Roofing:AZ",
+    "business_name": "About Yavapai Roofing",
+    "website": "https://yavapai-roofing.com"
+  },
+  {
+    "business_id": "partner:Arizona Water Restoration Experts in Black Canyon City:AZ",
+    "business_name": "Arizona Water Restoration Experts in Black Canyon City",
+    "website": "https://black-canyon-city-az.waterrestorationarizona.com"
+  },
+  {
+    "business_id": "partner:Arizona Water Restoration Experts in Lukeville:AZ",
+    "business_name": "Arizona Water Restoration Experts in Lukeville",
+    "website": "https://lukeville-az.waterrestorationarizona.com"
+  },
+  {
+    "business_id": "partner:Arizona Water Restoration Experts in Sonoita:AZ",
+    "business_name": "Arizona Water Restoration Experts in Sonoita",
+    "website": "https://sonoita-az.waterrestorationarizona.com"
+  },
+  {
+    "business_id": "partner:Best Restoration Companies near Black Canyon City, Arizona:AZ",
+    "business_name": "Best Restoration Companies near Black Canyon City, Arizona",
+    "website": "https://restorationsmart.com"
+  },
+  {
+    "business_id": "partner:Best roofers in Pima County, AZ:AZ",
+    "business_name": "Best roofers in Pima County, AZ",
+    "website": "https://www.roofreport.net"
+  },
+  {
+    "business_id": "partner:Black Canyon City AZ Home Restoration Contractors:AZ",
+    "business_name": "Black Canyon City AZ Home Restoration Contractors",
+    "website": "https://www.networx.com"
+  },
+  {
+    "business_id": "partner:Black Canyon City Roofing Contractors:AZ",
+    "business_name": "Black Canyon City Roofing Contractors",
+    "website": "https://roofingcousa.com"
+  },
+  {
+    "business_id": "partner:Champs Water Damage:AZ",
+    "business_name": "Champs Water Damage",
+    "website": "https://waterdamagechamps.com"
+  }
+]
