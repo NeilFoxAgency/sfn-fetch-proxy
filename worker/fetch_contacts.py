@@ -15,6 +15,17 @@ status is "found", "not_found", or "error". This worker never attempts to
 evade access controls: CAPTCHA/challenge pages, logins, and denied robots
 rules are recorded as fetch failures, never bypassed.
 
+Improvements v6 (2026-09-25):
+- Page-budget quotas under MAX_PAGES: explicit known paths (4),
+  top-scored homepage/nav links (6), sitemap candidates (5),
+  wayback archive candidates (4) — one merged ranked candidate list
+- Wayback CDX prefix query (url=<host>/*, statuscode:200, mimetype:text/html,
+  newest-first) replacing the exact-URL query; archived contact/about/team/
+  staff/directory/location pages fetched as a rescue pass when live finds nothing
+- Playwright: one Chromium browser per run, one context per site, multiple
+  pages per context; images/fonts/media/stylesheets blocked; bounded 750ms
+  JS settle after domcontentloaded
+
 Improvements v5 (2026-09-25):
 - Registrable-domain email matching: sales@example.com now counts for
   tampa.example.com (Public Suffix List via tldextract, naive fallback)
@@ -464,74 +475,181 @@ def fetch_tier1(url: str, client: httpx.Client) -> str | None:
     return text
 
 
-def fetch_wayback(url: str, client: httpx.Client) -> tuple[str | None, str | None]:
-    """Fetch cached copy from Wayback Machine.
-    
-    Returns (html, archived_url) or (None, None).
-    The site cannot block us because we're not hitting their server.
+def query_wayback_cdx(home_url: str, client: httpx.Client, limit: int = 500) -> list[tuple[str, str]]:
+    """Query the Wayback CDX API with a host-prefix query.
+
+    Returns [(timestamp, original_url)] newest-first, deduplicated by original
+    URL, restricted to statuscode:200 text/html captures. Empty list on any
+    failure. One bounded query per site (``limit`` caps the row count).
     """
+    rows: list[tuple[str, str]] = []
     try:
-        host = normalized_host(url)
+        host = normalized_host(home_url)
         if not host:
-            return None, None
-        # Query Wayback CDX API for the most recent snapshot
+            return rows
         cdx_url = (
-            f"https://web.archive.org/cdx/search/cdx"
-            f"?url={quote(host, safe='')}"
-            f"&output=json&limit=1&filter=statuscode:200"
-            f"&filter=mimetype:text/html&collapse=urlkey"
+            "https://web.archive.org/cdx/search/cdx"
+            f"?url={quote(host, safe='')}/*"
+            "&output=json"
+            "&filter=statuscode:200"
+            "&filter=mimetype:text/html"
+            "&fl=timestamp,original"
+            "&from=2020"
+            f"&limit={limit}"
         )
         resp = client.get(cdx_url, headers={"User-Agent": get_ua()})
         if resp.status_code != 200:
-            return None, None
+            return rows
         data = resp.json()
         if not data or len(data) < 2:
-            return None, None
-        # data[0] is header, data[1] is first result
-        # Format: [urlkey, timestamp, original, mimetype, statuscode, digest, length]
-        timestamp = data[1][1]
-        original = data[1][2]
-        archived_url = f"https://web.archive.org/web/{timestamp}/{original}"
-        # Fetch the archived page
-        arch_resp = client.get(
+            return rows
+        parsed_rows: list[tuple[str, str]] = []
+        for row in data[1:]:  # data[0] is the header row
+            if not row or len(row) < 2:
+                continue
+            parsed_rows.append((str(row[0]), str(row[1])))
+        # Newest captures first so later code prefers recent snapshots.
+        parsed_rows.sort(key=lambda r: r[0], reverse=True)
+        seen: set[str] = set()
+        for timestamp, original in parsed_rows:
+            if original in seen:
+                continue
+            seen.add(original)
+            rows.append((timestamp, original))
+        return rows
+    except Exception:
+        return rows
+
+
+def fetch_archived_page(archived_url: str, client: httpx.Client) -> str | None:
+    """Fetch one web.archive.org snapshot. None on failure or challenge page.
+
+    The site cannot block us because we never hit their server.
+    """
+    try:
+        resp = client.get(
             archived_url,
             headers={"User-Agent": get_ua()},
             follow_redirects=True,
         )
-        if arch_resp.status_code != 200:
-            return None, None
-        html_text = arch_resp.text
-        if is_challenge_page(html_text):
-            return None, None
-        return html_text, archived_url
-    except Exception:
-        return None, None
-
-
-def fetch_tier2_rendered(url: str) -> str | None:
-    """Headless-Chromium render for JS-heavy pages. None if unavailable.
-
-    Never used to bypass access controls: challenge pages are detected and
-    treated as failures.
-    """
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError:
+    except httpx.HTTPError:
+        return None
+    if resp.status_code != 200:
         return None
     try:
-        with sync_playwright() as playwright:
-            browser = playwright.chromium.launch(headless=True)
-            try:
-                page = browser.new_page(user_agent=get_ua())
-                page.goto(url, timeout=20000, wait_until="domcontentloaded")
-                html_text = page.content()
-            finally:
-                browser.close()
+        html_text = resp.text
     except Exception:
         return None
     if is_challenge_page(html_text):
         return None
     return html_text
+
+
+class RenderedFetcher:
+    """Render JS-heavy pages with a single shared Chromium browser.
+
+    One browser is launched per worker run, one browser context per site, and
+    multiple pages are rendered within each context. Images, fonts, media, and
+    stylesheets are blocked to save bandwidth. After domcontentloaded we wait
+    a bounded ~750ms for JS content (never an indefinite network-idle wait).
+
+    Never used to bypass access controls: challenge pages are detected and
+    treated as failures.
+    """
+
+    def __init__(self) -> None:
+        self._playwright = None
+        self._browser = None
+        self._contexts: dict[str, object] = {}
+
+    def _ensure_browser(self) -> bool:
+        if self._browser is not None:
+            return True
+        try:
+            from playwright.sync_api import sync_playwright
+        except ImportError:
+            return False
+        try:
+            self._playwright = sync_playwright().start()
+            self._browser = self._playwright.chromium.launch(headless=True)
+            return True
+        except Exception:
+            self._playwright = None
+            self._browser = None
+            return False
+
+    def _context_for(self, url: str):
+        key = (urlparse(url).netloc or "").lower()
+        context = self._contexts.get(key)
+        if context is None:
+            context = self._browser.new_context(user_agent=get_ua())
+
+            def _block_heavy(route):
+                if route.request.resource_type in ("image", "font", "media", "stylesheet"):
+                    route.abort()
+                else:
+                    route.continue_()
+
+            context.route("**/*", _block_heavy)
+            self._contexts[key] = context
+        return context
+
+    def fetch(self, url: str) -> str | None:
+        """Render one URL. Returns HTML or None on any failure."""
+        if not self._ensure_browser():
+            return None
+        try:
+            page = self._context_for(url).new_page()
+            try:
+                page.goto(url, timeout=20000, wait_until="domcontentloaded")
+                page.wait_for_timeout(750)
+                html_text = page.content()
+            finally:
+                page.close()
+        except Exception:
+            return None
+        if is_challenge_page(html_text):
+            return None
+        return html_text
+
+    def close(self) -> None:
+        for context in self._contexts.values():
+            try:
+                context.close()
+            except Exception:
+                pass
+        self._contexts.clear()
+        try:
+            if self._browser is not None:
+                self._browser.close()
+        except Exception:
+            pass
+        try:
+            if self._playwright is not None:
+                self._playwright.stop()
+        except Exception:
+            pass
+        self._browser = None
+        self._playwright = None
+
+
+_shared_renderer: RenderedFetcher | None = None
+
+
+def fetch_tier2_rendered(url: str) -> str | None:
+    """Headless-Chromium render for JS-heavy pages. None if unavailable.
+
+    Compatibility wrapper: delegates to a lazily-created shared
+    RenderedFetcher so the browser is reused across calls. Worker runs should
+    prefer an explicit RenderedFetcher (one browser per run).
+
+    Never used to bypass access controls: challenge pages are detected and
+    treated as failures.
+    """
+    global _shared_renderer
+    if _shared_renderer is None:
+        _shared_renderer = RenderedFetcher()
+    return _shared_renderer.fetch(url)
 
 
 def robots_allows(url: str, client: httpx.Client) -> bool:
@@ -550,12 +668,114 @@ def robots_allows(url: str, client: httpx.Client) -> bool:
         return True
 
 
+def score_homepage_links(home_url: str, home_host: str, soup: BeautifulSoup) -> list[str]:
+    """Score homepage/nav links by contact likelihood; highest score first."""
+    scored: list[tuple[int, str]] = []
+    for anchor in soup.find_all("a", href=True):
+        href = str(anchor["href"]).strip()
+        if not href or href.startswith(("tel:", "javascript:", "#")):
+            continue
+        if href.lower().startswith("mailto:"):
+            continue
+        url = urljoin(home_url, href)
+        if normalized_host(url) != home_host:
+            continue
+        link_text = anchor.get_text(" ", strip=True)[:100]
+        score = score_contact_link(href, link_text)
+        if score > 0:
+            scored.append((score, url))
+    seen: set[str] = set()
+    ranked: list[str] = []
+    for score, url in sorted(scored, key=lambda x: -x[0]):
+        if url not in seen:
+            seen.add(url)
+            ranked.append(url)
+    return ranked
+
+
+def build_candidate_buckets(
+    home_url: str,
+    home_host: str,
+    soup: BeautifulSoup,
+    sitemap_urls: list[str],
+    wayback_rows: list[tuple[str, str]],
+    attempted: set[str],
+) -> list[tuple[str, str, str | None]]:
+    """Merge all URL sources into one ranked candidate list with quotas.
+
+    Returns [(bucket, url, archive_url)] in fetch-priority order:
+      1. explicit known contact paths  (QUOTA_KNOWN_PATHS)
+      2. top-scored homepage/nav links (QUOTA_SCORED_LINKS)
+      3. sitemap candidates            (QUOTA_SITEMAP)
+      4. wayback archive candidates    (QUOTA_WAYBACK)
+
+    ``archive_url`` is set only for wayback entries (fetch the snapshot, not
+    the live site). URLs already in ``attempted`` are skipped so each quota
+    fills with fresh URLs. Total extra pages never exceed the sum of quotas,
+    keeping the crawl within the MAX_PAGES budget.
+    """
+    candidates: list[tuple[str, str, str | None]] = []
+    seen: set[str] = set(attempted)
+
+    def add(bucket: str, url: str, archive_url: str | None = None) -> bool:
+        key = url.rstrip("/")
+        if key in seen:
+            return False
+        seen.add(key)
+        candidates.append((bucket, url, archive_url))
+        return True
+
+    parsed_home = urlparse(home_url)
+    origin = f"{parsed_home.scheme}://{parsed_home.netloc}"
+
+    # Bucket 1: explicit known contact paths (cheap direct guesses)
+    known = 0
+    for path in KNOWN_CONTACT_PATHS:
+        if known >= QUOTA_KNOWN_PATHS:
+            break
+        url = origin + path
+        if url.rstrip("/") == home_url.rstrip("/"):
+            continue
+        if add("known_path", url):
+            known += 1
+
+    # Bucket 2: top-scored homepage/nav links
+    scored = 0
+    for url in score_homepage_links(home_url, home_host, soup):
+        if scored >= QUOTA_SCORED_LINKS:
+            break
+        if add("scored_link", url):
+            scored += 1
+
+    # Bucket 3: sitemap candidates
+    sm = 0
+    for url in sitemap_urls:
+        if sm >= QUOTA_SITEMAP:
+            break
+        if add("sitemap", url):
+            sm += 1
+
+    # Bucket 4: wayback archive candidates (contact-like, newest first)
+    wb = 0
+    for timestamp, original in wayback_rows:
+        if wb >= QUOTA_WAYBACK:
+            break
+        if not any(hint in original.casefold() for hint in WAYBACK_HINTS):
+            continue
+        archived = f"https://web.archive.org/web/{timestamp}/{original}"
+        if add("wayback", original, archived):
+            wb += 1
+
+    return candidates
+
+
 def discover_one(
     *,
     business_id: str,
     business_name: str,
     website: str,
     client: httpx.Client,
+    renderer: RenderedFetcher | None = None,
 ) -> dict:
     base = {
         "business_id": business_id,
@@ -572,108 +792,80 @@ def discover_one(
     home_url = ""
     home_text: str | None = None
     home_archive: str | None = None
-    
-    # Tier 0: Try live fetch first (fastest when it works)
+
+    def render(url: str) -> str | None:
+        if renderer is not None:
+            return renderer.fetch(url)
+        return fetch_tier2_rendered(url)
+
+    # Tier 0: live fetch first (fastest when it works)
     for variant in website_variants(website):
         text = fetch_tier1(variant, client)
         if text is None:
-            text = fetch_tier2_rendered(variant)
+            text = render(variant)
         if text:
             home_url, home_text = variant, text
             break
-    
-    # Tier 0b: Wayback Machine fallback (when live fetch fails)
-    # The site cannot block archive.org, so this rescues the 41% "unavailable"
+
+    # Tier 0b: Wayback Machine fallback (when live fetch fails).
+    # The site cannot block archive.org, so this rescues "unavailable" sites.
+    # One bounded prefix CDX query; its rows are reused for the wayback
+    # candidate bucket below so we never query the CDX API twice per site.
+    wayback_rows: list[tuple[str, str]] = []
     if not home_text:
-        for variant in website_variants(website):
-            text, archived_url = fetch_wayback(variant, client)
+        wayback_rows = query_wayback_cdx(website_variants(website)[0], client)
+        for timestamp, original in wayback_rows:
+            if urlparse(original).path not in ("", "/"):
+                continue
+            archived = f"https://web.archive.org/web/{timestamp}/{original}"
+            text = fetch_archived_page(archived, client)
             if text:
-                home_url, home_text = variant, text
-                home_archive = archived_url
+                home_url, home_text, home_archive = original, text, archived
                 break
-    
+
     if not home_text:
         base["status"] = "error"
         base["reason"] = "website_unavailable"
         return base
-    
+
     if not business_name_matches_domain(business_name, home_url):
         base["reason"] = "identity_domain_mismatch"
         return base
-    
+
     if not robots_allows(home_url, client):
         base["status"] = "error"
         base["reason"] = "robots_disallowed"
         return base
 
-    pages = [(home_url, home_text)]
+    pages: list[tuple[str, str, str | None]] = [(home_url, home_text, home_archive)]
+    attempted: set[str] = {home_url.rstrip("/")}
     home_host = normalized_host(home_url)
     soup = BeautifulSoup(home_text, "html.parser")
 
-    # Strategy 1: Sitemap.xml (gives us all pages without guessing)
+    # Strategy 1: sitemap.xml (up to 8 child sitemaps from an index)
     sitemap_urls = fetch_sitemap_urls(home_url, client)
 
-    # Strategy 2: Score all links by contact likelihood (URL + link text)
-    scored_links: list[tuple[int, str]] = []
-    for anchor in soup.find_all("a", href=True):
-        href = str(anchor["href"]).strip()
-        if not href or href.startswith(("tel:", "javascript:", "#")):
-            continue
-        if href.lower().startswith("mailto:"):
-            continue
-        url = urljoin(home_url, href)
-        if normalized_host(url) != home_host:
-            continue
-        link_text = anchor.get_text(" ", strip=True)[:100]
-        score = score_contact_link(href, link_text)
-        if score > 0:
-            scored_links.append((score, url))
-
-    # Deduplicate, sort by score (highest first)
-    seen_urls = set()
-    ranked_urls: list[str] = []
-    for score, url in sorted(scored_links, key=lambda x: -x[0]):
-        if url not in seen_urls:
-            seen_urls.add(url)
-            ranked_urls.append(url)
-
-    # Combine: sitemap URLs first, then ranked links
-    candidate_urls = sitemap_urls + [u for u in ranked_urls if u not in sitemap_urls]
-
-    # Fetch up to MAX_PAGES contact-candidate pages
-    for url in candidate_urls:
-        if len(pages) >= MAX_PAGES:
-            break
-        if not robots_allows(url, client):
-            continue
-        text = fetch_tier1(url, client) or fetch_tier2_rendered(url)
-        if text:
-            pages.append((url, text))
-
-    # Extract emails from all pages, and record contact pages/forms
-    for page_url, content in pages:
+    def record_contact_page(page_url: str, content: str, archive_url: str | None) -> None:
         page_soup = BeautifulSoup(content, "html.parser")
-        visible = page_soup.get_text(" ")
-        
-        # Record this as a contact page (for form submission later)
-        # Only record pages beyond the homepage, or homepage if it has a form
-        is_contact_page = (page_url != home_url)
+        is_contact_page = page_url != home_url
         form_info = detect_contact_form(page_soup)
         if form_info:
             is_contact_page = True
         if is_contact_page:
-            page_from_archive = home_archive if page_url == home_url else None
             base["contact_pages"].append({
                 "url": page_url,
                 "has_form": bool(form_info),
                 "form_fields": form_info["fields"] if form_info else [],
                 "form_action": form_info["action"] if form_info else "",
-                "archive_url": page_from_archive,
-                "source_transport": "wayback" if page_from_archive else "live",
+                "archive_url": archive_url,
+                "source_transport": "wayback" if archive_url else "live",
             })
-        
+
+    def check_page(page_url: str, content: str, archive_url: str | None) -> bool:
+        page_soup = BeautifulSoup(content, "html.parser")
+        visible = page_soup.get_text(" ")
         if not identity_matches_content(business_name, visible):
-            continue
+            return False
         # Pass soup to extract mailto: links too
         for email in extract_public_emails(visible, page_soup):
             if not email_matches_website_domain(email, home_url):
@@ -681,10 +873,61 @@ def discover_one(
             base["status"] = "found"
             base["email"] = email
             base["source_url"] = page_url
-            page_from_archive = home_archive if page_url == home_url else None
-            base["archive_url"] = page_from_archive
-            base["source_transport"] = "wayback" if page_from_archive else "live"
+            base["archive_url"] = archive_url
+            base["source_transport"] = "wayback" if archive_url else "live"
+            return True
+        return False
+
+    def fetch_bucket(bucket: str, url: str, archive_url: str | None) -> str | None:
+        if archive_url is not None:
+            return fetch_archived_page(archive_url, client)
+        if not robots_allows(url, client):
+            return None
+        return fetch_tier1(url, client) or render(url)
+
+    # Homepage first
+    if check_page(home_url, home_text, home_archive):
+        return base
+    record_contact_page(home_url, home_text, home_archive)
+
+    # Live buckets: known paths, scored links, sitemap candidates (quotas)
+    for bucket, url, archive_url in build_candidate_buckets(
+        home_url, home_host, soup, sitemap_urls, [], attempted
+    ):
+        if len(pages) >= MAX_PAGES:
+            break
+        attempted.add(url.rstrip("/"))
+        text = fetch_bucket(bucket, url, archive_url)
+        if not text:
+            continue
+        pages.append((url, text, archive_url))
+        if check_page(url, text, archive_url):
             return base
+        record_contact_page(url, text, archive_url)
+
+    # Wayback rescue pass: only if live sources found nothing. Queries the
+    # CDX API once (skipped if Tier 0b already did) and fetches up to
+    # QUOTA_WAYBACK archived contact-like pages. URLs that failed live are
+    # eligible for archive rescue (only successfully-fetched pages excluded).
+    if base["status"] != "found":
+        if not wayback_rows:
+            wayback_rows = query_wayback_cdx(home_url, client)
+        fetched_ok = {u.rstrip("/") for u, _, _ in pages}
+        for bucket, url, archive_url in build_candidate_buckets(
+            home_url, home_host, soup, [], wayback_rows, fetched_ok
+        ):
+            if bucket != "wayback":
+                continue
+            if len(pages) >= MAX_PAGES:
+                break
+            attempted.add(url.rstrip("/"))
+            text = fetch_bucket(bucket, url, archive_url)
+            if not text:
+                continue
+            pages.append((url, text, archive_url))
+            if check_page(url, text, archive_url):
+                return base
+            record_contact_page(url, text, archive_url)
 
     base["reason"] = "no_valid_first_party_email"
     return base
@@ -699,34 +942,44 @@ def main() -> int:
     targets = json.loads(Path(args.targets).read_text())
     results: list[dict] = []
     started = time.time()
-    with httpx.Client(
-        timeout=REQUEST_TIMEOUT,
-        follow_redirects=True,
-    ) as client:
-        for index, target in enumerate(targets):
-            try:
-                results.append(
-                    discover_one(
-                        business_id=str(target.get("business_id") or ""),
-                        business_name=str(target.get("business_name") or ""),
-                        website=str(target.get("website") or ""),
-                        client=client,
+    # One shared Chromium browser for the whole run (one context per site);
+    # launched lazily on first rendered fetch, closed at the end.
+    renderer = RenderedFetcher()
+    try:
+        with httpx.Client(
+            timeout=REQUEST_TIMEOUT,
+            follow_redirects=True,
+        ) as client:
+            for index, target in enumerate(targets):
+                try:
+                    results.append(
+                        discover_one(
+                            business_id=str(target.get("business_id") or ""),
+                            business_name=str(target.get("business_name") or ""),
+                            website=str(target.get("website") or ""),
+                            client=client,
+                            renderer=renderer,
+                        )
                     )
-                )
-            except Exception as exc:  # never let one target kill the batch
-                results.append(
-                    {
-                        "business_id": str(target.get("business_id")),
-                        "business_name": str(target.get("business_name")),
-                        "website": str(target.get("website")),
-                        "status": "error",
-                        "email": None,
-                        "source_url": None,
-                        "reason": f"worker_exception:{type(exc).__name__}",
-                    }
-                )
-            if index and index % 25 == 0:
-                print(f"  ... {index}/{len(targets)} done", flush=True)
+                except Exception as exc:  # never let one target kill the batch
+                    results.append(
+                        {
+                            "business_id": str(target.get("business_id")),
+                            "business_name": str(target.get("business_name")),
+                            "website": str(target.get("website")),
+                            "status": "error",
+                            "email": None,
+                            "source_url": None,
+                            "reason": f"worker_exception:{type(exc).__name__}",
+                            "contact_pages": [],
+                            "archive_url": None,
+                            "source_transport": "live",
+                        }
+                    )
+                if index and index % 25 == 0:
+                    print(f"  ... {index}/{len(targets)} done", flush=True)
+    finally:
+        renderer.close()
     Path(args.out).write_text(json.dumps(results, indent=2))
     elapsed = time.time() - started
     found = sum(1 for r in results if r["status"] == "found")
