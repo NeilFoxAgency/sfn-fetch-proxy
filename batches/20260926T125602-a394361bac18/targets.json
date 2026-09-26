@@ -1,0 +1,242 @@
+[
+  {
+    "business_id": "hyd:osm:osm:node/1360486117",
+    "business_name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/tx/el-paso/12210-montwood-drive"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/1360503736",
+    "business_name": "Jack in the Box",
+    "website": "https://locations.jackinthebox.com/us/tx/el-paso/12207-montwood-dr"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/3304623452",
+    "business_name": "Wendy's",
+    "website": "https://locations.wendys.com/united-states/tx/el-paso/1890-zaragoza-rd"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/3304630061",
+    "business_name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/16277.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/3451119045",
+    "business_name": "Five Guys",
+    "website": "https://restaurants.fiveguys.com/1327-george-dieter-dr"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/4553889127",
+    "business_name": "Secure Contractors Inc",
+    "website": "https://securecontractorsinc.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/4943294007",
+    "business_name": "Pizza Hut",
+    "website": "https://locations.pizzahut.com/tx/el-paso/2401-zaragoza"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/5060497270",
+    "business_name": "Panda Express",
+    "website": "https://www.pandaexpress.com/locations/tx/horizon-city/2463"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/6410708201",
+    "business_name": "Panda Express",
+    "website": "https://www.pandaexpress.com/locations/tx/el-paso/1883"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/6410708205",
+    "business_name": "DQ Grill & Chill",
+    "website": "https://www.dairyqueen.com/locations/tx/el-paso/1885-n-zaragoza-rd/11053"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/6410708207",
+    "business_name": "Taco Bell",
+    "website": "https://locations.tacobell.com/tx/el-paso/1895-n-zaragosa.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/8558784407",
+    "business_name": "Chick-fil-A",
+    "website": "https://www.chick-fil-a.com/locations/tx/rojas"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/9725755004",
+    "business_name": "Burger King",
+    "website": "https://www.bk.com/store-locator/store/restaurant_11079"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/9869077991",
+    "business_name": "Little Caesars",
+    "website": "https://littlecaesars.com/en-us/store/6938/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/9869210090",
+    "business_name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/tx/clint/12800-alameda"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/9869920053",
+    "business_name": "Little Caesars",
+    "website": "https://littlecaesars.com/en-us/store/7476/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/10112517826",
+    "business_name": "Little Caesars",
+    "website": "https://littlecaesars.com/en-us/store/9250/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/11493828834",
+    "business_name": "Taco Bell",
+    "website": "https://locations.tacobell.com/tx/socorro/1041-nuevo-hueco-tanks-road.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/11493828836",
+    "business_name": "KFC",
+    "website": "https://locations.kfc.com/tx/el-paso/12260-eastlake-blvd/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/12292053868",
+    "business_name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/tx/el-paso/12363-pellicano-dr/39100.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/13305434187",
+    "business_name": "Pupusona Pellicano",
+    "website": "https://www.pupusona.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/13810925061",
+    "business_name": "Birria Bros",
+    "website": "https://www.birriabros.co/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/13927228728",
+    "business_name": "Don Taco",
+    "website": "https://don-taco.square.site/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/171326378",
+    "business_name": "Carl's Jr.",
+    "website": "https://locations.carlsjr.com/tx/el-paso/1490-n-zaragoza-rd"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/263590993",
+    "business_name": "Whataburger",
+    "website": "https://locations.whataburger.com/tx/el-paso/1310-george-dieter-dr.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/350955502",
+    "business_name": "Great American Land & Cattle Co.",
+    "website": "http://greatamericansteakhouse.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/350955504",
+    "business_name": "Chipotle",
+    "website": "https://locations.chipotle.com/tx/el-paso/1355-george-dieter-dr"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/547800869",
+    "business_name": "Domino's",
+    "website": "https://pizza.dominos.com/texas/el-paso/1895-george-dieter"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/547800872",
+    "business_name": "Applebee's",
+    "website": "https://restaurants.applebees.com/en-us/tx/el-paso/1985-george-dieter-92051"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/568338242",
+    "business_name": "Village Inn",
+    "website": "https://www.villageinn.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/634053531",
+    "business_name": "Taco Bell",
+    "website": "https://locations.tacobell.com/tx/horizon-city/13910-horizon-blvd.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/634053534",
+    "business_name": "Whataburger",
+    "website": "https://locations.whataburger.com/tx/horizon-city/13910-horizon-blvd-bldg-b.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/634053537",
+    "business_name": "Popeyes",
+    "website": "https://www.popeyes.com/store-locator/store/restaurant_85124"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/634064274",
+    "business_name": "Church's Chicken",
+    "website": "https://locations.churchs.com/tx/horizon-city/13658-eastlake-blvd"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/712107667",
+    "business_name": "BJ's",
+    "website": "https://www.bjsrestaurants.com/locations/tx/el-paso"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/734907089",
+    "business_name": "Applebee's",
+    "website": "https://restaurants.applebees.com/en-us/tx/el-paso/1350-george-dieter-76040"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/734925146",
+    "business_name": "Sonic",
+    "website": "https://locations.sonicdrivein.com/tx/elpaso/9505-socorro-avenue.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/735005433",
+    "business_name": "Valvoline",
+    "website": "https://store.vioc.com/tx/elpaso/oil-change-070133.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/846922620",
+    "business_name": "TownePlace Suites El Paso East/I-10",
+    "website": "https://www.marriott.com/elpte"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/862897183",
+    "business_name": "Whataburger",
+    "website": "https://locations.whataburger.com/tx/socorro/10401-alameda-ave.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1028187296",
+    "business_name": "Manantial Church",
+    "website": "https://www.manantialchurch.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1042245364",
+    "business_name": "Courtyard",
+    "website": "https://www.marriott.com/elpce"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1076181219",
+    "business_name": "Church's Chicken",
+    "website": "https://locations.churchs.com/tx/san-elizario/13296-socorro-road"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1076237199",
+    "business_name": "San Elceario Mission Catholic Church",
+    "website": "https://www.nps.gov/places/presidio-chapel-of-san-elizario.htm"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1108411241",
+    "business_name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/11328.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1112426718",
+    "business_name": "Papa John's",
+    "website": "https://locations.papajohns.com/united-states/tx/79936/el-paso/11360-montwood-drive"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1413361810",
+    "business_name": "Rudy's Country Store and Bar-B-Q",
+    "website": "https://rudysbbq.com/location/detail/el-paso-far-east-tx"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1503797607",
+    "business_name": "San Lorenzo Catholic Church",
+    "website": "http://www.sanlorenzocatholicchurch.com/"
+  }
+]
