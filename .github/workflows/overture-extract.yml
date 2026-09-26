@@ -49,6 +49,17 @@ jobs:
           path: extract_${{ inputs.extract_id }}.log
           retention-days: 7
 
+      - name: Commit stats JSON
+        if: always()
+        run: |
+          git config user.name "sfn-fetch-bot"
+          git config user.email "sfn-fetch-bot@users.noreply.github.com"
+          mkdir -p overture-stats
+          cp "overture_${{ inputs.extract_id }}.stats.json" "overture-stats/${{ inputs.extract_id }}.json" 2>/dev/null || echo "no stats (extract failed)"
+          git add "overture-stats/${{ inputs.extract_id }}.json" 2>/dev/null || true
+          git commit -m "overture stats ${{ inputs.extract_id }}" || echo "nothing to commit"
+          git push
+
       - name: Upload extract
         if: steps.extract.outputs.exit_code == '0'
         uses: actions/upload-artifact@v4
