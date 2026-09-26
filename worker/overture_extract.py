@@ -1,0 +1,93 @@
+#!/usr/bin/env python3
+"""Extract Overture Places rows for given US states and write a compact parquet.
+
+Runs on GitHub Actions runners (clean egress to S3) so the Storm Fix Now VM
+(which cannot reach S3) can still get fresh Overture data. The VM dispatches
+the `overture-extract` workflow, then downloads the parquet via the workflow
+artifact API.
+
+Usage:
+    python overture_extract.py --release 2026-09-23.1 --states AZ,ND,SD \
+        --out /tmp/overture_extract.parquet
+
+The SELECT mirrors stormfix.business_data.overture_import.remote_overture_query
+so the VM-side importer can consume the parquet with the same normalization.
+"""
+
+from __future__ import annotations
+
+import argparse
+import sys
+import time
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--release", required=True, help="Overture release, e.g. 2026-09-23.1")
+    parser.add_argument("--states", required=True, help="Comma-separated US state codes")
+    parser.add_argument("--out", required=True, help="Output parquet path")
+    args = parser.parse_args()
+
+    states = sorted({s.strip().upper() for s in args.states.split(",") if s.strip()})
+    if not states:
+        print("no states given", flush=True)
+        return 1
+
+    import duckdb
+
+    path = (
+        f"s3://overturemaps-us-west-2/release/{args.release}/theme=places/type=place/*"
+    )
+    conn = duckdb.connect()
+    conn.execute("INSTALL httpfs")
+    conn.execute("LOAD httpfs")
+    conn.execute("SET s3_region='us-west-2'")
+
+    # Fail fast with a clear message if the release path does not exist.
+    files = conn.execute("SELECT count(*) FROM glob(?)", [path]).fetchone()
+    print(f"release path glob matched {files[0]} files", flush=True)
+    if not files[0]:
+        print(f"ERROR: no files at {path}; check the release string", flush=True)
+        return 2
+
+    quoted = ", ".join(f"'{s}'" for s in states)
+    sql = f"""
+        SELECT
+            id,
+            names,
+            categories,
+            confidence,
+            websites,
+            emails,
+            phones,
+            addresses,
+            bbox.ymin AS latitude,
+            bbox.xmin AS longitude
+        FROM read_parquet(?, filename=true, hive_partitioning=1)
+        WHERE addresses[1].country = 'US'
+          AND upper(addresses[1].region) IN ({quoted})
+    """
+    started = time.time()
+    # Stream straight to parquet; no giant in-memory frame.
+    conn.execute(f"COPY ({sql}) TO ? (FORMAT PARQUET)", [path, args.out])
+    elapsed = time.time() - started
+
+    n = conn.execute("SELECT count(*) FROM read_parquet(?)", [args.out]).fetchone()[0]
+    with_email = conn.execute(
+        "SELECT count(*) FROM read_parquet(?) WHERE len(emails) > 0", [args.out]
+    ).fetchone()[0]
+    with_website = conn.execute(
+        "SELECT count(*) FROM read_parquet(?) WHERE len(websites) > 0", [args.out]
+    ).fetchone()[0]
+    print(
+        f"done: {n} rows, {with_email} with email "
+        f"({100.0 * with_email / max(n, 1):.1f}%), "
+        f"{with_website} with website ({100.0 * with_website / max(n, 1):.1f}%) "
+        f"in {elapsed:.1f}s",
+        flush=True,
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
