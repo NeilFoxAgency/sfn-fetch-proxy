@@ -163,6 +163,32 @@ def _run(args, states: list[str], write_stats) -> int:
             stats["taxonomy_sample"].append(
                 {"taxonomy": str(row[0])[:300], "basic_category": str(row[1])}
             )
+    # Filtered stats: approximate eligible_place (confidence >= 0.65) for
+    # apples-to-apples comparison with the June production import.
+    f = conn.execute(
+        """
+        SELECT count(*) AS n,
+               sum(CASE WHEN len(emails) > 0 THEN 1 ELSE 0 END) AS e,
+               sum(CASE WHEN len(websites) > 0 THEN 1 ELSE 0 END) AS w
+        FROM read_parquet(?)
+        WHERE confidence >= 0.65
+        """,
+        [args.out],
+    ).fetchone()
+    fn, fe, fw = f[0], f[1], f[2]
+    stats["filtered_conf065"] = {
+        "total": fn,
+        "email": fe,
+        "website": fw,
+        "email_pct": round(100.0 * fe / max(fn, 1), 2),
+        "website_pct": round(100.0 * fw / max(fn, 1), 2),
+    }
+    print(
+        f"filtered (conf>=0.65): {fn} rows, {fe} email "
+        f"({100.0 * fe / max(fn, 1):.1f}%)",
+        flush=True,
+    )
+
     write_stats(stats)
     print(f"wrote stats", flush=True)
     return 0
