@@ -1,0 +1,110 @@
+{
+  "extract_id": "meas6-1790459797",
+  "release": "2026-09-23.1",
+  "states": [
+    "AZ",
+    "FL",
+    "ND",
+    "SD",
+    "TX"
+  ],
+  "total": 3471768,
+  "with_email": 1207498,
+  "with_website": 2735701,
+  "email_pct": 34.78,
+  "website_pct": 78.8,
+  "by_state": {
+    "TX": {
+      "total": 1623654,
+      "email": 570081,
+      "website": 1260954
+    },
+    "FL": {
+      "total": 1389356,
+      "email": 477027,
+      "website": 1102278
+    },
+    "AZ": {
+      "total": 357281,
+      "email": 119931,
+      "website": 291914
+    },
+    "SD": {
+      "total": 54343,
+      "email": 22129,
+      "website": 43136
+    },
+    "ND": {
+      "total": 47103,
+      "email": 18330,
+      "website": 37388
+    },
+    "tx": {
+      "total": 15,
+      "email": 0,
+      "website": 15
+    },
+    "Fl": {
+      "total": 9,
+      "email": 0,
+      "website": 9
+    },
+    "Tx": {
+      "total": 3,
+      "email": 0,
+      "website": 3
+    },
+    "Az": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    },
+    "fl": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    }
+  },
+  "taxonomy_sample": [
+    {
+      "taxonomy": "{\"primary\":\"steakhouse\",\"hierarchy\":[\"food_and_drink\",\"restaurant\",\"meat_restaurant\",\"steakhouse\"],\"alternates\":null}",
+      "basic_category": "restaurant"
+    },
+    {
+      "taxonomy": "{\"primary\":\"plastic_and_reconstructive_surgery\",\"hierarchy\":[\"health_care\",\"specialized_medical_facility\",\"surgery\",\"plastic_and_reconstructive_surgery\"],\"alternates\":null}",
+      "basic_category": "surgery"
+    },
+    {
+      "taxonomy": "{\"primary\":\"doctors_office\",\"hierarchy\":[\"health_care\",\"outpatient_care_facility\",\"diagnostics_imaging_or_lab_service\",\"doctors_office\"],\"alternates\":null}",
+      "basic_category": "diagnostics_imaging_or_lab_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"holiday_rental_home\",\"hierarchy\":[\"lodging\",\"private_lodging\",\"holiday_rental_home\"],\"alternates\":null}",
+      "basic_category": "private_lodging"
+    },
+    {
+      "taxonomy": "{\"primary\":\"real_estate_service\",\"hierarchy\":[\"services_and_business\",\"real_estate_service\"],\"alternates\":null}",
+      "basic_category": "real_estate_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"lodging\",\"hierarchy\":[\"lodging\"],\"alternates\":null}",
+      "basic_category": "lodging"
+    },
+    {
+      "taxonomy": "{\"primary\":\"fairgrounds\",\"hierarchy\":[\"arts_and_entertainment\",\"festival_venue\",\"fairgrounds\"],\"alternates\":null}",
+      "basic_category": "fairgrounds"
+    },
+    {
+      "taxonomy": "{\"primary\":\"restaurant\",\"hierarchy\":[\"food_and_drink\",\"restaurant\"],\"alternates\":null}",
+      "basic_category": "restaurant"
+    },
+    {
+      "taxonomy": "{\"primary\":\"historic_site\",\"hierarchy\":[\"cultural_and_historic\",\"historic_site\"],\"alternates\":null}",
+      "basic_category": "historic_site"
+    },
+    {
+      "taxonomy": "{\"primary\":\"steakhouse\",\"hierarchy\":[\"food_and_drink\",\"restaurant\",\"meat_restaurant\",\"steakhouse\"],\"alternates\":null}",
+      "basic_category": "restaurant"
+    }
+  ]
+}
