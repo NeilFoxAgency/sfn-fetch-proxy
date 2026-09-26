@@ -1,0 +1,146 @@
+{
+  "extract_id": "full1-1790462949",
+  "release": "2026-09-23.1",
+  "states": [
+    "AL",
+    "AR",
+    "AZ",
+    "CO",
+    "CT",
+    "FL"
+  ],
+  "total": 2731184,
+  "with_email": 956353,
+  "with_website": 2176536,
+  "email_pct": 35.02,
+  "website_pct": 79.69,
+  "by_state": {
+    "FL": {
+      "total": 1389356,
+      "email": 477027,
+      "website": 1102278
+    },
+    "CO": {
+      "total": 364726,
+      "email": 123234,
+      "website": 302105
+    },
+    "AZ": {
+      "total": 357281,
+      "email": 119931,
+      "website": 291914
+    },
+    "AL": {
+      "total": 259243,
+      "email": 98677,
+      "website": 197409
+    },
+    "CT": {
+      "total": 197384,
+      "email": 73553,
+      "website": 161779
+    },
+    "AR": {
+      "total": 163178,
+      "email": 63931,
+      "website": 121035
+    },
+    "Fl": {
+      "total": 9,
+      "email": 0,
+      "website": 9
+    },
+    "Az": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    },
+    "fl": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    },
+    "Co": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "ct": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "co": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    }
+  },
+  "taxonomy_sample": [
+    {
+      "taxonomy": "{\"primary\":\"steakhouse\",\"hierarchy\":[\"food_and_drink\",\"restaurant\",\"meat_restaurant\",\"steakhouse\"],\"alternates\":null}",
+      "basic_category": "restaurant"
+    },
+    {
+      "taxonomy": "{\"primary\":\"tattoo_and_piercing\",\"hierarchy\":[\"lifestyle_services\",\"personal_or_beauty_service\",\"body_modification\",\"tattoo_and_piercing\"],\"alternates\":null}",
+      "basic_category": "personal_or_beauty_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"plastic_and_reconstructive_surgery\",\"hierarchy\":[\"health_care\",\"specialized_medical_facility\",\"surgery\",\"plastic_and_reconstructive_surgery\"],\"alternates\":null}",
+      "basic_category": "surgery"
+    },
+    {
+      "taxonomy": "{\"primary\":\"doctors_office\",\"hierarchy\":[\"health_care\",\"outpatient_care_facility\",\"diagnostics_imaging_or_lab_service\",\"doctors_office\"],\"alternates\":null}",
+      "basic_category": "diagnostics_imaging_or_lab_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"mortgage_broker\",\"hierarchy\":[\"services_and_business\",\"financial_service\",\"mortgage_broker\"],\"alternates\":null}",
+      "basic_category": "financial_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"professional_service\",\"hierarchy\":[\"services_and_business\",\"professional_service\"],\"alternates\":null}",
+      "basic_category": "professional_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"spa\",\"hierarchy\":[\"lifestyle_services\",\"wellness_service\",\"spa\"],\"alternates\":null}",
+      "basic_category": "wellness_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"second_hand_store\",\"hierarchy\":[\"shopping\",\"second_hand_store\"],\"alternates\":null}",
+      "basic_category": "second_hand_store"
+    },
+    {
+      "taxonomy": "{\"primary\":\"fence_and_gate_sales_service\",\"hierarchy\":[\"services_and_business\",\"home_service\",\"fence_and_gate_sales_service\"],\"alternates\":null}",
+      "basic_category": "home_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"animal_or_pet_service\",\"hierarchy\":[\"lifestyle_services\",\"animal_or_pet_service\"],\"alternates\":null}",
+      "basic_category": "animal_or_pet_service"
+    }
+  ],
+  "filtered_conf065": {
+    "total": 2215033,
+    "email": 707131,
+    "website": 1833768,
+    "email_pct": 31.92,
+    "website_pct": 82.79
+  },
+  "chunk_files": [
+    "overture_full1-1790462949.chunk000.parquet",
+    "overture_full1-1790462949.chunk001.parquet",
+    "overture_full1-1790462949.chunk002.parquet",
+    "overture_full1-1790462949.chunk003.parquet",
+    "overture_full1-1790462949.chunk004.parquet",
+    "overture_full1-1790462949.chunk005.parquet",
+    "overture_full1-1790462949.chunk006.parquet",
+    "overture_full1-1790462949.chunk007.parquet",
+    "overture_full1-1790462949.chunk008.parquet",
+    "overture_full1-1790462949.chunk009.parquet",
+    "overture_full1-1790462949.chunk010.parquet",
+    "overture_full1-1790462949.chunk011.parquet",
+    "overture_full1-1790462949.chunk012.parquet",
+    "overture_full1-1790462949.chunk013.parquet",
+    "overture_full1-1790462949.chunk014.parquet"
+  ],
+  "parquet_bytes": 303107489
+}
