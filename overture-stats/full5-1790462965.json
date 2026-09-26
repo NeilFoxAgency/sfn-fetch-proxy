@@ -1,0 +1,150 @@
+{
+  "extract_id": "full5-1790462965",
+  "release": "2026-09-23.1",
+  "states": [
+    "NH",
+    "NJ",
+    "NM",
+    "NY",
+    "OH",
+    "OK"
+  ],
+  "total": 2513770,
+  "with_email": 856002,
+  "with_website": 1951895,
+  "email_pct": 34.05,
+  "website_pct": 77.65,
+  "by_state": {
+    "NY": {
+      "total": 1054738,
+      "email": 327756,
+      "website": 792163
+    },
+    "OH": {
+      "total": 586161,
+      "email": 212480,
+      "website": 469291
+    },
+    "NJ": {
+      "total": 461126,
+      "email": 162526,
+      "website": 371268
+    },
+    "OK": {
+      "total": 222619,
+      "email": 83298,
+      "website": 167873
+    },
+    "NM": {
+      "total": 103307,
+      "email": 35272,
+      "website": 80830
+    },
+    "NH": {
+      "total": 85808,
+      "email": 34670,
+      "website": 70460
+    },
+    "oh": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    },
+    "Ok": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    },
+    "ny": {
+      "total": 2,
+      "email": 0,
+      "website": 1
+    },
+    "Oh": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    },
+    "ok": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "nh": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "nj": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    }
+  },
+  "taxonomy_sample": [
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    },
+    {
+      "taxonomy": "{\"primary\":\"home_inspector\",\"hierarchy\":[\"services_and_business\",\"home_service\",\"home_inspector\"],\"alternates\":null}",
+      "basic_category": "home_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"shoe_store\",\"hierarchy\":[\"shopping\",\"fashion_and_apparel_store\",\"shoe_store\"],\"alternates\":null}",
+      "basic_category": "fashion_and_apparel_store"
+    },
+    {
+      "taxonomy": "{\"primary\":\"blood_and_plasma_donation_center\",\"hierarchy\":[\"health_care\",\"medical_service\",\"blood_and_plasma_donation_center\"],\"alternates\":null}",
+      "basic_category": "medical_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"outpatient_care_facility\",\"hierarchy\":[\"health_care\",\"outpatient_care_facility\"],\"alternates\":null}",
+      "basic_category": "outpatient_care_facility"
+    },
+    {
+      "taxonomy": "{\"primary\":\"middle_school\",\"hierarchy\":[\"education\",\"place_of_learning\",\"school\",\"middle_school\"],\"alternates\":null}",
+      "basic_category": "middle_school"
+    },
+    {
+      "taxonomy": "{\"primary\":\"sandwich_shop\",\"hierarchy\":[\"food_and_drink\",\"casual_eatery\",\"sandwich_shop\"],\"alternates\":null}",
+      "basic_category": "casual_eatery"
+    },
+    {
+      "taxonomy": "{\"primary\":\"sport_or_fitness_facility\",\"hierarchy\":[\"sports_and_recreation\",\"sport_or_fitness_facility\"],\"alternates\":null}",
+      "basic_category": "sport_or_fitness_facility"
+    },
+    {
+      "taxonomy": "{\"primary\":\"warehouse\",\"hierarchy\":[\"services_and_business\",\"b2b_service\",\"b2b_transportation_and_storage_service\",\"b2b_storage\",\"warehouse\"],\"alternates\":null}",
+      "basic_category": "b2b_transportation_and_storage_service"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    }
+  ],
+  "filtered_conf065": {
+    "total": 2059678,
+    "email": 662151,
+    "website": 1682924,
+    "email_pct": 32.15,
+    "website_pct": 81.71
+  },
+  "chunk_files": [
+    "overture_full5-1790462965.chunk000.parquet",
+    "overture_full5-1790462965.chunk001.parquet",
+    "overture_full5-1790462965.chunk002.parquet",
+    "overture_full5-1790462965.chunk003.parquet",
+    "overture_full5-1790462965.chunk004.parquet",
+    "overture_full5-1790462965.chunk005.parquet",
+    "overture_full5-1790462965.chunk006.parquet",
+    "overture_full5-1790462965.chunk007.parquet",
+    "overture_full5-1790462965.chunk008.parquet",
+    "overture_full5-1790462965.chunk009.parquet",
+    "overture_full5-1790462965.chunk010.parquet",
+    "overture_full5-1790462965.chunk011.parquet",
+    "overture_full5-1790462965.chunk012.parquet",
+    "overture_full5-1790462965.chunk013.parquet"
+  ],
+  "parquet_bytes": 276026082
+}
