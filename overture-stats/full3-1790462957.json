@@ -1,0 +1,136 @@
+{
+  "extract_id": "full3-1790462957",
+  "release": "2026-09-23.1",
+  "states": [
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN"
+  ],
+  "total": 1819523,
+  "with_email": 668141,
+  "with_website": 1462694,
+  "email_pct": 36.72,
+  "website_pct": 80.39,
+  "by_state": {
+    "MI": {
+      "total": 507482,
+      "email": 188302,
+      "website": 405296
+    },
+    "MA": {
+      "total": 376453,
+      "email": 136707,
+      "website": 310486
+    },
+    "MD": {
+      "total": 302843,
+      "email": 105171,
+      "website": 245912
+    },
+    "MN": {
+      "total": 296325,
+      "email": 110887,
+      "website": 243274
+    },
+    "LA": {
+      "total": 245993,
+      "email": 88341,
+      "website": 187496
+    },
+    "ME": {
+      "total": 90419,
+      "email": 38733,
+      "website": 70222
+    },
+    "Mi": {
+      "total": 3,
+      "email": 0,
+      "website": 3
+    },
+    "Md": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    },
+    "la": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "Ma": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "Mn": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    }
+  },
+  "taxonomy_sample": [
+    {
+      "taxonomy": "{\"primary\":\"hotel\",\"hierarchy\":[\"lodging\",\"hotel\"],\"alternates\":null}",
+      "basic_category": "hotel"
+    },
+    {
+      "taxonomy": "{\"primary\":\"computer_wholesaler\",\"hierarchy\":[\"services_and_business\",\"b2b_service\",\"wholesaler\",\"computer_wholesaler\"],\"alternates\":null}",
+      "basic_category": "wholesaler"
+    },
+    {
+      "taxonomy": "{\"primary\":\"elementary_school\",\"hierarchy\":[\"education\",\"place_of_learning\",\"school\",\"elementary_school\"],\"alternates\":null}",
+      "basic_category": "elementary_school"
+    },
+    {
+      "taxonomy": "{\"primary\":\"historic_site\",\"hierarchy\":[\"cultural_and_historic\",\"historic_site\"],\"alternates\":null}",
+      "basic_category": "historic_site"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    },
+    {
+      "taxonomy": "{\"primary\":\"building_or_construction_service\",\"hierarchy\":[\"services_and_business\",\"building_or_construction_service\"],\"alternates\":null}",
+      "basic_category": "building_or_construction_service"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    },
+    {
+      "taxonomy": "{\"primary\":\"printing_service\",\"hierarchy\":[\"services_and_business\",\"printing_service\"],\"alternates\":null}",
+      "basic_category": "printing_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"auto_upholstery\",\"hierarchy\":[\"travel_and_transportation\",\"vehicle_service\",\"automotive_service\",\"auto_upholstery\"],\"alternates\":null}",
+      "basic_category": "automotive_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"health_care\",\"hierarchy\":[\"health_care\"],\"alternates\":null}",
+      "basic_category": "health_care"
+    }
+  ],
+  "filtered_conf065": {
+    "total": 1516291,
+    "email": 524491,
+    "website": 1266749,
+    "email_pct": 34.59,
+    "website_pct": 83.54
+  },
+  "chunk_files": [
+    "overture_full3-1790462957.chunk000.parquet",
+    "overture_full3-1790462957.chunk001.parquet",
+    "overture_full3-1790462957.chunk002.parquet",
+    "overture_full3-1790462957.chunk003.parquet",
+    "overture_full3-1790462957.chunk004.parquet",
+    "overture_full3-1790462957.chunk005.parquet",
+    "overture_full3-1790462957.chunk006.parquet",
+    "overture_full3-1790462957.chunk007.parquet",
+    "overture_full3-1790462957.chunk008.parquet",
+    "overture_full3-1790462957.chunk009.parquet"
+  ],
+  "parquet_bytes": 202303394
+}
