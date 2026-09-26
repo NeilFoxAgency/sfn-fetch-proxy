@@ -33,13 +33,24 @@ jobs:
         run: pip install duckdb pyarrow
 
       - name: Extract places
+        id: extract
         run: |
           python worker/overture_extract.py \
             --release "${{ inputs.release }}" \
             --states "${{ inputs.states }}" \
-            --out "overture_${{ inputs.extract_id }}.parquet"
+            --out "overture_${{ inputs.extract_id }}.parquet" 2>&1 | tee "extract_${{ inputs.extract_id }}.log"
+          echo "exit_code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Upload debug log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: overture-log-${{ inputs.extract_id }}
+          path: extract_${{ inputs.extract_id }}.log
+          retention-days: 7
 
       - name: Upload extract
+        if: steps.extract.outputs.exit_code == '0'
         uses: actions/upload-artifact@v4
         with:
           name: overture-${{ inputs.extract_id }}
