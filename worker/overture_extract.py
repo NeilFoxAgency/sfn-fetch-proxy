@@ -189,6 +189,35 @@ def _run(args, states: list[str], write_stats) -> int:
         flush=True,
     )
 
+    # For production imports: split parquet into chunks for git commit.
+    # Set SPLIT_MB env var to enable (e.g. 20 for 20MB chunks).
+    import os as _os
+
+    split_mb = int(_os.environ.get("SPLIT_MB", "0"))
+    chunk_files = []
+    if split_mb > 0:
+        import pyarrow.parquet as _pq
+
+        table = _pq.read_table(args.out)
+        total_bytes = _os.path.getsize(args.out)
+        # Rough: split into N row groups by byte size.
+        n_chunks = max(1, int(total_bytes / (split_mb * 1024 * 1024)) + 1)
+        rows_per_chunk = max(1, len(table) // n_chunks)
+        base = args.out.replace(".parquet", "")
+        for i in range(n_chunks):
+            chunk = table.slice(i * rows_per_chunk, rows_per_chunk)
+            # Last chunk gets the remainder.
+            if i == n_chunks - 1:
+                chunk = table.slice(i * rows_per_chunk)
+            if len(chunk) == 0:
+                continue
+            cf = f"{base}.chunk{i:03d}.parquet"
+            _pq.write_table(chunk, cf)
+            chunk_files.append(cf)
+        print(f"split into {len(chunk_files)} chunks (~{split_mb}MB target)", flush=True)
+    stats["chunk_files"] = [f.split("/")[-1] for f in chunk_files]
+    stats["parquet_bytes"] = _os.path.getsize(args.out)
+
     write_stats(stats)
     print(f"wrote stats", flush=True)
     return 0
