@@ -1,0 +1,12 @@
+[
+  {
+    "business_id": "test1",
+    "business_name": "Test 1",
+    "website": "https://www.starkapm.com"
+  },
+  {
+    "business_id": "test2",
+    "business_name": "Test 2",
+    "website": "https://www.example.com"
+  }
+]
