@@ -15,6 +15,11 @@ on:
         description: "Unique id for this extract (used in artifact name)"
         required: true
         type: string
+      split_mb:
+        description: "If set, split parquet into ~N MB chunks and commit them"
+        required: false
+        type: string
+        default: ""
 
 jobs:
   extract:
@@ -35,6 +40,8 @@ jobs:
       - name: Extract places
         id: extract
         run: |
+          set -o pipefail
+          export SPLIT_MB="${{ inputs.split_mb }}"
           python worker/overture_extract.py \
             --release "${{ inputs.release }}" \
             --states "${{ inputs.states }}" \
@@ -58,7 +65,27 @@ jobs:
           cp "overture_${{ inputs.extract_id }}.stats.json" "overture-stats/${{ inputs.extract_id }}.json" 2>/dev/null || echo "no stats (extract failed)"
           git add "overture-stats/${{ inputs.extract_id }}.json" 2>/dev/null || true
           git commit -m "overture stats ${{ inputs.extract_id }}" || echo "nothing to commit"
-          git push
+          # Retry push a few times (concurrent runs can collide).
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main 2>/dev/null || true
+            if git push; then break; fi
+            sleep 10
+          done
+
+      - name: Commit data chunks (for production import)
+        if: steps.extract.outputs.exit_code == '0' && inputs.split_mb != ''
+        run: |
+          git config user.name "sfn-fetch-bot"
+          git config user.email "sfn-fetch-bot@users.noreply.github.com"
+          mkdir -p "overture-data/${{ inputs.extract_id }}"
+          cp overture_${{ inputs.extract_id }}.chunk*.parquet "overture-data/${{ inputs.extract_id }}/" 2>/dev/null || echo "no chunks"
+          git add "overture-data/${{ inputs.extract_id }}/"
+          git commit -m "overture data ${{ inputs.extract_id }}" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main 2>/dev/null || true
+            if git push; then break; fi
+            sleep 10
+          done
 
       - name: Upload extract
         if: steps.extract.outputs.exit_code == '0'
