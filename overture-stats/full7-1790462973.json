@@ -1,0 +1,117 @@
+{
+  "extract_id": "full7-1790462973",
+  "release": "2026-09-23.1",
+  "states": [
+    "UT",
+    "VA",
+    "VT",
+    "WI",
+    "WV",
+    "WY"
+  ],
+  "total": 1097723,
+  "with_email": 400660,
+  "with_website": 888509,
+  "email_pct": 36.5,
+  "website_pct": 80.94,
+  "by_state": {
+    "VA": {
+      "total": 435058,
+      "email": 153009,
+      "website": 354555
+    },
+    "WI": {
+      "total": 323500,
+      "email": 123304,
+      "website": 262756
+    },
+    "UT": {
+      "total": 168149,
+      "email": 58326,
+      "website": 139354
+    },
+    "WV": {
+      "total": 83542,
+      "email": 29429,
+      "website": 61631
+    },
+    "WY": {
+      "total": 44441,
+      "email": 18196,
+      "website": 35625
+    },
+    "VT": {
+      "total": 43031,
+      "email": 18396,
+      "website": 34586
+    },
+    "Wy": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "Wi": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    }
+  },
+  "taxonomy_sample": [
+    {
+      "taxonomy": "{\"primary\":\"car_rental_service\",\"hierarchy\":[\"services_and_business\",\"rental_service\",\"vehicle_rental_service\",\"car_rental_service\"],\"alternates\":null}",
+      "basic_category": "rental_service"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    },
+    {
+      "taxonomy": "{\"primary\":\"neurology\",\"hierarchy\":[\"health_care\",\"outpatient_care_facility\",\"specialized_health_care\",\"neurology\"],\"alternates\":null}",
+      "basic_category": "specialized_health_care"
+    },
+    {
+      "taxonomy": "{\"primary\":\"barber\",\"hierarchy\":[\"lifestyle_services\",\"personal_or_beauty_service\",\"barber\"],\"alternates\":null}",
+      "basic_category": "personal_or_beauty_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"trailer_dealer\",\"hierarchy\":[\"shopping\",\"vehicle_dealer\",\"trailer_dealer\"],\"alternates\":null}",
+      "basic_category": "vehicle_dealer"
+    },
+    {
+      "taxonomy": "{\"primary\":\"arts_and_entertainment\",\"hierarchy\":[\"arts_and_entertainment\"],\"alternates\":null}",
+      "basic_category": "arts_and_entertainment"
+    },
+    {
+      "taxonomy": "{\"primary\":\"social_or_community_service\",\"hierarchy\":[\"community_and_government\",\"social_or_community_service\"],\"alternates\":null}",
+      "basic_category": "social_or_community_service"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    },
+    {
+      "taxonomy": "{\"primary\":\"carpenter\",\"hierarchy\":[\"services_and_business\",\"home_service\",\"carpenter\"],\"alternates\":null}",
+      "basic_category": "home_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"financial_service\",\"hierarchy\":[\"services_and_business\",\"financial_service\"],\"alternates\":null}",
+      "basic_category": "financial_service"
+    }
+  ],
+  "filtered_conf065": {
+    "total": 914430,
+    "email": 309892,
+    "website": 768139,
+    "email_pct": 33.89,
+    "website_pct": 84.0
+  },
+  "chunk_files": [
+    "overture_full7-1790462973.chunk000.parquet",
+    "overture_full7-1790462973.chunk001.parquet",
+    "overture_full7-1790462973.chunk002.parquet",
+    "overture_full7-1790462973.chunk003.parquet",
+    "overture_full7-1790462973.chunk004.parquet",
+    "overture_full7-1790462973.chunk005.parquet"
+  ],
+  "parquet_bytes": 122634586
+}
