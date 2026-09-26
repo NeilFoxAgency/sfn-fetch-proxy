@@ -1,0 +1,144 @@
+{
+  "extract_id": "full6-1790462969",
+  "release": "2026-09-23.1",
+  "states": [
+    "OR",
+    "PA",
+    "SC",
+    "SD",
+    "TN",
+    "TX"
+  ],
+  "total": 3220378,
+  "with_email": 1165477,
+  "with_website": 2541477,
+  "email_pct": 36.19,
+  "website_pct": 78.92,
+  "by_state": {
+    "TX": {
+      "total": 1623654,
+      "email": 570081,
+      "website": 1260954
+    },
+    "PA": {
+      "total": 645970,
+      "email": 235302,
+      "website": 523473
+    },
+    "TN": {
+      "total": 375085,
+      "email": 141070,
+      "website": 293105
+    },
+    "SC": {
+      "total": 284384,
+      "email": 104609,
+      "website": 225028
+    },
+    "OR": {
+      "total": 236921,
+      "email": 92286,
+      "website": 195760
+    },
+    "SD": {
+      "total": 54343,
+      "email": 22129,
+      "website": 43136
+    },
+    "tx": {
+      "total": 15,
+      "email": 0,
+      "website": 15
+    },
+    "Tx": {
+      "total": 3,
+      "email": 0,
+      "website": 3
+    },
+    "tn": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "Or": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "Pa": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    }
+  },
+  "taxonomy_sample": [
+    {
+      "taxonomy": "{\"primary\":\"b2b_business_management_service\",\"hierarchy\":[\"services_and_business\",\"b2b_service\",\"b2b_office_and_professional_service\",\"b2b_business_management_service\"],\"alternates\":null}",
+      "basic_category": "b2b_office_and_professional_service"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    },
+    {
+      "taxonomy": "{\"primary\":\"shopping\",\"hierarchy\":[\"shopping\"],\"alternates\":null}",
+      "basic_category": "shopping"
+    },
+    {
+      "taxonomy": "{\"primary\":\"religious_organization\",\"hierarchy\":[\"cultural_and_historic\",\"religious_organization\"],\"alternates\":null}",
+      "basic_category": "religious_organization"
+    },
+    {
+      "taxonomy": "{\"primary\":\"religious_organization\",\"hierarchy\":[\"cultural_and_historic\",\"religious_organization\"],\"alternates\":null}",
+      "basic_category": "religious_organization"
+    },
+    {
+      "taxonomy": "{\"primary\":\"holiday_rental_home\",\"hierarchy\":[\"lodging\",\"private_lodging\",\"holiday_rental_home\"],\"alternates\":null}",
+      "basic_category": "private_lodging"
+    },
+    {
+      "taxonomy": "{\"primary\":\"real_estate_service\",\"hierarchy\":[\"services_and_business\",\"real_estate_service\"],\"alternates\":null}",
+      "basic_category": "real_estate_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"lodging\",\"hierarchy\":[\"lodging\"],\"alternates\":null}",
+      "basic_category": "lodging"
+    },
+    {
+      "taxonomy": "{\"primary\":\"fairgrounds\",\"hierarchy\":[\"arts_and_entertainment\",\"festival_venue\",\"fairgrounds\"],\"alternates\":null}",
+      "basic_category": "fairgrounds"
+    },
+    {
+      "taxonomy": "{\"primary\":\"restaurant\",\"hierarchy\":[\"food_and_drink\",\"restaurant\"],\"alternates\":null}",
+      "basic_category": "restaurant"
+    }
+  ],
+  "filtered_conf065": {
+    "total": 2632193,
+    "email": 894414,
+    "website": 2180651,
+    "email_pct": 33.98,
+    "website_pct": 82.85
+  },
+  "chunk_files": [
+    "overture_full6-1790462969.chunk000.parquet",
+    "overture_full6-1790462969.chunk001.parquet",
+    "overture_full6-1790462969.chunk002.parquet",
+    "overture_full6-1790462969.chunk003.parquet",
+    "overture_full6-1790462969.chunk004.parquet",
+    "overture_full6-1790462969.chunk005.parquet",
+    "overture_full6-1790462969.chunk006.parquet",
+    "overture_full6-1790462969.chunk007.parquet",
+    "overture_full6-1790462969.chunk008.parquet",
+    "overture_full6-1790462969.chunk009.parquet",
+    "overture_full6-1790462969.chunk010.parquet",
+    "overture_full6-1790462969.chunk011.parquet",
+    "overture_full6-1790462969.chunk012.parquet",
+    "overture_full6-1790462969.chunk013.parquet",
+    "overture_full6-1790462969.chunk014.parquet",
+    "overture_full6-1790462969.chunk015.parquet",
+    "overture_full6-1790462969.chunk016.parquet",
+    "overture_full6-1790462969.chunk017.parquet"
+  ],
+  "parquet_bytes": 360256197
+}
