@@ -1,5 +1,7 @@
 name: Fetch business contact emails
 
+run-name: Fetch contacts ${{ inputs.batch_id }}
+
 on:
   workflow_dispatch:
     inputs:
