@@ -1,0 +1,148 @@
+{
+  "extract_id": "full2-1790462953",
+  "release": "2026-09-23.1",
+  "states": [
+    "GA",
+    "IA",
+    "IL",
+    "IN",
+    "KS",
+    "KY"
+  ],
+  "total": 2198852,
+  "with_email": 770844,
+  "with_website": 1728225,
+  "email_pct": 35.06,
+  "website_pct": 78.6,
+  "by_state": {
+    "IL": {
+      "total": 698729,
+      "email": 222584,
+      "website": 542902
+    },
+    "GA": {
+      "total": 591136,
+      "email": 205400,
+      "website": 467088
+    },
+    "IN": {
+      "total": 338218,
+      "email": 127639,
+      "website": 270807
+    },
+    "KY": {
+      "total": 229718,
+      "email": 83618,
+      "website": 175570
+    },
+    "IA": {
+      "total": 179027,
+      "email": 70801,
+      "website": 143476
+    },
+    "KS": {
+      "total": 162010,
+      "email": 60802,
+      "website": 128368
+    },
+    "Il": {
+      "total": 4,
+      "email": 0,
+      "website": 4
+    },
+    "ky": {
+      "total": 3,
+      "email": 0,
+      "website": 3
+    },
+    "Ga": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    },
+    "ga": {
+      "total": 2,
+      "email": 0,
+      "website": 2
+    },
+    "il": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "Ky": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "In": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    }
+  },
+  "taxonomy_sample": [
+    {
+      "taxonomy": "{\"primary\":\"pest_control_service\",\"hierarchy\":[\"services_and_business\",\"home_service\",\"pest_control_service\"],\"alternates\":null}",
+      "basic_category": "home_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"public_school\",\"hierarchy\":[\"education\",\"place_of_learning\",\"school\",\"public_school\"],\"alternates\":null}",
+      "basic_category": "place_of_learning"
+    },
+    {
+      "taxonomy": "{\"primary\":\"nutrition_service\",\"hierarchy\":[\"lifestyle_services\",\"wellness_service\",\"nutrition_service\"],\"alternates\":null}",
+      "basic_category": "wellness_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"cafe\",\"hierarchy\":[\"food_and_drink\",\"casual_eatery\",\"cafe\"],\"alternates\":null}",
+      "basic_category": "cafe"
+    },
+    {
+      "taxonomy": "{\"primary\":\"landscaping\",\"hierarchy\":[\"services_and_business\",\"home_service\",\"landscaping\"],\"alternates\":null}",
+      "basic_category": "home_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"b2b_marketing_consultant\",\"hierarchy\":[\"services_and_business\",\"b2b_service\",\"b2b_office_and_professional_service\",\"b2b_advertising_and_marketing_service\",\"b2b_marketing_consultant\"],\"alternates\":null}",
+      "basic_category": "b2b_office_and_professional_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"auto_detailing\",\"hierarchy\":[\"travel_and_transportation\",\"vehicle_service\",\"automotive_service\",\"auto_detailing\"],\"alternates\":null}",
+      "basic_category": "automotive_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"courier_and_delivery_service\",\"hierarchy\":[\"services_and_business\",\"shipping_or_delivery_service\",\"courier_and_delivery_service\"],\"alternates\":null}",
+      "basic_category": "shipping_or_delivery_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"b2b_business_management_service\",\"hierarchy\":[\"services_and_business\",\"b2b_service\",\"b2b_office_and_professional_service\",\"b2b_business_management_service\"],\"alternates\":null}",
+      "basic_category": "b2b_office_and_professional_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"real_estate_service\",\"hierarchy\":[\"services_and_business\",\"real_estate_service\"],\"alternates\":null}",
+      "basic_category": "real_estate_service"
+    }
+  ],
+  "filtered_conf065": {
+    "total": 1805480,
+    "email": 601101,
+    "website": 1499073,
+    "email_pct": 33.29,
+    "website_pct": 83.03
+  },
+  "chunk_files": [
+    "overture_full2-1790462953.chunk000.parquet",
+    "overture_full2-1790462953.chunk001.parquet",
+    "overture_full2-1790462953.chunk002.parquet",
+    "overture_full2-1790462953.chunk003.parquet",
+    "overture_full2-1790462953.chunk004.parquet",
+    "overture_full2-1790462953.chunk005.parquet",
+    "overture_full2-1790462953.chunk006.parquet",
+    "overture_full2-1790462953.chunk007.parquet",
+    "overture_full2-1790462953.chunk008.parquet",
+    "overture_full2-1790462953.chunk009.parquet",
+    "overture_full2-1790462953.chunk010.parquet",
+    "overture_full2-1790462953.chunk011.parquet"
+  ],
+  "parquet_bytes": 244185682
+}
