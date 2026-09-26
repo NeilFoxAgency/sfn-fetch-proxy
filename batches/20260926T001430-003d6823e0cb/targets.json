@@ -1,0 +1,27 @@
+[
+  {
+    "business_id": "t1",
+    "business_name": "Starka Property Management",
+    "website": "https://www.starkapm.com"
+  },
+  {
+    "business_id": "t2",
+    "business_name": "Pitch Perfect Roofing",
+    "website": "https://www.pitchperfectroofingllc.com"
+  },
+  {
+    "business_id": "t3",
+    "business_name": "Aspen Roofs",
+    "website": "https://www.roofsbyaspen.com"
+  },
+  {
+    "business_id": "t4",
+    "business_name": "BC Roofing",
+    "website": "https://www.bcroofingco.com"
+  },
+  {
+    "business_id": "t5",
+    "business_name": "Ready Roofer",
+    "website": "https://www.readyroofer.com"
+  }
+]
