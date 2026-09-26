@@ -22,6 +22,9 @@ import time
 
 
 def main() -> int:
+    import json as _json
+    import traceback
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--release", required=True, help="Overture release, e.g. 2026-09-23.1")
     parser.add_argument("--states", required=True, help="Comma-separated US state codes")
@@ -29,9 +32,31 @@ def main() -> int:
     args = parser.parse_args()
 
     states = sorted({s.strip().upper() for s in args.states.split(",") if s.strip()})
+    stats_path = args.out.replace(".parquet", ".stats.json")
+
+    def write_stats(extra: dict) -> None:
+        base = {
+            "extract_id": args.out.replace("overture_", "").replace(".parquet", ""),
+            "release": args.release,
+            "states": states,
+        }
+        base.update(extra)
+        with open(stats_path, "w") as fh:
+            _json.dump(base, fh, indent=2)
+
     if not states:
-        print("no states given", flush=True)
+        write_stats({"error": "no states given"})
         return 1
+
+    try:
+        return _run(args, states, write_stats)
+    except Exception as exc:  # noqa: BLE001 - diagnostics must survive
+        write_stats({"error": f"{type(exc).__name__}: {exc}", "traceback": traceback.format_exc()[-2000:]})
+        print(f"ERROR: {type(exc).__name__}: {exc}", flush=True)
+        return 1
+
+
+def _run(args, states: list[str], write_stats) -> int:
 
     import duckdb
 
@@ -136,12 +161,8 @@ def main() -> int:
             stats["taxonomy_sample"].append(
                 {"taxonomy": str(row[0])[:300], "basic_category": str(row[1])}
             )
-    stats_path = args.out.replace(".parquet", ".stats.json")
-    import json as _json
-
-    with open(stats_path, "w") as fh:
-        _json.dump(stats, fh, indent=2)
-    print(f"wrote stats to {stats_path}", flush=True)
+    write_stats(stats)
+    print(f"wrote stats", flush=True)
     return 0
 
 
