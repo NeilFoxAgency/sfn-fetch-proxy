@@ -106,7 +106,9 @@ def _run(args, states: list[str], write_stats) -> int:
     sample = probe.fetchone()
     print("sample:", str(sample)[:500], flush=True)
     # Stream straight to parquet; no giant in-memory frame.
-    conn.execute(f"COPY ({sql}) TO ? (FORMAT PARQUET)", [path, args.out])
+    # NOTE: COPY TO does not bind a second ? reliably; inline the local out
+    # path (fully controlled) and keep ? only for the S3 source.
+    conn.execute(f"COPY ({sql}) TO '{args.out}' (FORMAT PARQUET)", [path])
     elapsed = time.time() - started
 
     n = conn.execute("SELECT count(*) FROM read_parquet(?)", [args.out]).fetchone()[0]
