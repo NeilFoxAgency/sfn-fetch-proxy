@@ -1,0 +1,123 @@
+{
+  "extract_id": "full4-1790462961",
+  "release": "2026-09-23.1",
+  "states": [
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE"
+  ],
+  "total": 1278244,
+  "with_email": 483944,
+  "with_website": 1008489,
+  "email_pct": 37.86,
+  "website_pct": 78.9,
+  "by_state": {
+    "NC": {
+      "total": 573903,
+      "email": 212592,
+      "website": 457352
+    },
+    "MO": {
+      "total": 328576,
+      "email": 125172,
+      "website": 261532
+    },
+    "MS": {
+      "total": 147275,
+      "email": 55015,
+      "website": 106942
+    },
+    "NE": {
+      "total": 106435,
+      "email": 42516,
+      "website": 85297
+    },
+    "MT": {
+      "total": 74949,
+      "email": 30319,
+      "website": 59975
+    },
+    "ND": {
+      "total": 47103,
+      "email": 18330,
+      "website": 37388
+    },
+    "Mo": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "nc": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    },
+    "mo": {
+      "total": 1,
+      "email": 0,
+      "website": 1
+    }
+  },
+  "taxonomy_sample": [
+    {
+      "taxonomy": "{\"primary\":\"tobacco_shop\",\"hierarchy\":[\"shopping\",\"food_and_beverage_store\",\"tobacco_shop\"],\"alternates\":null}",
+      "basic_category": "food_and_beverage_store"
+    },
+    {
+      "taxonomy": "{\"primary\":\"liquor_store\",\"hierarchy\":[\"shopping\",\"food_and_beverage_store\",\"liquor_store\"],\"alternates\":null}",
+      "basic_category": "food_and_beverage_store"
+    },
+    {
+      "taxonomy": "{\"primary\":\"spa\",\"hierarchy\":[\"lifestyle_services\",\"wellness_service\",\"spa\"],\"alternates\":null}",
+      "basic_category": "wellness_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"beauty_salon\",\"hierarchy\":[\"lifestyle_services\",\"personal_or_beauty_service\",\"beauty_salon\"],\"alternates\":null}",
+      "basic_category": "personal_or_beauty_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"real_estate_agent\",\"hierarchy\":[\"services_and_business\",\"real_estate_service\",\"real_estate_agent\"],\"alternates\":null}",
+      "basic_category": "real_estate_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"seafood_restaurant\",\"hierarchy\":[\"food_and_drink\",\"restaurant\",\"seafood_restaurant\"],\"alternates\":null}",
+      "basic_category": "restaurant"
+    },
+    {
+      "taxonomy": "{\"primary\":\"painting\",\"hierarchy\":[\"services_and_business\",\"home_service\",\"painting\"],\"alternates\":null}",
+      "basic_category": "home_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"lighting_store\",\"hierarchy\":[\"shopping\",\"specialty_store\",\"hardware_home_and_garden_store\",\"lighting_store\"],\"alternates\":null}",
+      "basic_category": "hardware_home_and_garden_store"
+    },
+    {
+      "taxonomy": "{\"primary\":\"religious_organization\",\"hierarchy\":[\"cultural_and_historic\",\"religious_organization\"],\"alternates\":null}",
+      "basic_category": "religious_organization"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    }
+  ],
+  "filtered_conf065": {
+    "total": 1055889,
+    "email": 375983,
+    "website": 870715,
+    "email_pct": 35.61,
+    "website_pct": 82.46
+  },
+  "chunk_files": [
+    "overture_full4-1790462961.chunk000.parquet",
+    "overture_full4-1790462961.chunk001.parquet",
+    "overture_full4-1790462961.chunk002.parquet",
+    "overture_full4-1790462961.chunk003.parquet",
+    "overture_full4-1790462961.chunk004.parquet",
+    "overture_full4-1790462961.chunk005.parquet",
+    "overture_full4-1790462961.chunk006.parquet"
+  ],
+  "parquet_bytes": 143370729
+}
