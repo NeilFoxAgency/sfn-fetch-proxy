@@ -51,11 +51,16 @@ def main() -> int:
         return 2
 
     quoted = ", ".join(f"'{s}'" for s in states)
+    # Schema v2.0.0 (release >= 2026-09-23) removed `categories`; use
+    # `taxonomy` + top-level `basic_category` instead. String comparison
+    # works because releases are YYYY-MM-DD suffixed.
+    is_v2 = args.release >= "2026-09-23"
+    cat_cols = "taxonomy, basic_category" if is_v2 else "categories"
     sql = f"""
         SELECT
             id,
             names,
-            categories,
+            {cat_cols},
             confidence,
             websites,
             emails,
@@ -68,6 +73,13 @@ def main() -> int:
           AND upper(addresses[1].region) IN ({quoted})
     """
     started = time.time()
+    # Probe: log the actual column types so the VM side can adapt.
+    probe = conn.execute(
+        f"SELECT {cat_cols} FROM read_parquet(?) LIMIT 1", [path]
+    )
+    print("column types:", probe.description, flush=True)
+    sample = probe.fetchone()
+    print("sample:", str(sample)[:500], flush=True)
     # Stream straight to parquet; no giant in-memory frame.
     conn.execute(f"COPY ({sql}) TO ? (FORMAT PARQUET)", [path, args.out])
     elapsed = time.time() - started
