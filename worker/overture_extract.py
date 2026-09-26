@@ -98,6 +98,50 @@ def main() -> int:
         f"in {elapsed:.1f}s",
         flush=True,
     )
+
+    # Write a stats JSON for the VM to fetch via raw.githubusercontent.com
+    # (workflow artifacts live on blocked blob storage).
+    stats = {
+        "extract_id": args.out.replace("overture_", "").replace(".parquet", ""),
+        "release": args.release,
+        "states": states,
+        "total": n,
+        "with_email": with_email,
+        "with_website": with_website,
+        "email_pct": round(100.0 * with_email / max(n, 1), 2),
+        "website_pct": round(100.0 * with_website / max(n, 1), 2),
+        "by_state": {},
+        "taxonomy_sample": [],
+    }
+    for row in conn.execute(
+        """
+        SELECT addresses[1].region AS st, count(*) AS n,
+               sum(CASE WHEN len(emails) > 0 THEN 1 ELSE 0 END) AS e,
+               sum(CASE WHEN len(websites) > 0 THEN 1 ELSE 0 END) AS w
+        FROM read_parquet(?)
+        GROUP BY st ORDER BY n DESC
+        """,
+        [args.out],
+    ).fetchall():
+        stats["by_state"][row[0]] = {
+            "total": row[1],
+            "email": row[2],
+            "website": row[3],
+        }
+    if is_v2:
+        for row in conn.execute(
+            "SELECT taxonomy.primary, basic_category FROM read_parquet(?) LIMIT 10",
+            [args.out],
+        ).fetchall():
+            stats["taxonomy_sample"].append(
+                {"taxonomy_primary": str(row[0]), "basic_category": str(row[1])}
+            )
+    stats_path = args.out.replace(".parquet", ".stats.json")
+    import json as _json
+
+    with open(stats_path, "w") as fh:
+        _json.dump(stats, fh, indent=2)
+    print(f"wrote stats to {stats_path}", flush=True)
     return 0
 
 
