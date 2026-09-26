@@ -130,11 +130,11 @@ def main() -> int:
         }
     if is_v2:
         for row in conn.execute(
-            "SELECT taxonomy.primary, basic_category FROM read_parquet(?) LIMIT 10",
+            "SELECT to_json(taxonomy), basic_category FROM read_parquet(?) LIMIT 10",
             [args.out],
         ).fetchall():
             stats["taxonomy_sample"].append(
-                {"taxonomy_primary": str(row[0]), "basic_category": str(row[1])}
+                {"taxonomy": str(row[0])[:300], "basic_category": str(row[1])}
             )
     stats_path = args.out.replace(".parquet", ".stats.json")
     import json as _json
