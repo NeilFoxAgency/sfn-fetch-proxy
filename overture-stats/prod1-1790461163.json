@@ -1,0 +1,72 @@
+{
+  "extract_id": "prod1-1790461163",
+  "release": "2026-09-23.1",
+  "states": [
+    "SD"
+  ],
+  "total": 54343,
+  "with_email": 22129,
+  "with_website": 43136,
+  "email_pct": 40.72,
+  "website_pct": 79.38,
+  "by_state": {
+    "SD": {
+      "total": 54343,
+      "email": 22129,
+      "website": 43136
+    }
+  },
+  "taxonomy_sample": [
+    {
+      "taxonomy": "{\"primary\":\"home_improvement_store\",\"hierarchy\":[\"shopping\",\"specialty_store\",\"hardware_home_and_garden_store\",\"home_improvement_store\"],\"alternates\":null}",
+      "basic_category": "hardware_home_and_garden_store"
+    },
+    {
+      "taxonomy": "{\"primary\":\"tattoo_and_piercing\",\"hierarchy\":[\"lifestyle_services\",\"personal_or_beauty_service\",\"body_modification\",\"tattoo_and_piercing\"],\"alternates\":null}",
+      "basic_category": "personal_or_beauty_service"
+    },
+    {
+      "taxonomy": "{\"primary\":\"internal_medicine\",\"hierarchy\":[\"health_care\",\"outpatient_care_facility\",\"specialized_health_care\",\"internal_medicine\"],\"alternates\":null}",
+      "basic_category": "specialized_health_care"
+    },
+    {
+      "taxonomy": "{\"primary\":\"atm\",\"hierarchy\":[\"services_and_business\",\"financial_service\",\"atm\"],\"alternates\":null}",
+      "basic_category": "atm"
+    },
+    {
+      "taxonomy": "{\"primary\":\"gas_station\",\"hierarchy\":[\"travel_and_transportation\",\"fueling_station\",\"gas_station\"],\"alternates\":null}",
+      "basic_category": "gas_station"
+    },
+    {
+      "taxonomy": "{\"primary\":\"shooting_range\",\"hierarchy\":[\"sports_and_recreation\",\"sport_or_fitness_facility\",\"shooting_range\"],\"alternates\":null}",
+      "basic_category": "sport_or_fitness_facility"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    },
+    {
+      "taxonomy": "None",
+      "basic_category": "None"
+    },
+    {
+      "taxonomy": "{\"primary\":\"mortgage_lender\",\"hierarchy\":[\"services_and_business\",\"financial_service\",\"installment_loans\",\"mortgage_lender\"],\"alternates\":null}",
+      "basic_category": "financial_service"
+    }
+  ],
+  "filtered_conf065": {
+    "total": 45028,
+    "email": 17212,
+    "website": 37261,
+    "email_pct": 38.23,
+    "website_pct": 82.75
+  },
+  "chunk_files": [
+    "overture_prod1-1790461163.chunk000.parquet"
+  ],
+  "parquet_bytes": 6054900
+}
