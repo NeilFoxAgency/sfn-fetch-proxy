@@ -1,0 +1,502 @@
+[
+  {
+    "business_id": "hyd:websearch:ddg:menupix.com",
+    "business_name": "Sully County, SD Restaurant Guide",
+    "website": "https://www.menupix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:collectivecrop.com",
+    "business_name": "Farm-to-Table in Sully County, South Dakota",
+    "website": "https://collectivecrop.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:collectivecrop.com",
+    "business_name": "Local Food in Sully County, South Dakota",
+    "website": "https://collectivecrop.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:restaurantobserver.com",
+    "business_name": "14 Best Restaurants in Rapid City, SD [2026 Updated]",
+    "website": "https://restaurantobserver.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kindkitchenrecipes.com",
+    "business_name": "16 Best Restaurants in Deadwood, SD [2026 Updated]",
+    "website": "https://kindkitchenrecipes.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:opentable.com",
+    "business_name": "Restaurants near Sully Creek State Primitive Park",
+    "website": "https://www.opentable.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:trip.com",
+    "business_name": "10 BEST Sully County Hotels",
+    "website": "https://www.trip.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Best Hotels in Sully County",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:uk.hotels.com",
+    "business_name": "Hotels in Sully County",
+    "website": "https://uk.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:expedia.com",
+    "business_name": "Search Hotels in Sully County",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:in.trip.com",
+    "business_name": "10 Best Hotels in Sully County, United States",
+    "website": "https://in.trip.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:freemancountryinn.com",
+    "business_name": "Freeman Country Inn",
+    "website": "https://www.freemancountryinn.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:in.hotels.com",
+    "business_name": "Hotel Sully County",
+    "website": "https://in.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ca.hotels.com",
+    "business_name": "Book cheap Sully County hotel deals",
+    "website": "https://ca.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:prostrolloautomall.com",
+    "business_name": "New/ \u200eUsed Car Dealers Madison SD",
+    "website": "https://www.prostrolloautomall.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kelolandautomall.com",
+    "business_name": "KELOLAND Automall",
+    "website": "https://www.kelolandautomall.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:autotrader.com",
+    "business_name": "All Dealers in Madison, SD 57042",
+    "website": "https://www.autotrader.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:beadleautogroup.com",
+    "business_name": "Chrysler, Jeep & Ram, Chevrolet-GMC, Ford-Lincoln",
+    "website": "https://beadleautogroup.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:caredge.com",
+    "business_name": "Big Country Motors South Inc",
+    "website": "https://caredge.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kbb.com",
+    "business_name": "Car Dealerships in Madison, SD 57042",
+    "website": "https://www.kbb.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cars.com",
+    "business_name": "Car Dealerships in Canton, SD",
+    "website": "https://www.cars.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:caredge.com",
+    "business_name": "Corbin Cars",
+    "website": "https://caredge.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:frankmanmotors.com",
+    "business_name": "Frankman Motor Company",
+    "website": "https://frankmanmotors.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:bestplaces.net",
+    "business_name": "Sully County, SD Religion",
+    "website": "https://www.bestplaces.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ldsgenealogy.com",
+    "business_name": "Sully County SD Church Records",
+    "website": "https://ldsgenealogy.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:stacker.com",
+    "business_name": "Most popular religious groups in Sully County, SD",
+    "website": "https://stacker.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:genealogytrails.com",
+    "business_name": "Sully County, South Dakota Genealogy and History Records",
+    "website": "http://www.genealogytrails.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchesinusa.com",
+    "business_name": "Interdenominational Churches in Sully",
+    "website": "https://churchesinusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:nearfaith.com",
+    "business_name": "36 Churches in Sioux Falls, SD \u2014 Service Times",
+    "website": "https://www.nearfaith.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Churches in Sioux Falls, SD",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:milbanksd.com",
+    "business_name": "Churches",
+    "website": "https://www.milbanksd.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchdirectoryusa.com",
+    "business_name": "Churches in Sioux Falls, South Dakota \u2014 Find a Church Near You",
+    "website": "https://www.churchdirectoryusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churches.psalmlog.com",
+    "business_name": "Churches in Sioux Falls, SD",
+    "website": "https://churches.psalmlog.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:themobilecarmechanic.vercel.app",
+    "business_name": "Mobile Technicians in Sully County SD",
+    "website": "https://themobilecarmechanic.vercel.app"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:redrockautoandrepairables.com",
+    "business_name": "Mobile Car Repair in Sully County SD",
+    "website": "https://redrockautoandrepairables.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:instantcarfix.com",
+    "business_name": "Best Mobile Mechanic & Auto Repair in Sully, SD",
+    "website": "https://www.instantcarfix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sullyautofix.com",
+    "business_name": "Book Online",
+    "website": "https://www.sullyautofix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:russautocenter.com",
+    "business_name": "Mobile Mechanic in Sully County SD",
+    "website": "https://russautocenter.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:farleystorage.com",
+    "business_name": "Farley Storage",
+    "website": "https://www.farleystorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:savvystoragesd.com",
+    "business_name": "Affordable Self Storage Units in Box Elder, South Dakota",
+    "website": "https://www.savvystoragesd.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:moverscorp.com",
+    "business_name": "Sturgis SD Local Self Storage Units For Rent",
+    "website": "https://www.moverscorp.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sully.sdcounty.gov",
+    "business_name": "Sully County, South Dakota",
+    "website": "https://sully.sdcounty.gov"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:stagebarnstorage.com",
+    "business_name": "Stagebarn Storage",
+    "website": "https://stagebarnstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ustcheck.com",
+    "business_name": "Underground storage tanks & leak sites in Sully County, SD",
+    "website": "https://ustcheck.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:uhaul.com",
+    "business_name": "Self Storage Units Near Sioux Falls, SD 57101",
+    "website": "https://www.uhaul.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:travelmuse.com",
+    "business_name": "Sully County Shopping",
+    "website": "https://www.travelmuse.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:travelsouthdakota.com",
+    "business_name": "Best Places to Shop in South Dakota",
+    "website": "https://www.travelsouthdakota.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitrapidcity.com",
+    "business_name": "The Ultimate Guide For Shopping In Rapid City, SD",
+    "website": "https://www.visitrapidcity.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mallsandoutlets.com",
+    "business_name": "South Dakota Malls",
+    "website": "https://www.mallsandoutlets.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mallsinamerica.com",
+    "business_name": "Shopping malls in South Dakota",
+    "website": "https://www.mallsinamerica.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:en.wikipedia.org",
+    "business_name": "Sully County, South Dakota",
+    "website": "https://en.wikipedia.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:scullycompany.com",
+    "business_name": "Property Management",
+    "website": "https://www.scullycompany.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dakotarealty.com",
+    "business_name": "Dakota Realty & Property Management",
+    "website": "https://dakotarealty.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:business.spearfishchamber.org",
+    "business_name": "Property Management QuickLink Category",
+    "website": "https://business.spearfishchamber.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:elationproperties.com",
+    "business_name": "Elation Properties",
+    "website": "https://elationproperties.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:brookingspm.com",
+    "business_name": "Brookings Property Management",
+    "website": "https://brookingspm.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:propertymanagement.com",
+    "business_name": "Property Management Companies in South Dakota",
+    "website": "https://propertymanagement.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:luke.properties",
+    "business_name": "Luke Properties \u2014 Sioux Falls Rentals, Property Management & Real ...",
+    "website": "https://luke.properties"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:propertymanage.biz",
+    "business_name": "JS Property Specialists, LLC",
+    "website": "https://propertymanage.biz"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:residepropertymanagement.com",
+    "business_name": "Reside Property Management",
+    "website": "https://residepropertymanagement.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sully.sdcounty.gov",
+    "business_name": "Offices",
+    "website": "https://sully.sdcounty.gov"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sully.sdcounty.gov",
+    "business_name": "Buildings and Grounds",
+    "website": "https://sully.sdcounty.gov"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:southdakotacountyoffices.org",
+    "business_name": "Sully County Offices",
+    "website": "https://southdakotacountyoffices.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dakotaathome.sd.gov",
+    "business_name": "Treasurer and Planning and Zoning Office",
+    "website": "https://dakotaathome.sd.gov"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dakotaathome.sd.gov",
+    "business_name": "GIS Office",
+    "website": "https://dakotaathome.sd.gov"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dmvpathway.com",
+    "business_name": "Sully County Building Permit & Zoning Office",
+    "website": "https://dmvpathway.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:gis.districtiii.org",
+    "business_name": "Sully County Web Viewer",
+    "website": "https://gis.districtiii.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:countyoffice.org",
+    "business_name": "Sully County Government Offices",
+    "website": "https://www.countyoffice.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:iabstract.com",
+    "business_name": "Sully County, South Dakota \u2014 Recorder, Assessor & County Offices",
+    "website": "https://iabstract.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Sully County, SD Warehouses For Sale",
+    "website": "https://www.cityfeet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Warehouses for Sale in Sully County",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realtorluxuryhome.com",
+    "business_name": "Industrial Property in Sully County, South Dakota",
+    "website": "https://realtorluxuryhome.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:indeed.com",
+    "business_name": "warehouses jobs in Sully County, SD",
+    "website": "https://www.indeed.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:indeed.com",
+    "business_name": "general warehouse jobs in Sully County, SD",
+    "website": "https://www.indeed.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Sully County, SD Industrial Properties For Sale",
+    "website": "https://www.cityfeet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Sully County, SD Commercial real estate for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:southdakotasearchlight.com",
+    "business_name": "Sully County, home to SD's largest data center, would welcome more with ...",
+    "website": "https://southdakotasearchlight.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Sully County Commercial Real Estate for Sale",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:bestplaces.net",
+    "business_name": "Sully, SD Religion",
+    "website": "https://www.bestplaces.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:bestplaces.net",
+    "business_name": "Sully County, SD Religion",
+    "website": "https://www.bestplaces.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sullycrc.org",
+    "business_name": "Sully CRC",
+    "website": "https://sullycrc.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchesinusa.com",
+    "business_name": "Independent Churches in Sully",
+    "website": "https://churchesinusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sullycommunitychurch.com",
+    "business_name": "Our Ministries",
+    "website": "https://sullycommunitychurch.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sullycrc.org",
+    "business_name": "Ministries",
+    "website": "https://sullycrc.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchesinusa.com",
+    "business_name": "Lutheran Churches in Sully",
+    "website": "https://churchesinusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sullyfrc.org",
+    "business_name": "The Informer \u2014 FRC",
+    "website": "https://www.sullyfrc.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ldsgenealogy.com",
+    "business_name": "Sully County SD Church Records",
+    "website": "https://ldsgenealogy.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sullycommunitychurch.com",
+    "business_name": "Live Live Stream given at Sully Community Church",
+    "website": "https://sullycommunitychurch.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:jerryscars.com",
+    "business_name": "New Cars, Trucks & SUVs for Sale",
+    "website": "https://www.jerryscars.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:beadleautogroup.com",
+    "business_name": "Chrysler, Jeep & Ram, Chevrolet-GMC, Ford-Lincoln",
+    "website": "https://beadleautogroup.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:summitautogrp.com",
+    "business_name": "Used Cars For Sale",
+    "website": "https://www.summitautogrp.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kelolandautomall.com",
+    "business_name": "KELOLAND Automall",
+    "website": "https://www.kelolandautomall.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:frontiermotors.com",
+    "business_name": "Winner's Frontier Motors",
+    "website": "https://www.frontiermotors.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:verneide.com",
+    "business_name": "Vern Eide",
+    "website": "https://www.verneide.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:prostrolloautomall.com",
+    "business_name": "New/ \u200eUsed Car Dealers Madison SD",
+    "website": "https://www.prostrolloautomall.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lambmotor.com",
+    "business_name": "All Used Inventory",
+    "website": "https://www.lambmotor.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:billionauto.com",
+    "business_name": "New and Used Vehicles for Sale",
+    "website": "https://www.billionauto.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sfarenastorage.com",
+    "business_name": "Arena Storage: Rent Storage",
+    "website": "https://www.sfarenastorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:savvystoragesd.com",
+    "business_name": "View Rates",
+    "website": "https://www.savvystoragesd.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Sully County, SD Storage Facilities For Sale",
+    "website": "https://www.cityfeet.com"
+  }
+]
