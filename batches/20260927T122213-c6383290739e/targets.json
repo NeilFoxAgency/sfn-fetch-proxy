@@ -1,0 +1,27 @@
+[
+  {
+    "business_id": "hyd:osm:osm:node/6080808110",
+    "business_name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/tx/bowie/1518-highway-59-n"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/11929681593",
+    "business_name": "Bowie Pet Clinic",
+    "website": "https://www.bowiepetclinic.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/12288642068",
+    "business_name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/tx/bowie/307-east-wise-street/13077.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/564917859",
+    "business_name": "Bowie Church",
+    "website": "https://bowietx.adventistchurch.org/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/898018092",
+    "business_name": "Best Western",
+    "website": "https://www.bestwestern.com/en_US/book/hotels-in-bowie/best-western-bowie-inn-suites/propertyCode.44647.html"
+  }
+]
