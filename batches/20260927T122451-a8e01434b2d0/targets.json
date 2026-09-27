@@ -1,0 +1,502 @@
+[
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Best Hotels in Montague County",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:trip.com",
+    "business_name": "10 BEST Montague County Hotels",
+    "website": "https://www.trip.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:expedia.com",
+    "business_name": "Top 10 Hotels in Montague, TX (from $68) 2026",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:tripadvisor.in",
+    "business_name": "\ud835\udde7\ud835\udddb\ud835\uddd8 \ud835\uddd5\ud835\uddd8\ud835\udde6\ud835\udde7 Hotels in Montague of 2026",
+    "website": "https://www.tripadvisor.in"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:booking.com",
+    "business_name": "Search hotels in Montague, TX",
+    "website": "https://www.booking.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Discover Montague Hotels for Your 2026 Getaway",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:montage.com",
+    "business_name": "Impeccable Hospitality",
+    "website": "https://www.montage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lipscomb-auto-center.wheree.com",
+    "business_name": "LIPSCOMB AUTO CENTER",
+    "website": "https://lipscomb-auto-center.wheree.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:whereorg.com",
+    "business_name": "Montague, Texas (TX) New And Used Car Dealers Companies",
+    "website": "https://www.whereorg.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:chaconautos.com",
+    "business_name": "Chacon Autos",
+    "website": "https://www.chaconautos.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usedcarsguru.com",
+    "business_name": "Montague Used Cars Dealerships in TX",
+    "website": "https://usedcarsguru.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:agreatertown.com",
+    "business_name": "Kory Hooks Ford",
+    "website": "https://agreatertown.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:local.dmv.org",
+    "business_name": "Car & Truck Dealerships, Montague County, Texas",
+    "website": "https://local.dmv.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:teamsewell.com",
+    "business_name": "Sewell Family of Companies",
+    "website": "https://www.teamsewell.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:geebo.com",
+    "business_name": "Kory Hooks CDJR in Bowie Texas",
+    "website": "https://geebo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:provenexpert.com",
+    "business_name": "Kory Hooks CDJR Reviews & Experiences",
+    "website": "https://www.provenexpert.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:opentable.com",
+    "business_name": "The Best Restaurants in Montague County Right Now",
+    "website": "https://www.opentable.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:trip.com",
+    "business_name": "The best restaurants in Montague County",
+    "website": "https://www.trip.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usarestaurants.info",
+    "business_name": "Explore Restaurants in Montague county, Texas, United states",
+    "website": "https://usarestaurants.info"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:menupix.com",
+    "business_name": "Montague County, TX American Restaurants Guide",
+    "website": "https://www.menupix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:restaurantji.com",
+    "business_name": "Best Local Restaurants near Montague, TX",
+    "website": "https://www.restaurantji.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:localmo.co",
+    "business_name": "Montague County Business Directory \u2014 LocalMoCo",
+    "website": "https://localmo.co"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Churches in Montague TX",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Churches in Montague, TX",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:montaguecountycowboychurch.org",
+    "business_name": "Montague County Cowboy Church",
+    "website": "https://www.montaguecountycowboychurch.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchesinusa.com",
+    "business_name": "Churches in Montague",
+    "website": "https://churchesinusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:thechurchmap.com",
+    "business_name": "Montague County Cowboy Church",
+    "website": "https://thechurchmap.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:learnofchrist.com",
+    "business_name": "Montague County Cowboy Church \u00b7 Montague, TX \u00b7 Learn of Christ",
+    "website": "https://learnofchrist.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Churches in Montague",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:property-management-today.com",
+    "business_name": "Montague Apartments",
+    "website": "https://www.property-management-today.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:montaguerealestate.com",
+    "business_name": "Welcome to Montague",
+    "website": "https://www.montaguerealestate.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:willowbridgepc.com",
+    "business_name": "Willow Bridge Property Company",
+    "website": "https://www.willowbridgepc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:montaguepropertymanagement.com",
+    "business_name": "Services",
+    "website": "http://www.montaguepropertymanagement.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:co.montague.tx.us",
+    "business_name": "Montague County Texas",
+    "website": "https://www.co.montague.tx.us"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "Storage Units in Montague, TX",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:straightstorage.com",
+    "business_name": "Self Storage Facility in Montague TX",
+    "website": "https://www.straightstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagearea.com",
+    "business_name": "Cheap Self Storage Units in Montague, TX",
+    "website": "https://www.storagearea.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ustorage.com",
+    "business_name": "Storage and Self Storage Montague, TX",
+    "website": "https://www.ustorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagecafe.com",
+    "business_name": "Storage Units in Bowie, Montague County, TX",
+    "website": "https://www.storagecafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "Small Storage Units in Montague, TX",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:rentcafe.com",
+    "business_name": "Cheap Storage Units in Bowie, Montague County, TX, from $40",
+    "website": "https://www.rentcafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:movingideas.org",
+    "business_name": "Montague, TX Self Storage",
+    "website": "https://www.movingideas.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:saintjochamber.com",
+    "business_name": "HOME",
+    "website": "https://www.saintjochamber.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:theshopperonline.biz",
+    "business_name": "The Shopper Online, Bowie Texas",
+    "website": "https://theshopperonline.biz"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:fortworth.com",
+    "business_name": "Fort Worth Shopping Guide",
+    "website": "https://www.fortworth.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:texasantiquetrail.com",
+    "business_name": "Texas Antique Trail",
+    "website": "https://www.texasantiquetrail.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kbb.com",
+    "business_name": "Auto Repair Shops near Montague, TX",
+    "website": "https://www.kbb.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:skeltonsshop.com",
+    "business_name": "Montague, Texas",
+    "website": "https://skeltonsshop.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:instantcarfix.com",
+    "business_name": "Best Mobile Mechanic & Auto Repair in Montague, TX",
+    "website": "https://www.instantcarfix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:instantcarfix.com",
+    "business_name": "Best Mobile Car Mechanic Auto Repair [2024] in Montague, TX",
+    "website": "https://www.instantcarfix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:themobilecarmechanic.vercel.app",
+    "business_name": "Mobile Car Repair in Montague County TX",
+    "website": "https://themobilecarmechanic.vercel.app"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:us-business.info",
+    "business_name": "Montague, TX",
+    "website": "https://us-business.info"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Montague County, TX Warehouses for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Montague County, TX Warehouses for Rent & Lease",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:showcase.com",
+    "business_name": "Montague County Industrial and Warehouse Space For Rent",
+    "website": "https://www.showcase.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Montague County, TX Warehouses For Sale",
+    "website": "https://www.cityfeet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:showcase.com",
+    "business_name": "Montague County Warehouses For Sale",
+    "website": "https://www.showcase.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:commercialsearch.com",
+    "business_name": "Montague County, TX Industrial Warehouse for Sale",
+    "website": "https://www.commercialsearch.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Montague County, TX Industrial Properties For Sale",
+    "website": "https://www.cityfeet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:spanvor.com",
+    "business_name": "Montague County, TX Industrial Market",
+    "website": "https://spanvor.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:amzprep.com",
+    "business_name": "Amazon Warehouse & Fulfillment Center Locations 2026",
+    "website": "https://amzprep.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "Montague County Industrial Property for Sale",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Churches in Montague, TX",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Churches in Montague TX",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Churches in Montague",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchesinusa.com",
+    "business_name": "Churches in Montague",
+    "website": "https://churchesinusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churches-in.com",
+    "business_name": "Montague Texas Churches",
+    "website": "https://www.churches-in.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:joinmychurch.com",
+    "business_name": "Churches in Montague Texas",
+    "website": "https://www.joinmychurch.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:stmarycatholichenrietta.org",
+    "business_name": "St. William-Montague",
+    "website": "https://stmarycatholichenrietta.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:whereorg.com",
+    "business_name": "Montague, Texas (TX) New And Used Car Dealers Companies",
+    "website": "https://www.whereorg.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usedcarsguru.com",
+    "business_name": "Montague Used Cars Dealerships in TX",
+    "website": "https://usedcarsguru.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:toyota.com",
+    "business_name": "Toyota Dealerships",
+    "website": "https://www.toyota.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cargurus.com",
+    "business_name": "Used Cars for Sale in Montague, TX",
+    "website": "https://www.cargurus.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:charlieclark.com",
+    "business_name": "Charlie Clark Auto Group",
+    "website": "https://www.charlieclark.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:buyherepayhere.autotrader.com",
+    "business_name": "Buy Here Pay Here Car Dealers Near Montague, Texas 76251",
+    "website": "https://buyherepayhere.autotrader.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cargurus.com",
+    "business_name": "Reliable Cars For Sale in Montague, TX",
+    "website": "https://www.cargurus.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:centennialchrysler.com",
+    "business_name": "Centennial Chrysler Dodge Jeep RAM in Montague",
+    "website": "https://www.centennialchrysler.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Montague County, TX Office Buildings for Sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Montague County, TX Office Spaces for Rent & Lease",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "Montague County Office Spaces for Sale",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Montague County, TX Office Space For Lease",
+    "website": "https://www.cityfeet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Montague County, TX Commercial Real Estate for Sale",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:thecountyoffice.com",
+    "business_name": "Government Offices in Montague County, TX",
+    "website": "https://www.thecountyoffice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dmvpathway.com",
+    "business_name": "Montague County Building Permit & Zoning Office",
+    "website": "https://dmvpathway.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:restaurantji.com",
+    "business_name": "Best Local Restaurants near Montague, TX",
+    "website": "https://www.restaurantji.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:menupix.com",
+    "business_name": "Montague, TX Restaurant Guide",
+    "website": "https://www.menupix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:tripadvisor.in",
+    "business_name": "Best Restaurants in Montague, TX",
+    "website": "https://www.tripadvisor.in"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:us-business.info",
+    "business_name": "Restaurants in Montague, TX",
+    "website": "https://us-business.info"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "Storage Units in Montague, TX",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:straightstorage.com",
+    "business_name": "Self Storage Facility in Montague TX",
+    "website": "https://www.straightstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagearea.com",
+    "business_name": "Cheap Self Storage Units in Montague, TX",
+    "website": "https://www.storagearea.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "Small Storage Units in Montague, TX",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:straightstorage.com",
+    "business_name": "Rent Storage in Montague, TX",
+    "website": "https://www.straightstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:movingideas.org",
+    "business_name": "Montague, TX Self Storage",
+    "website": "https://www.movingideas.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ustorage.com",
+    "business_name": "Storage and Self Storage Montague, TX",
+    "website": "https://www.ustorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kbb.com",
+    "business_name": "Auto Repair Shops near Montague, TX",
+    "website": "https://www.kbb.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotfrog.com",
+    "business_name": "A To Z Professional Services 7147 State Highway 175, Montague, TX ...",
+    "website": "https://www.hotfrog.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:skeltonsshop.com",
+    "business_name": "Montague, Texas",
+    "website": "https://skeltonsshop.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:instantcarfix.com",
+    "business_name": "Best Mobile Mechanic & Auto Repair in Montague, TX",
+    "website": "https://www.instantcarfix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:instantcarfix.com",
+    "business_name": "Mobile Mechanic in Montague, TX",
+    "website": "https://www.instantcarfix.com"
+  }
+]
