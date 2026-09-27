@@ -1,0 +1,22 @@
+[
+  {
+    "business_id": "hyd:osm:osm:node/11378886318",
+    "business_name": "InnHabit",
+    "website": "https://www.innhabit.com"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/264231024",
+    "business_name": "Meers",
+    "website": "https://www.travelok.com/listings/view.profile/id.5010"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/576099519",
+    "business_name": "Sonic",
+    "website": "https://locations.sonicdrivein.com/ok/medicinepark/24125-south-highway-49.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/576099521",
+    "business_name": "Burger King",
+    "website": "https://www.bk.com/store-locator/store/restaurant_6026"
+  }
+]
