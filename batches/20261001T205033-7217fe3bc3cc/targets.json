@@ -1,0 +1,442 @@
+[
+  {
+    "business_id": "hyd:websearch:ddg:napaonline.com",
+    "business_name": "Auto Repair Shops in Platte City, MO",
+    "website": "https://www.napaonline.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:carfax.com",
+    "business_name": "Top Rated Auto Repair near Platte City, MO",
+    "website": "https://www.carfax.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:publicstorage.com",
+    "business_name": "Self-Storage Units & Facilities near Platte City, MO",
+    "website": "https://www.publicstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagecafe.com",
+    "business_name": "Storage Units in Platte, MO",
+    "website": "https://www.storagecafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:publicstorage.com",
+    "business_name": "Platte City, MO, Self-Storage Near 2700 NW Prairie View Rd",
+    "website": "https://www.publicstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:rentcafe.com",
+    "business_name": "Cheap Storage Units in Platte, MO, from $12",
+    "website": "https://www.rentcafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagecafe.com",
+    "business_name": "Attic Storage",
+    "website": "https://www.storagecafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:attic-storage.com",
+    "business_name": "Attic Storage Platte County",
+    "website": "https://www.attic-storage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ustorage.com",
+    "business_name": "Storage and Self Storage Platte, MO",
+    "website": "https://www.ustorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:recnationstorage.com",
+    "business_name": "Self Storage in Platte City, MO",
+    "website": "https://www.recnationstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagearea.com",
+    "business_name": "Cheap Self Storage Units in Platte City, MO",
+    "website": "https://www.storagearea.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:jpsrvcs.com",
+    "business_name": "Platte County General Contracting",
+    "website": "https://jpsrvcs.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:jackduncanconstruction.com",
+    "business_name": "Home Remodeling Contractor Platte City, MO",
+    "website": "https://jackduncanconstruction.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:findglocal.com",
+    "business_name": "Contractors in Platte City, MO",
+    "website": "https://www.findglocal.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:roof.info",
+    "business_name": "Platte County Roofing Contractors",
+    "website": "https://www.roof.info"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:diamondcertified.org",
+    "business_name": "Top Rated Roofing Contractors for Platte County, MO",
+    "website": "https://www.diamondcertified.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:christianbrothersroofingllc.com",
+    "business_name": "Platte County, MO Roofing Contractor",
+    "website": "https://www.christianbrothersroofingllc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usqualityconstruction.com",
+    "business_name": "Roofing Contractor Platte County MO",
+    "website": "https://www.usqualityconstruction.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:roofreport.net",
+    "business_name": "Best roofers in Platte County, MO",
+    "website": "https://www.roofreport.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kcxroof.com",
+    "business_name": "Best Roofing Company in Platte City, MO",
+    "website": "https://www.kcxroof.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:aaroyalcontracting.com",
+    "business_name": "Platte County's #1 Most Reliable Roofing Repairs and Replacement",
+    "website": "https://aaroyalcontracting.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:akcprosroofing.com",
+    "business_name": "Roofing Contractor in the Platte County Area",
+    "website": "https://www.akcprosroofing.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:shawneerestoration.com",
+    "business_name": "Storm Damage Restoration Services in Platte County, MO",
+    "website": "https://shawneerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:independencerestorationservice.com",
+    "business_name": "Storm Damage Restoration Services in Platte County, MO",
+    "website": "https://independencerestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lenexarestoration.com",
+    "business_name": "Storm Damage Restoration Services in Platte County, MO",
+    "website": "https://lenexarestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:shawneerestoration.com",
+    "business_name": "Storm Damage Cleanup Services in Platte County, MO",
+    "website": "https://shawneerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lenexarestoration.com",
+    "business_name": "Storm Damage Cleanup Services in Platte County, MO",
+    "website": "https://lenexarestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:servpro.com",
+    "business_name": "Storm Damage Repair & Flood Remediation near Riverside, MO",
+    "website": "https://www.servpro.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:overlandparkrestorationservice.com",
+    "business_name": "Disaster Restoration Services in Platte County, MO",
+    "website": "https://overlandparkrestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:overlandparkrestorationservice.com",
+    "business_name": "Storm Damage Repair Services in Platte County, MO",
+    "website": "https://overlandparkrestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kansascityrestorationservice.com",
+    "business_name": "Storm Damage Restoration Services in Platte County, MO",
+    "website": "https://kansascityrestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kansascityrestorationservice.com",
+    "business_name": "Storm Damage Repair Services in Platte County, MO",
+    "website": "https://kansascityrestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagewizards.com",
+    "business_name": "Platte County MO Water Damage Restoration Services",
+    "website": "https://waterdamagewizards.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:superbestwaterdamage.com",
+    "business_name": "Water Damage Restoration Services in Platte County MO",
+    "website": "https://superbestwaterdamage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:heartlandflood.com",
+    "business_name": "Platte County MO Water Damage Restoration",
+    "website": "https://www.heartlandflood.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ontimewaterdamagerestoration.com",
+    "business_name": "Platte County MO Water Damage Restoration",
+    "website": "https://ontimewaterdamagerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lenexarestoration.com",
+    "business_name": "Water Damage Restoration Services in Platte County, MO",
+    "website": "https://lenexarestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagerenovations.com",
+    "business_name": "Water Damage Restoration in Platte County MO",
+    "website": "https://waterdamagerenovations.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:elitefirewaterdamage.com",
+    "business_name": "Elite Fire Water Damage Restoration in Platte County MO",
+    "website": "https://elitefirewaterdamage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:elsegundowaterdamage.com",
+    "business_name": "El Segundo Water Damage Restoration Services in Platte County MO",
+    "website": "https://elsegundowaterdamage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:servpro.com",
+    "business_name": "Platte City Fire and Water Damage Restoration and Cleaning Services ...",
+    "website": "https://www.servpro.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagerepairandrestoration.com",
+    "business_name": "Water Damage Repair and Restoration in Platte County MO",
+    "website": "https://waterdamagerepairandrestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:roofreport.net",
+    "business_name": "Best roofers in Platte County, MO",
+    "website": "https://www.roofreport.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:roof.info",
+    "business_name": "Platte County Roofing Contractors",
+    "website": "https://www.roof.info"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kcxroof.com",
+    "business_name": "Best Roofing Company in Platte City, MO",
+    "website": "https://www.kcxroof.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:empowerrestorations.com",
+    "business_name": "Roofing Contractor in Platte City, MO",
+    "website": "https://empowerrestorations.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:christianbrothersroofingllc.com",
+    "business_name": "Platte County, MO Roofing Contractor",
+    "website": "https://www.christianbrothersroofingllc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:jackduncanconstruction.com",
+    "business_name": "Home Remodeling Contractor Platte City, MO",
+    "website": "https://jackduncanconstruction.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:jpsrvcs.com",
+    "business_name": "Platte County General Contracting",
+    "website": "https://jpsrvcs.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:merchantcircle.com",
+    "business_name": "10 Best General Contractors in Platte City, MO",
+    "website": "https://www.merchantcircle.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:independencerestorationservice.com",
+    "business_name": "Get Storm Damage Restoration in Platte County, MO",
+    "website": "https://independencerestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lenexarestoration.com",
+    "business_name": "Get Storm Damage Restoration in Platte County, MO",
+    "website": "https://lenexarestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:shawneerestoration.com",
+    "business_name": "Storm Damage Restoration Services in Platte County, MO",
+    "website": "https://shawneerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:shawneerestoration.com",
+    "business_name": "Disaster Restoration Services in Platte County, MO",
+    "website": "https://shawneerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kansascityrestorationservice.com",
+    "business_name": "Storm Damage Restoration Services in Platte County, MO",
+    "website": "https://kansascityrestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lenexarestoration.com",
+    "business_name": "Storm Damage Cleanup Services in Platte County, MO",
+    "website": "https://lenexarestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kansascityrestorationservice.com",
+    "business_name": "Storm Damage Repair Services in Platte County, MO",
+    "website": "https://kansascityrestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:overlandparkrestorationservice.com",
+    "business_name": "Storm Damage Repair Services in Platte County, MO",
+    "website": "https://overlandparkrestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:overlandparkrestorationservice.com",
+    "business_name": "Storm Damage Cleanup Services in Platte County, MO",
+    "website": "https://overlandparkrestorationservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:servpro.com",
+    "business_name": "Storm Damage Repair & Flood Remediation near Riverside, MO",
+    "website": "https://www.servpro.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagesupport.com",
+    "business_name": "Water Damage Restoration in Platte MO",
+    "website": "https://waterdamagesupport.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ontimewaterdamagerestoration.com",
+    "business_name": "Platte County MO Water Damage Restoration",
+    "website": "https://ontimewaterdamagerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:superbestwaterdamage.com",
+    "business_name": "Water Damage Restoration Services in Platte County MO",
+    "website": "https://superbestwaterdamage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagerestore247.com",
+    "business_name": "Water Damage Restoration Platte City, MO",
+    "website": "https://waterdamagerestore247.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:lenexarestoration.com",
+    "business_name": "Water Damage Restoration Services in Platte County, MO",
+    "website": "https://lenexarestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagewizards.com",
+    "business_name": "Platte County MO Water Damage Restoration Services",
+    "website": "https://waterdamagewizards.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:elitefirewaterdamage.com",
+    "business_name": "Elite Fire Water Damage Restoration in Platte County MO",
+    "website": "https://elitefirewaterdamage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagerepairandrestoration.com",
+    "business_name": "Water Damage Repair and Restoration in Platte County MO",
+    "website": "https://waterdamagerepairandrestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sproofingcontractor.com",
+    "business_name": "Roofers",
+    "website": "https://www.sproofingcontractor.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hasslingerroofing.com",
+    "business_name": "Professional Roofing Contractor in Platte City, MO",
+    "website": "https://hasslingerroofing.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kcxroof.com",
+    "business_name": "Best Roofing Company in Platte City, MO",
+    "website": "https://www.kcxroof.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:platte-city-mo.homelandroofingllc.com",
+    "business_name": "Roofing Services in Platte City, MO",
+    "website": "https://platte-city-mo.homelandroofingllc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagekansascitymo.com",
+    "business_name": "Water Damage Restoration Platte City, MO",
+    "website": "https://www.waterdamagekansascitymo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kcphoenix.com",
+    "business_name": "Water Damage Restoration Company Platte City MO, Water Damage Repair ...",
+    "website": "https://www.kcphoenix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:servpro.com",
+    "business_name": "Platte City Fire and Water Damage Restoration and Cleaning Services ...",
+    "website": "https://www.servpro.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ontimewaterdamagerestoration.com",
+    "business_name": "OnTime Water Damage Restoration in Platte City, Missouri",
+    "website": "https://ontimewaterdamagerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagerestorationpros.com",
+    "business_name": "Platte City, Missouri Water Damage Restoration Company",
+    "website": "https://waterdamagerestorationpros.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:leadingremediation.com",
+    "business_name": "Platte City, MO Damage Restoration",
+    "website": "https://leadingremediation.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waterdamagerestore247.com",
+    "business_name": "Water Damage Restoration Platte City, MO",
+    "website": "https://waterdamagerestore247.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:shawneerestoration.com",
+    "business_name": "Storm Damage Restoration Services in Platte City, MO",
+    "website": "https://shawneerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:homeservices.review",
+    "business_name": "Best Restoration in Platte City, MO",
+    "website": "https://www.homeservices.review"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:shawneerestoration.com",
+    "business_name": "Disaster Restoration Services in Platte City, MO",
+    "website": "https://shawneerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kcmodamagerestoration.com",
+    "business_name": "Damage Restoration Servcies Platte City, MO",
+    "website": "https://kcmodamagerestoration.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:notcompletewithoutyou.com",
+    "business_name": "Platte City, MO Storm Damage Restoration",
+    "website": "https://notcompletewithoutyou.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:myvoda.com",
+    "business_name": "Professional Storm Damage Restoration Service in Platte City, MO with ...",
+    "website": "https://myvoda.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:notcompletewithoutyou.com",
+    "business_name": "Platte City, MO Damage Restoration",
+    "website": "https://notcompletewithoutyou.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:restorationcontractorsnearme.com",
+    "business_name": "Platte City",
+    "website": "https://restorationcontractorsnearme.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kansascityrestorationservice.com",
+    "business_name": "Storm Damage Restoration Services in Platte County, MO",
+    "website": "https://kansascityrestorationservice.com"
+  }
+]
