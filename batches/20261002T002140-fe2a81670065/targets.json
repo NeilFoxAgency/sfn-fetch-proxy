@@ -1,0 +1,502 @@
+[
+  {
+    "business_id": "partner:ServiceMaster Clean:AL",
+    "business_name": "ServiceMaster Clean",
+    "website": "http://www.servicemasterclean.com/"
+  },
+  {
+    "business_id": "partner:AAA Seamless Gutters, Roofing And More:AR",
+    "business_name": "AAA Seamless Gutters, Roofing And More",
+    "website": "https://aaaguttersroofingandmore.com/"
+  },
+  {
+    "business_id": "partner:Absolute Roofing Solutions, LLC:AR",
+    "business_name": "Absolute Roofing Solutions, LLC",
+    "website": "http://www.absoluteroofingsolutions.net/"
+  },
+  {
+    "business_id": "partner:Adams & Son Roofing and Construction LLC:AR",
+    "business_name": "Adams & Son Roofing and Construction LLC",
+    "website": "http://adamsroofingandconstruction.com/"
+  },
+  {
+    "business_id": "partner:Advanced Roofing:AR",
+    "business_name": "Advanced Roofing",
+    "website": "http://advancedroofers.com/"
+  },
+  {
+    "business_id": "partner:B & B Roofing and Construction:AR",
+    "business_name": "B & B Roofing and Construction",
+    "website": "http://www.bb-rc.com"
+  },
+  {
+    "business_id": "partner:Capital Home Improvement, LLC:AR",
+    "business_name": "Capital Home Improvement, LLC",
+    "website": "http://capitalhomeimprovement.net/"
+  },
+  {
+    "business_id": "partner:Excel Roofing and Restoration Corp.:AR",
+    "business_name": "Excel Roofing and Restoration Corp.",
+    "website": "https://myexcelroof.com/"
+  },
+  {
+    "business_id": "partner:Hot Springs Roofing:AR",
+    "business_name": "Hot Springs Roofing",
+    "website": "http://www.hotspringsroofing.com/"
+  },
+  {
+    "business_id": "partner:JAB Roofing & Exteriors:AR",
+    "business_name": "JAB Roofing & Exteriors",
+    "website": "http://www.jabroofing.com/"
+  },
+  {
+    "business_id": "partner:Jose Garcia Roofing:AR",
+    "business_name": "Jose Garcia Roofing",
+    "website": "http://activemember.com/josegarciaroofing/"
+  },
+  {
+    "business_id": "partner:PG Roofing&Construction:AR",
+    "business_name": "PG Roofing&Construction",
+    "website": "https://pgroofingandconstruction.com/"
+  },
+  {
+    "business_id": "partner:Precision Roof Contractors:AR",
+    "business_name": "Precision Roof Contractors",
+    "website": "https://www.prcroof.com"
+  },
+  {
+    "business_id": "partner:Top Notch Roofing & Construction:AR",
+    "business_name": "Top Notch Roofing & Construction",
+    "website": "http://topnotchroofingllcfs.com/"
+  },
+  {
+    "business_id": "partner:JJ And Sons Roofing And Construction:AR",
+    "business_name": "JJ And Sons Roofing And Construction",
+    "website": "https://www.jjnsonsroofing.com/"
+  },
+  {
+    "business_id": "partner:AAA Construction:AR",
+    "business_name": "AAA Construction",
+    "website": "https://www.aaaconstructionpros.com/"
+  },
+  {
+    "business_id": "partner:AR Storm Restoration and Roofing:AR",
+    "business_name": "AR Storm Restoration and Roofing",
+    "website": "https://www.arstormrestorationandroofing.com/"
+  },
+  {
+    "business_id": "partner:JJ & Son's Roofing:AR",
+    "business_name": "JJ & Son's Roofing",
+    "website": "http://www.jjnsonsroofing.com/"
+  },
+  {
+    "business_id": "partner:JEV Roofing Co:AZ",
+    "business_name": "JEV Roofing Co",
+    "website": "http://www.jevroofing.com/"
+  },
+  {
+    "business_id": "partner:Roto-Rooter Plumbing & Drain Service:AZ",
+    "business_name": "Roto-Rooter Plumbing & Drain Service",
+    "website": "https://www.myrotorooter.com/en/arizona/tucson/"
+  },
+  {
+    "business_id": "partner:Arizona Water Restoration Experts in Black Canyon City:AZ",
+    "business_name": "Arizona Water Restoration Experts in Black Canyon City",
+    "website": "https://black-canyon-city-az.waterrestorationarizona.com"
+  },
+  {
+    "business_id": "partner:Arizona Water Restoration Experts in Lukeville:AZ",
+    "business_name": "Arizona Water Restoration Experts in Lukeville",
+    "website": "https://lukeville-az.waterrestorationarizona.com"
+  },
+  {
+    "business_id": "partner:Arizona Water Restoration Experts in Sonoita:AZ",
+    "business_name": "Arizona Water Restoration Experts in Sonoita",
+    "website": "https://sonoita-az.waterrestorationarizona.com"
+  },
+  {
+    "business_id": "partner:Bingham Restoration Reviews:AZ",
+    "business_name": "Bingham Restoration Reviews",
+    "website": "https://www.binghamrestorationreviews.com"
+  },
+  {
+    "business_id": "partner:Black Canyon City Roofing Contractors:AZ",
+    "business_name": "Black Canyon City Roofing Contractors",
+    "website": "https://roofingcousa.com"
+  },
+  {
+    "business_id": "partner:El Segundo Water Damage Restoration Services in Yavapai County AZ:AZ",
+    "business_name": "El Segundo Water Damage Restoration Services in Yavapai County AZ",
+    "website": "https://elsegundowaterdamage.com"
+  },
+  {
+    "business_id": "partner:Emergency Water Damage Restoration in Pima County AZ:AZ",
+    "business_name": "Emergency Water Damage Restoration in Pima County AZ",
+    "website": "https://waterdamageinspectionsaz.com"
+  },
+  {
+    "business_id": "partner:Emergency Water Damage Restoration in Yavapai County AZ:AZ",
+    "business_name": "Emergency Water Damage Restoration in Yavapai County AZ",
+    "website": "https://getladylakewaterdamagerepair.com"
+  },
+  {
+    "business_id": "partner:Fast Storm Damage Restoration in Sonoita, AZ:AZ",
+    "business_name": "Fast Storm Damage Restoration in Sonoita, AZ",
+    "website": "https://stormfloodrestore.com"
+  },
+  {
+    "business_id": "partner:Fast Water Damage Help Restoration Services in Yavapai County AZ:AZ",
+    "business_name": "Fast Water Damage Help Restoration Services in Yavapai County AZ",
+    "website": "https://fastwaterdamagehelp.com"
+  },
+  {
+    "business_id": "partner:Mod Water Restoration in Lukeville:AZ",
+    "business_name": "Mod Water Restoration in Lukeville",
+    "website": "https://modwaterrestoration.com"
+  },
+  {
+    "business_id": "partner:Mohave County AZ Water Damage Restoration Services:AZ",
+    "business_name": "Mohave County AZ Water Damage Restoration Services",
+    "website": "https://waterdamagewizards.com"
+  },
+  {
+    "business_id": "partner:Mohave Damage Restoration Pros:AZ",
+    "business_name": "Mohave Damage Restoration Pros",
+    "website": "https://damagerestoration.pro"
+  },
+  {
+    "business_id": "partner:Pima, AZ Water Damage Restoration Services:AZ",
+    "business_name": "Pima, AZ Water Damage Restoration Services",
+    "website": "https://waterdamagevets.com"
+  },
+  {
+    "business_id": "partner:Restoration 1 of Mohave County:AZ",
+    "business_name": "Restoration 1 of Mohave County",
+    "website": "https://restoration1mohavecounty.com"
+  },
+  {
+    "business_id": "partner:Restoration Services Near Lake Havasu City, AZ:AZ",
+    "business_name": "Restoration Services Near Lake Havasu City, AZ",
+    "website": "https://servicemasterrestore.com"
+  },
+  {
+    "business_id": "partner:Roofers in Sonoita, AZ:AZ",
+    "business_name": "Roofers in Sonoita, AZ",
+    "website": "https://roofers-in-sonoita-az.lroofingserv.com"
+  },
+  {
+    "business_id": "partner:Roofing Contractor Pima County, AZ:AZ",
+    "business_name": "Roofing Contractor Pima County, AZ",
+    "website": "https://callroofingnow.org"
+  },
+  {
+    "business_id": "partner:Roofing Contractor Pima, AZ:AZ",
+    "business_name": "Roofing Contractor Pima, AZ",
+    "website": "https://dans-roofing.com"
+  },
+  {
+    "business_id": "partner:Roofing Contractor in Lake Havasu City, AZ:AZ",
+    "business_name": "Roofing Contractor in Lake Havasu City, AZ",
+    "website": "https://sjroofaz.com"
+  },
+  {
+    "business_id": "partner:Roofing Contractor in Needles, AZ:AZ",
+    "business_name": "Roofing Contractor in Needles, AZ",
+    "website": "https://roofinglakehavasucity.com"
+  },
+  {
+    "business_id": "partner:Roofing Contractors in Fort Mohave, AZ:AZ",
+    "business_name": "Roofing Contractors in Fort Mohave, AZ",
+    "website": "https://www.mohavelocal.com"
+  },
+  {
+    "business_id": "partner:Sonoita Water Damage Restoration:AZ",
+    "business_name": "Sonoita Water Damage Restoration",
+    "website": "https://www.abwaterdamage.com"
+  },
+  {
+    "business_id": "partner:Storm Damage Restoration Lake Havasu City:AZ",
+    "business_name": "Storm Damage Restoration Lake Havasu City",
+    "website": "https://lake-havasu-city-az.24restoration.net"
+  },
+  {
+    "business_id": "partner:Storm Damage Restoration Lake Havasu City, AZ:AZ",
+    "business_name": "Storm Damage Restoration Lake Havasu City, AZ",
+    "website": "https://waterdamagefast.com"
+  },
+  {
+    "business_id": "partner:Storm Damage Restoration in Lake Havasu City, AZ:AZ",
+    "business_name": "Storm Damage Restoration in Lake Havasu City, AZ",
+    "website": "https://adroitrestoration.com"
+  },
+  {
+    "business_id": "partner:Water Damage Restoration (888) 311-0086 Lukeville AZ 85341:AZ",
+    "business_name": "Water Damage Restoration (888) 311-0086 Lukeville AZ 85341",
+    "website": "https://water-damage-restoration-lukeville-az.krystalcleanrestoration.com"
+  },
+  {
+    "business_id": "partner:Water Damage Restoration Black Canyon City AZ Arizona: Fast Fix:AZ",
+    "business_name": "Water Damage Restoration Black Canyon City AZ Arizona: Fast Fix",
+    "website": "https://waterdamagerepairquote.com"
+  },
+  {
+    "business_id": "partner:Water Damage Restoration In Pima, AZ:AZ",
+    "business_name": "Water Damage Restoration In Pima, AZ",
+    "website": "https://expresswaterrestoration.com"
+  },
+  {
+    "business_id": "partner:Water Damage, Fire Damage Restoration in Lukeville, AZ:AZ",
+    "business_name": "Water Damage, Fire Damage Restoration in Lukeville, AZ",
+    "website": "https://waterdamagerestorerspro.com"
+  },
+  {
+    "business_id": "partner:Roofers San Bernardino:CA",
+    "business_name": "Roofers San Bernardino",
+    "website": "https://rooferssanbernardino.com"
+  },
+  {
+    "business_id": "partner:Roofers in San Bernardino County:CA",
+    "business_name": "Roofers in San Bernardino County",
+    "website": "https://www.socalroofingpros.net"
+  },
+  {
+    "business_id": "partner:Roofing Contractor San Bernardino CA:CA",
+    "business_name": "Roofing Contractor San Bernardino CA",
+    "website": "https://northpeakroofing.co"
+  },
+  {
+    "business_id": "partner:San Bernardino County Roofing:CA",
+    "business_name": "San Bernardino County Roofing",
+    "website": "https://www.tmcroofing.com"
+  },
+  {
+    "business_id": "partner:San Bernardino County Water Damage & Restoration:CA",
+    "business_name": "San Bernardino County Water Damage & Restoration",
+    "website": "https://1stactionrestoration.com"
+  },
+  {
+    "business_id": "partner:San Bernardino, CA Restoration Services:CA",
+    "business_name": "San Bernardino, CA Restoration Services",
+    "website": "https://respondpropertysolutions.com"
+  },
+  {
+    "business_id": "partner:Top 7 Water Damage Restoration Companies in San Bernardino, CA:CA",
+    "business_name": "Top 7 Water Damage Restoration Companies in San Bernardino, CA",
+    "website": "https://sanbernardinorestoration.com"
+  },
+  {
+    "business_id": "partner:Water Damage Restoration San Bernardino CA:CA",
+    "business_name": "Water Damage Restoration San Bernardino CA",
+    "website": "https://sanbernardinodamageexperts.com"
+  },
+  {
+    "business_id": "partner:WDR Restoration & Construction:CO",
+    "business_name": "WDR Restoration & Construction",
+    "website": "http://www.damagerepairlittleton.com/"
+  },
+  {
+    "business_id": "partner:Campbell Clarke Roofing:CO",
+    "business_name": "Campbell Clarke Roofing",
+    "website": "http://www.campbellclarkeroofing.com/"
+  },
+  {
+    "business_id": "partner:Flood Damage Restoration of Pueblo:CO",
+    "business_name": "Flood Damage Restoration of Pueblo",
+    "website": "https://fdrestoration.net/"
+  },
+  {
+    "business_id": "partner:Guaranteed Seamless Gutter Roofing & Siding:CO",
+    "business_name": "Guaranteed Seamless Gutter Roofing & Siding",
+    "website": "https://guaranteedseamlessgutters.net/"
+  },
+  {
+    "business_id": "partner:Lifetime Exteriors:CO",
+    "business_name": "Lifetime Exteriors",
+    "website": "http://www.lifetimeexteriors-us.com"
+  },
+  {
+    "business_id": "partner:Odin Builders:CO",
+    "business_name": "Odin Builders",
+    "website": "https://www.odinbuilders.com"
+  },
+  {
+    "business_id": "partner:Skyline Contracting and Roofing:CO",
+    "business_name": "Skyline Contracting and Roofing",
+    "website": "http://www.skylinecontractingma.com/"
+  },
+  {
+    "business_id": "partner:Sorensen Roofing & Exteriors, G.C.:CO",
+    "business_name": "Sorensen Roofing & Exteriors, G.C.",
+    "website": "http://www.sorensengc.com/"
+  },
+  {
+    "business_id": "partner:True Nature Roofing:CO",
+    "business_name": "True Nature Roofing",
+    "website": "http://www.truenatureroofing.com/"
+  },
+  {
+    "business_id": "partner:Weathercraft Roofing Co:CO",
+    "business_name": "Weathercraft Roofing Co",
+    "website": "http://www.wcroofohd.com/"
+  },
+  {
+    "business_id": "partner:Whitney Roofing - All American Gutter Man:CO",
+    "business_name": "Whitney Roofing - All American Gutter Man",
+    "website": "https://www.whitneyallamerican.com/"
+  },
+  {
+    "business_id": "partner:Zede Roofing:CO",
+    "business_name": "Zede Roofing",
+    "website": "http://www.zederoofingco.com/"
+  },
+  {
+    "business_id": "partner:911 Restoration of Fremont County:CO",
+    "business_name": "911 Restoration of Fremont County",
+    "website": "https://www.911restorationfremontcounty.com/"
+  },
+  {
+    "business_id": "partner:Daniels Construction Company:CO",
+    "business_name": "Daniels Construction Company",
+    "website": "http://danielsconstructionlamar.com/"
+  },
+  {
+    "business_id": "partner:Overhead Roofing Of Colorado Springs:CO",
+    "business_name": "Overhead Roofing Of Colorado Springs",
+    "website": "https://overheadroofingcompany.com/colorado-springs-co-roofing-contractor/"
+  },
+  {
+    "business_id": "partner:Boss Roofing:CT",
+    "business_name": "Boss Roofing",
+    "website": "http://bossroofingct.com/"
+  },
+  {
+    "business_id": "partner:Maynard Roofing LLC:CT",
+    "business_name": "Maynard Roofing LLC",
+    "website": "https://www.maynardroofingllc.com/"
+  },
+  {
+    "business_id": "partner:PJ Roofing, Inc:FL",
+    "business_name": "PJ Roofing, Inc",
+    "website": "https://www.pjroofinginc.com/"
+  },
+  {
+    "business_id": "partner:Washburn Roofing:FL",
+    "business_name": "Washburn Roofing",
+    "website": "http://www.washburnroofing.com/"
+  },
+  {
+    "business_id": "partner:HEIGHTS ROOFING INC.:FL",
+    "business_name": "HEIGHTS ROOFING INC.",
+    "website": "http://www.heightsroofing.com/"
+  },
+  {
+    "business_id": "partner:Bee's Perfect Roofing:FL",
+    "business_name": "Bee's Perfect Roofing",
+    "website": "https://beesperfectroofing.my.canva.site/perfect-roofing-website"
+  },
+  {
+    "business_id": "partner:H2O Restoration Solutions:FL",
+    "business_name": "H2O Restoration Solutions",
+    "website": "http://www.h2orestorations.com/"
+  },
+  {
+    "business_id": "partner:Heights Roofing:FL",
+    "business_name": "Heights Roofing",
+    "website": "https://www.heightsroofing.com/"
+  },
+  {
+    "business_id": "partner:Lee Restoration:FL",
+    "business_name": "Lee Restoration",
+    "website": "http://leewaterdamagerestoration.com/"
+  },
+  {
+    "business_id": "partner:Mr Gutter Cleaner Jacksonville:FL",
+    "business_name": "Mr Gutter Cleaner Jacksonville",
+    "website": "https://mrguttercleaner.com/jacksonville-fl/gutter-cleaning"
+  },
+  {
+    "business_id": "partner:Nailed It Roofing Inc.:FL",
+    "business_name": "Nailed It Roofing Inc.",
+    "website": "http://www.naileditroofing.org/"
+  },
+  {
+    "business_id": "partner:Prestige Roofing Of SOFL LLC:FL",
+    "business_name": "Prestige Roofing Of SOFL LLC",
+    "website": "https://prestigeroofingsf.com/"
+  },
+  {
+    "business_id": "partner:RJ Walsh Construction:FL",
+    "business_name": "RJ Walsh Construction",
+    "website": "https://rj-walsh-construction.business.site/"
+  },
+  {
+    "business_id": "partner:RN Palmer Roofing:FL",
+    "business_name": "RN Palmer Roofing",
+    "website": "https://rnpalmerroofing.com/request-a-free-roof-estimate/"
+  },
+  {
+    "business_id": "partner:Raymond Frankart Roofing:FL",
+    "business_name": "Raymond Frankart Roofing",
+    "website": "https://raymond-frankart-roofing-contractor.business.site/"
+  },
+  {
+    "business_id": "partner:Rwb Pro Roofing:FL",
+    "business_name": "Rwb Pro Roofing",
+    "website": "http://RwbProRoofing.com/"
+  },
+  {
+    "business_id": "partner:Undercover Roofing & Metal Company:FL",
+    "business_name": "Undercover Roofing & Metal Company",
+    "website": "https://undercoverroofer.com/locations/miami"
+  },
+  {
+    "business_id": "partner:Vila Builders Inc.:FL",
+    "business_name": "Vila Builders Inc.",
+    "website": "http://www.vilabuilders.com/"
+  },
+  {
+    "business_id": "partner:RN Palmer Roofing:FL",
+    "business_name": "RN Palmer Roofing",
+    "website": "https://rnpalmerroofing.com/"
+  },
+  {
+    "business_id": "partner:Tripeak Roofing LLC.:FL",
+    "business_name": "Tripeak Roofing LLC.",
+    "website": "https://www.roofingcontractortampafl.com/"
+  },
+  {
+    "business_id": "partner:Northline Roofers:FL",
+    "business_name": "Northline Roofers",
+    "website": "https://northlineroofers.com"
+  },
+  {
+    "business_id": "partner:Pembroke Pines Roofing Pros:FL",
+    "business_name": "Pembroke Pines Roofing Pros",
+    "website": "https://www.pembrokepinesroofingpros.com"
+  },
+  {
+    "business_id": "partner:Rain Relief Gutter Solutions:FL",
+    "business_name": "Rain Relief Gutter Solutions",
+    "website": "https://www.rainreliefgutters.com"
+  },
+  {
+    "business_id": "partner:Heritage Roofing and Gutters, Inc.:GA",
+    "business_name": "Heritage Roofing and Gutters, Inc.",
+    "website": "http://www.heritageroofingcsra.com/"
+  },
+  {
+    "business_id": "partner:Steve's Roofing Company1:IA",
+    "business_name": "Steve's Roofing Company1",
+    "website": "http://www.stevesroofingcompanysiouxcity.com/"
+  },
+  {
+    "business_id": "partner:All American Roofing & Construction:IA",
+    "business_name": "All American Roofing & Construction",
+    "website": "http://aarciowa.com"
+  },
+  {
+    "business_id": "partner:All Dry Services of Des Moines:IA",
+    "business_name": "All Dry Services of Des Moines",
+    "website": "https://www.alldrydsm.com/"
+  }
+]
