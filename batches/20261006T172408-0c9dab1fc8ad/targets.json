@@ -1,0 +1,492 @@
+[
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Top 10 Hotels in Quincy",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "10 Best Cheap Hotels in Quincy, FL",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:booking.com",
+    "business_name": "The Best Quincy Hotels, United States",
+    "website": "https://www.booking.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:choicehotels.com",
+    "business_name": "Hotels in Quincy, FL",
+    "website": "https://www.choicehotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ihg.com",
+    "business_name": "Quincy Hotels",
+    "website": "https://www.ihg.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:expedia.com",
+    "business_name": "Top 10 Hotels in Quincy, FL (from $52) 2026",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:restaurantji.com",
+    "business_name": "THE 15 BEST Restaurants in Quincy, FL",
+    "website": "https://www.restaurantji.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:eattheway.com",
+    "business_name": "16 Best Restaurants in Quincy, FL [2026 Updated]",
+    "website": "https://eattheway.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:recipeandtravel.com",
+    "business_name": "16 Best Restaurants in Quincy, FL [2026 Updated]",
+    "website": "https://recipeandtravel.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:restaurantobserver.com",
+    "business_name": "9 Best Restaurants in Quincy, FL [2026 Updated]",
+    "website": "https://restaurantobserver.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:restaurantguru.com",
+    "business_name": "Top 7 restaurants in Quincy, Florida, september 2026",
+    "website": "https://restaurantguru.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:menupix.com",
+    "business_name": "Quincy, FL Restaurant Guide",
+    "website": "https://www.menupix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:disciplepair.com",
+    "business_name": "16 Churches in Quincy, Florida",
+    "website": "https://www.disciplepair.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Churches in Quincy, FL",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:joinmychurch.com",
+    "business_name": "Churches in Quincy Florida",
+    "website": "https://www.joinmychurch.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:newdirectionofquincy.com",
+    "business_name": "New Direction Christian Center of Quincy, Florida",
+    "website": "https://www.newdirectionofquincy.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Churches in Quincy FL",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:gadsdencountybaptistassoc.com",
+    "business_name": "New Destiny Christian Church",
+    "website": "https://www.gadsdencountybaptistassoc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:autotrader.com",
+    "business_name": "All Dealers in Quincy, FL 32351",
+    "website": "https://www.autotrader.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:chevroletofquincy.com",
+    "business_name": "Chevrolet Dealer in Quincy, FL",
+    "website": "https://www.chevroletofquincy.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:uasfl.com",
+    "business_name": "Home",
+    "website": "https://www.uasfl.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:coastaljeepramquincy.com",
+    "business_name": "Chrysler, Dodge, Jeep & Ram Dealer in Quincy",
+    "website": "https://www.coastaljeepramquincy.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:gmcofquincy.com",
+    "business_name": "GMC Dealer in QUINCY, FL",
+    "website": "https://www.gmcofquincy.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:topclassautofl.com",
+    "business_name": "Home",
+    "website": "https://www.topclassautofl.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:carsforsale.com",
+    "business_name": "Used Cars for Sale near Quincy, FL",
+    "website": "https://www.carsforsale.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cybo.com",
+    "business_name": "Shopping in Quincy, Florida",
+    "website": "https://www.cybo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:discoverourtown.com",
+    "business_name": "Shopping Quincy FL Florida + Outlet Mall",
+    "website": "http://www.discoverourtown.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:gmsquincy.com",
+    "business_name": "Self Storage in Quincy FL",
+    "website": "https://www.gmsquincy.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:rentcafe.com",
+    "business_name": "Cheap Storage Units in Quincy, FL, from $25",
+    "website": "https://www.rentcafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagecafe.com",
+    "business_name": "Storage Units in Quincy, FL",
+    "website": "https://www.storagecafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ezstorit.com",
+    "business_name": "Self Storage Units in Quincy, FL, from $15",
+    "website": "https://ezstorit.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:moverscorp.com",
+    "business_name": "Quincy FL Local Self Storage Units For Rent",
+    "website": "https://www.moverscorp.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:selfstorage.com",
+    "business_name": "20 Cheap Self Storage Units in Quincy, FL",
+    "website": "https://www.selfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:qualitystorage.net",
+    "business_name": "Find a Storage Unit Quincy, FL & Rent Online at Quality Storage",
+    "website": "https://qualitystorage.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagecafe.com",
+    "business_name": "Gadsden Mini Storage",
+    "website": "https://www.storagecafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:findselfstorage.com",
+    "business_name": "Self-Storage Units Quincy, Florida",
+    "website": "https://findselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagearea.com",
+    "business_name": "Cheap Self Storage Units in Quincy, FL",
+    "website": "https://www.storagearea.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Quincy, FL Warehouse For Sale",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:indeed.com",
+    "business_name": "Warehouse jobs in Quincy, FL",
+    "website": "https://www.indeed.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Quincy, FL Warehouses for Rent & Lease",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cubework.com",
+    "business_name": "Quincy Storage Solutions",
+    "website": "https://www.cubework.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:indeed.com",
+    "business_name": "Warehouse Worker jobs in Quincy, FL",
+    "website": "https://www.indeed.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:warehouse.ninja",
+    "business_name": "UNFI warehouse Quincy Distribution Center",
+    "website": "https://warehouse.ninja"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Quincy, FL Warehouses for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:warehousespaceofamerica.com",
+    "business_name": "Quincy, FL",
+    "website": "https://warehousespaceofamerica.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Quincy, FL Warehouses For Sale",
+    "website": "https://www.cityfeet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "1811 Florida Ave, Quincy, FL 32351",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Quincy, FL Office buildings for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Quincy, FL Office Spaces for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Quincy, FL Office Spaces for Lease",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Office Space, Buildings & Property for Sale in Quincy, FL",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:commercialcafe.com",
+    "business_name": "Quincy, FL Commercial Real Estate for Lease or Sale",
+    "website": "https://www.commercialcafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:propertyshark.com",
+    "business_name": "Quincy, FL Commercial Real Estate for Lease and Sale",
+    "website": "https://www.propertyshark.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "Office / Warehouse / Vacant Parcel",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:myquincy.net",
+    "business_name": "Building & Planning",
+    "website": "https://www.myquincy.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "Commercial Real Estate for Sale in Quincy",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loc8nearme.com",
+    "business_name": "Auto Repair in Quincy, FL with Ratings, Reviews, Hours and Locations ...",
+    "website": "https://www.loc8nearme.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:pricemyfix.com",
+    "business_name": "Auto Repair in Quincy, FL: 24 Shops Compared",
+    "website": "https://pricemyfix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:repairpal.com",
+    "business_name": "Best Auto Repair in Quincy, FL RepairPal",
+    "website": "https://repairpal.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:wandltireandwheel.com",
+    "business_name": "Auto Repair & Mechanic Shop Quincy, FL Tallahassee, FL Greensboro, FL ...",
+    "website": "https://www.wandltireandwheel.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:boswellhondagadsden.com",
+    "business_name": "Sam Boswell Honda Gadsden",
+    "website": "https://www.boswellhondagadsden.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sandysansing.com",
+    "business_name": "New & Used Car Dealership Gulf Coast",
+    "website": "https://www.sandysansing.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:team1dodge.net",
+    "business_name": "Team One Chrysler Dodge Jeep Ram of Gadsden",
+    "website": "https://www.team1dodge.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ronniewatkinsford.net",
+    "business_name": "Ford Dealer",
+    "website": "https://www.ronniewatkinsford.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:chevroletofgadsden.net",
+    "business_name": "Team One Chevrolet Of Gadsden",
+    "website": "https://www.chevroletofgadsden.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:freemanmotors.autos",
+    "business_name": "Home",
+    "website": "https://freemanmotors.autos"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:motorplexllc.com",
+    "business_name": "Car Dealer in Gadsden, AL",
+    "website": "https://www.motorplexllc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:twincityusedcars.com",
+    "business_name": "Twin City Used Cars",
+    "website": "https://www.twincityusedcars.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:merchantcircle.com",
+    "business_name": "10 Best Property Management Companies in Quincy, FL",
+    "website": "https://www.merchantcircle.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:clearspringspropertyllc.com",
+    "business_name": "Rental Property Management",
+    "website": "https://www.clearspringspropertyllc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:clearspringspropertyllc.com",
+    "business_name": "Commercial Property Management",
+    "website": "https://www.clearspringspropertyllc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hemlane.com",
+    "business_name": "Property Management Quincy FL",
+    "website": "https://www.hemlane.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:tpkace.com",
+    "business_name": "Full service property management",
+    "website": "https://www.tpkace.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchpages.net",
+    "business_name": "Churches in Gadsden County, Florida",
+    "website": "https://churchpages.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:gadsdencountybaptistassoc.com",
+    "business_name": "Our Churches I Gadsden County Baptist Association",
+    "website": "https://www.gadsdencountybaptistassoc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitgadsdencounty.com",
+    "business_name": "Historic Churches in Gadsden County, FL",
+    "website": "https://visitgadsdencounty.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:gadsdencountybaptistassoc.com",
+    "business_name": "Home",
+    "website": "https://www.gadsdencountybaptistassoc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitgadsdencounty.com",
+    "business_name": "Arnett Chapel AME Church",
+    "website": "https://visitgadsdencounty.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Churches in Fort Gadsden, FL",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:en.wikipedia.org",
+    "business_name": "Category:Churches in Gadsden County, Florida",
+    "website": "https://en.wikipedia.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:gadsdenvineyard.org",
+    "business_name": "Gadsden Vineyard Church",
+    "website": "https://gadsdenvineyard.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitgadsdencounty.com",
+    "business_name": "DINING & CUISINE",
+    "website": "https://visitgadsdencounty.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:floridafoodsafety.org",
+    "business_name": "Gadsden County Restaurant Inspections \u2014 60 Restaurants",
+    "website": "https://floridafoodsafety.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:menupix.com",
+    "business_name": "Gadsden County, FL Restaurant Guide",
+    "website": "https://www.menupix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:opentable.com",
+    "business_name": "The Best Restaurants in Gadsden Right Now",
+    "website": "https://www.opentable.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:inspectfl.org",
+    "business_name": "Gadsden County Restaurant Inspections \u2014 Health Scores & Grades",
+    "website": "https://www.inspectfl.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:tallahassee.com",
+    "business_name": "2 Gadsden County restaurants get perfect scores; 2 fail inspection",
+    "website": "https://www.tallahassee.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:wanderlog.com",
+    "business_name": "Where to eat: the 50 best restaurants in Gadsden",
+    "website": "https://wanderlog.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "Storage Units in Gadsden County, FL",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ustorage.com",
+    "business_name": "Storage and Self Storage Gadsden, FL",
+    "website": "https://www.ustorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "Large Storage Units in Gadsden County, FL",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagecafe.com",
+    "business_name": "Storage Units in Quincy, FL",
+    "website": "https://www.storagecafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:gmsquincy.com",
+    "business_name": "RESERVE A UNIT",
+    "website": "https://www.gmsquincy.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:century-storage.com",
+    "business_name": "Self Storage Units and Storage Facilities",
+    "website": "https://www.century-storage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:gmsquincy.com",
+    "business_name": "Storage Unit Sizes & Prices in Quincy FL",
+    "website": "https://www.gmsquincy.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagecafe.com",
+    "business_name": "Gadsden Mini Storage",
+    "website": "https://www.storagecafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:instantcarfix.com",
+    "business_name": "Best Mobile Mechanic & Auto Repair in Gadsden, FL",
+    "website": "https://www.instantcarfix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:maps.google.com",
+    "business_name": "Google Maps",
+    "website": "https://maps.google.com"
+  }
+]
