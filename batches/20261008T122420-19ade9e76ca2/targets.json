@@ -1,0 +1,502 @@
+[
+  {
+    "business_id": "hyd:websearch:ddg:steponeautomotive.com",
+    "business_name": "Step One Automotive Group",
+    "website": "https://www.steponeautomotive.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:garysmithhonda.com",
+    "business_name": "New & Used Honda Dealer in Fort Walton Beach, FL",
+    "website": "https://garysmithhonda.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:beachcitymotors.com",
+    "business_name": "Car Dealer in Fort Walton Beach, FL",
+    "website": "https://beachcitymotors.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sonshine319.com",
+    "business_name": "Pre-owned Car Sales with Financing in Fort Walton Beach FL",
+    "website": "https://www.sonshine319.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:autotrader.com",
+    "business_name": "All Dealers in Mary Esther, FL 32569",
+    "website": "https://www.autotrader.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:toyotafwb.com",
+    "business_name": "New and Used Toyota Vehicles dealership in Fort Walton Beach",
+    "website": "https://www.toyotafwb.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:steponeautomotive.com",
+    "business_name": "New & used Vehicles for Sale in Northwest Florida",
+    "website": "https://www.steponeautomotive.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:chryslerdodgejeepftwalton.com",
+    "business_name": "Step One CDJR Fort Walton Beach",
+    "website": "https://www.chryslerdodgejeepftwalton.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waltonnow.com",
+    "business_name": "Local Churches",
+    "website": "https://waltonnow.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchpages.net",
+    "business_name": "Churches in Walton County, Florida",
+    "website": "https://churchpages.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sowal.com",
+    "business_name": "South Walton Churches & Spiritual Centers",
+    "website": "https://sowal.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usgenwebsites.org",
+    "business_name": "Churches",
+    "website": "https://www.usgenwebsites.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchunion.us",
+    "business_name": "Walton County, FL",
+    "website": "https://www.churchunion.us"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waltoncountybaptistassociation.org",
+    "business_name": "Churches",
+    "website": "https://www.waltoncountybaptistassociation.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waltoncountybaptistassociation.org",
+    "business_name": "waltoncountybaptistassociation.org",
+    "website": "https://www.waltoncountybaptistassociation.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:business.waltonareachamber.com",
+    "business_name": "Churches Category",
+    "website": "https://business.waltonareachamber.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:bitemaplocal.com",
+    "business_name": "Guide to Walton County Restaurants",
+    "website": "https://bitemaplocal.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waltonnow.com",
+    "business_name": "Dining & Restaurants",
+    "website": "https://waltonnow.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitsouthwalton.com",
+    "business_name": "Visit South Walton",
+    "website": "https://www.visitsouthwalton.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:yelp.ca",
+    "business_name": "TOP 10 BEST Elegant Restaurants in Walton County, FL, United ...",
+    "website": "https://www.yelp.ca"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitsouthwalton.com",
+    "business_name": "A Day of Dining: A Local's Guide to South Walton's 16 Beach Neighborhoods",
+    "website": "https://www.visitsouthwalton.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:authenticwalton.com",
+    "business_name": "Culinary Experiences",
+    "website": "https://www.authenticwalton.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Best Hotels in Walton County",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:trip.com",
+    "business_name": "Hotels in Walton County",
+    "website": "https://www.trip.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:expedia.com",
+    "business_name": "Top Walton County Hotels: 2026 Best Hotels in Walton County",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Top 10 Hotels in South Walton",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:saveonhotels.com",
+    "business_name": "Hotels near Walton County Florida Save On Hotels",
+    "website": "https://www.saveonhotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:laterooms.com",
+    "business_name": "The best hotel deals in Walton County",
+    "website": "https://www.laterooms.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:expedia.com",
+    "business_name": "Find hotels in South Walton, FL from $68",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:autorepairscore.com",
+    "business_name": "Best Auto Repair Shops in Fort Walton Beach, FL",
+    "website": "https://autorepairscore.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:beachautocarefl.com",
+    "business_name": "Auto Repair Near Walton County",
+    "website": "https://www.beachautocarefl.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:fortwaltonbeachautoandbodyrepair.com",
+    "business_name": "Home",
+    "website": "https://www.fortwaltonbeachautoandbodyrepair.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:alsautorepairfwb.com",
+    "business_name": "Services",
+    "website": "https://alsautorepairfwb.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:fwrad.com",
+    "business_name": "Auto Repair in Fort Walton Beach, FL",
+    "website": "https://www.fwrad.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:playgroundautoservice.com",
+    "business_name": "Auto Repair Shop in Fort Walton Beach, FL",
+    "website": "https://www.playgroundautoservice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "Storage Units in Walton County, FL",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usselfstorage.com",
+    "business_name": "Storage Units in 32550",
+    "website": "https://usselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:maxstorage.co",
+    "business_name": "Self Storage Units Walton County, FL \u2192 Max Storage",
+    "website": "https://www.maxstorage.co"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:enroutestorage.com",
+    "business_name": "RV, Boat & Vehicle Storage in Freeport, FL",
+    "website": "https://www.enroutestorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:stowawaystoragefreeportfl.com",
+    "business_name": "Affordable Storage Solutions in Walton County",
+    "website": "https://stowawaystoragefreeportfl.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:findselfstorage.com",
+    "business_name": "Find Vehicle Storage Units Near Walton County, Florida ...",
+    "website": "https://findselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:thepulse.com",
+    "business_name": "Self-Storage Facilities in Walton County \u2014 thePulse",
+    "website": "https://thepulse.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:centralstorageflorida.com",
+    "business_name": "Central Storage| Self Storage Facility In Freeport FL",
+    "website": "https://www.centralstorageflorida.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitsouthwalton.com",
+    "business_name": "Where to Shop",
+    "website": "https://www.visitsouthwalton.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:fwbchamber.org",
+    "business_name": "Malls & Shopping Centers Category",
+    "website": "https://www.fwbchamber.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sowal.com",
+    "business_name": "Featured Shopping in South Walton",
+    "website": "https://sowal.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:grandboulevard.com",
+    "business_name": "Grand Boulevard",
+    "website": "https://grandboulevard.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:destindirect.com",
+    "business_name": "Destin Florida Shopping: Shops, Malls and Shopping Centers.",
+    "website": "https://destindirect.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:destinfwb.com",
+    "business_name": "Shopping in Destin-Fort Walton Beach",
+    "website": "https://www.destinfwb.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:rpmhomebase.com",
+    "business_name": "The #1 property management company in Walton County, FL",
+    "website": "https://www.rpmhomebase.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:birdseyepropertymanagement.com",
+    "business_name": "Expert Property Management",
+    "website": "https://www.birdseyepropertymanagement.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:pmonthepanhandle.com",
+    "business_name": "Property Management on the Panhandle",
+    "website": "https://www.pmonthepanhandle.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:business.waltonareachamber.com",
+    "business_name": "Property Management Category",
+    "website": "https://business.waltonareachamber.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:panhandlepropertygroup.com",
+    "business_name": "Panhandle Property Group, Inc.",
+    "website": "https://www.panhandlepropertygroup.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:98rentals.com",
+    "business_name": "Real Estate And Property Management Services In South Walton, FL",
+    "website": "https://www.98rentals.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:beachsunsetsrealty.com",
+    "business_name": "Beach Sunsets Inc.",
+    "website": "https://www.beachsunsetsrealty.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:epmfl.net",
+    "business_name": "Etheridge Propert Management",
+    "website": "https://www.epmfl.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Walton County, FL Warehouses for Rent & Lease",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Walton County, FL Warehouse For Lease",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Walton County, FL Warehouses for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:commercialcafe.com",
+    "business_name": "Walton County, FL Industrial & Warehouse Spaces for Rent",
+    "website": "https://www.commercialcafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:propertyshark.com",
+    "business_name": "Walton County, FL Industrial & Warehouse Spaces for Rent",
+    "website": "https://www.propertyshark.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:joe.com",
+    "business_name": "Warehouse Leasing & Land Sales",
+    "website": "https://www.joe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Walton County, FL Commercial Real Estate Properties For Sale",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:commercialsearch.com",
+    "business_name": "Walton County, FL Industrial & Warehouse Space for Rent",
+    "website": "https://www.commercialsearch.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:showcase.com",
+    "business_name": "Walton County Industrial and Warehouse Space For Rent & Lease",
+    "website": "https://www.showcase.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:commercialcafe.com",
+    "business_name": "Walton County, FL Commercial Real Estate for Lease or Sale",
+    "website": "https://www.commercialcafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:officespace.com",
+    "business_name": "Office Space for Rent in Walton County, FL",
+    "website": "https://www.officespace.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Walton County, FL Office buildings for Rent & Lease",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Walton County, FL Office Spaces for Rent & Lease",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "Walton County Office Spaces for Sale",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mywaltonfl.gov",
+    "business_name": "Departments",
+    "website": "https://www.mywaltonfl.gov"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mywaltonfl.gov",
+    "business_name": "Building Division",
+    "website": "https://www.mywaltonfl.gov"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Walton County, FL Office For Lease",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:propertyshark.com",
+    "business_name": "Walton County, FL Commercial Real Estate for Lease and Sale",
+    "website": "https://www.propertyshark.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:steponeautomotive.com",
+    "business_name": "Step One Automotive Group",
+    "website": "https://www.steponeautomotive.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:chryslerdodgejeepftwalton.com",
+    "business_name": "Step One CDJR Fort Walton Beach",
+    "website": "https://www.chryslerdodgejeepftwalton.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:beachcitymotors.com",
+    "business_name": "Car Dealer in Fort Walton Beach, FL",
+    "website": "https://beachcitymotors.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:carvidapp.com",
+    "business_name": "Car Dealers in Walton, Florida \u2014 CARVID",
+    "website": "https://www.carvidapp.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mckenziemotors.com",
+    "business_name": "McKenzie Buick GMC Dealer Milton FL",
+    "website": "https://www.mckenziemotors.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:steponeautomotive.com",
+    "business_name": "Used Cars, Trucks & SUVs for Sale in Northwest FL",
+    "website": "https://www.steponeautomotive.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:chryslerdodgejeepftwalton.com",
+    "business_name": "Jeep Dealership Near Santa Rosa Beach, FL",
+    "website": "https://www.chryslerdodgejeepftwalton.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:asapmotorsfwb.com",
+    "business_name": "Asap Motors Inc",
+    "website": "https://www.asapmotorsfwb.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sonshine319.com",
+    "business_name": "Pre-owned Car Sales with Financing in Fort Walton Beach FL",
+    "website": "https://www.sonshine319.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waltonnow.com",
+    "business_name": "Local Churches",
+    "website": "https://waltonnow.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchpages.net",
+    "business_name": "Churches in Walton County, Florida",
+    "website": "https://churchpages.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sowal.com",
+    "business_name": "South Walton Churches & Spiritual Centers",
+    "website": "https://sowal.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waltoncountybaptistassociation.org",
+    "business_name": "waltoncountybaptistassociation.org",
+    "website": "https://www.waltoncountybaptistassociation.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:waltoncountybaptistassociation.org",
+    "business_name": "Churches",
+    "website": "https://www.waltoncountybaptistassociation.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usgenwebsites.org",
+    "business_name": "Churches",
+    "website": "https://www.usgenwebsites.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:beachside.org",
+    "business_name": "Home",
+    "website": "https://beachside.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:en.wikipedia.org",
+    "business_name": "Category:Churches in Walton County, Florida",
+    "website": "https://en.wikipedia.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Best Hotels in Walton County",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:booking.com",
+    "business_name": "Search hotels in Walton, FL",
+    "website": "https://www.booking.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:booking.com",
+    "business_name": "10 Best Fort Walton Beach Hotels, United States",
+    "website": "https://www.booking.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:expedia.com",
+    "business_name": "Find hotels in South Walton, FL from $68",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Top 10 Hotels in South Walton",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:expedia.com",
+    "business_name": "Find hotels in Fort Walton Beach, FL from $60",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:marriott.com",
+    "business_name": "Hotels in Fort Walton Beach, FL",
+    "website": "https://www.marriott.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:sundriftinn.com",
+    "business_name": "Affordable Waterfront Hotel Suites with Beach View for Vacation Stays ...",
+    "website": "https://sundriftinn.com"
+  }
+]
