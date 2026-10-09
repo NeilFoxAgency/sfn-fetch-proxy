@@ -1,0 +1,502 @@
+[
+  {
+    "business_id": "hyd:websearch:ddg:usgenwebsites.org",
+    "business_name": "Churches",
+    "website": "https://www.usgenwebsites.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Churches in Dixie, FL",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchunion.us",
+    "business_name": "Dixie County, FL",
+    "website": "https://www.churchunion.us"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Old Town",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:famousfix.com",
+    "business_name": "List of Churches in Dixie County, Florida",
+    "website": "https://www.famousfix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:en.wikipedia.org",
+    "business_name": "Category:Churches in Dixie County, Florida",
+    "website": "https://en.wikipedia.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Cross City",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Dixie Churches by Denomination",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchesinusa.com",
+    "business_name": "Interdenominational Churches in Dixie",
+    "website": "https://churchesinusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:menupix.com",
+    "business_name": "Dixie County, FL Restaurant Guide",
+    "website": "https://www.menupix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitdixie.com",
+    "business_name": "Dining Options in Dixie County",
+    "website": "https://www.visitdixie.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitdixie.com",
+    "business_name": "Dining In Dixie County: A Mouthwatering Experience",
+    "website": "https://www.visitdixie.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:trip.com",
+    "business_name": "THE 10 BEST Restaurants in Dixie County",
+    "website": "https://www.trip.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dixiecrossroads.com",
+    "business_name": "Dixie Crossroads",
+    "website": "https://dixiecrossroads.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:inspectfl.org",
+    "business_name": "Dixie County Restaurant Inspections \u2014 Health Scores & Grades",
+    "website": "https://www.inspectfl.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Best Hotels in Dixie County",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitdixie.com",
+    "business_name": "Places to Stay in Dixie County",
+    "website": "https://www.visitdixie.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitdixie.com",
+    "business_name": "Charming Places to Stay in Dixie County, Florida's Hidden Coast",
+    "website": "https://www.visitdixie.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:uk.hotels.com",
+    "business_name": "Hotels in Dixie County",
+    "website": "https://uk.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:us.trip.com",
+    "business_name": "The 10 BEST Dixie County Hotels in 2026",
+    "website": "https://us.trip.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:expedia.com",
+    "business_name": "Top Dixie County Hotels: 2026 Best Hotels in Dixie County",
+    "website": "https://www.expedia.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:saveonhotels.com",
+    "business_name": "Hotels near Dixie County Florida Save On Hotels",
+    "website": "https://www.saveonhotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:travelmath.com",
+    "business_name": "Hotels near Dixie County, Florida",
+    "website": "https://www.travelmath.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:whereorg.com",
+    "business_name": "Dixie, Florida (FL) New And Used Car Dealers Companies",
+    "website": "https://www.whereorg.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:autotrader.com",
+    "business_name": "All Dealers in Dade City, FL 33525",
+    "website": "https://www.autotrader.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mystore411.com",
+    "business_name": "Chevrolet Dealer",
+    "website": "https://www.mystore411.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:posnerparkchrysler.com",
+    "business_name": "Chrysler Dodge Jeep RAM FIAT Dealer in Davenport, FL",
+    "website": "https://posnerparkchrysler.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:jarrettauto.com",
+    "business_name": "Jarrett Automotive Group",
+    "website": "https://www.jarrettauto.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:rubioautosales.com",
+    "business_name": "Rubio Auto Sales",
+    "website": "https://www.rubioautosales.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:bomninchevrolet.com",
+    "business_name": "Bomnin Chevy Dadeland: World's #1 Chevy Dealer In Miami",
+    "website": "https://www.bomninchevrolet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hendrickcars.com",
+    "business_name": "New & Used Cars in Florida",
+    "website": "https://www.hendrickcars.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mechanicseeker.com",
+    "business_name": "Dixie Salvage \u2014 Auto Repair in Dixie County, Florida",
+    "website": "https://www.mechanicseeker.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dixieautotechs.com",
+    "business_name": "Dixie Auto Techs",
+    "website": "https://dixieautotechs.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:kingmechanicalllc.com",
+    "business_name": "Trusted Mobile Car Mechanic Services Dixie County FL",
+    "website": "https://kingmechanicalllc.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:repairpal.com",
+    "business_name": "Best Auto Repair in Davenport, FL RepairPal",
+    "website": "https://repairpal.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:reviews.birdeye.com",
+    "business_name": "Heart of Dixie Transmission",
+    "website": "https://reviews.birdeye.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:reviews.birdeye.com",
+    "business_name": "Automotive Industries, LLC",
+    "website": "https://reviews.birdeye.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:nextdoor.com",
+    "business_name": "Dixie Salvage",
+    "website": "https://nextdoor.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ustorage.com",
+    "business_name": "Storage and Self Storage Dixie, FL",
+    "website": "https://www.ustorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:smile-moving.com",
+    "business_name": "Self Storage Dixie County, FL",
+    "website": "https://smile-moving.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:atlanticselfstorage.com",
+    "business_name": "Storage Units Jacksonville, FL",
+    "website": "https://www.atlanticselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:devonselfstorage.com",
+    "business_name": "Self Storage Units & Storage Facilities",
+    "website": "https://www.devonselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:storagecafe.com",
+    "business_name": "Summit Self Storage",
+    "website": "https://www.storagecafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:devonselfstorage.com",
+    "business_name": "Self Storage Facilities in Florida",
+    "website": "https://www.devonselfstorage.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:ustcheck.com",
+    "business_name": "Underground storage tanks & leak sites in Dixie County, FL",
+    "website": "https://ustcheck.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:rentcafe.com",
+    "business_name": "Summit Self Storage",
+    "website": "https://www.rentcafe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:old-town-shopping-center-2.wheree.com",
+    "business_name": "OLD TOWN SHOPPING CENTER",
+    "website": "https://old-town-shopping-center-2.wheree.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:northfloridatrails.com",
+    "business_name": "Shopping in North Florida",
+    "website": "https://www.northfloridatrails.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:experiencekissimmee.com",
+    "business_name": "Kissimmee Shopping Guide",
+    "website": "https://www.experiencekissimmee.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:simon.com",
+    "business_name": "Welcome To Tyrone Square",
+    "website": "https://www.simon.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:thevillages.com",
+    "business_name": "Shopping & Dining",
+    "website": "https://www.thevillages.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mallscenters.com",
+    "business_name": "Suniland Shopping Center",
+    "website": "https://www.mallscenters.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:destincommons.com",
+    "business_name": "Destin Commons",
+    "website": "https://destincommons.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:daniapointe.com",
+    "business_name": "Dania Pointe",
+    "website": "https://www.daniapointe.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:floridapropertymanagement.com",
+    "business_name": "Dixie County FL Management Companies",
+    "website": "https://floridapropertymanagement.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:goldenrulerealestate.com",
+    "business_name": "Golden Rule Real Estate & Property Management",
+    "website": "https://goldenrulerealestate.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dixielifestyles.com",
+    "business_name": "Dixie LifeStyles",
+    "website": "https://dixielifestyles.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dennisrealtyrentals.com",
+    "business_name": "Property Management Lutz, FL",
+    "website": "https://www.dennisrealtyrentals.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:propertyvendors.com",
+    "business_name": "Property Preservation Services in Dixie County, Florida",
+    "website": "https://propertyvendors.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:magnoliaproperty.management",
+    "business_name": "Magnolia Property Management",
+    "website": "https://www.magnoliaproperty.management"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:davisclarke.com",
+    "business_name": "Real Estate Management",
+    "website": "https://www.davisclarke.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:villagesforrent.com",
+    "business_name": "HOME",
+    "website": "https://www.villagesforrent.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Dixie County, FL Warehouses for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "4700 N Dixie Hwy, Oakland Park, FL 33334",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:loopnet.com",
+    "business_name": "4141 N Dixie Hwy, Deerfield Beach, FL 33064",
+    "website": "https://www.loopnet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:crexi.com",
+    "business_name": "Dixie County, FL Warehouse For Sale",
+    "website": "https://www.crexi.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dsisteel.com",
+    "business_name": "Warehouses",
+    "website": "https://www.dsisteel.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:showcase.com",
+    "business_name": "Dixie County Industrial & Warehouse Space For Rent & Lease",
+    "website": "https://www.showcase.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Dixie County, FL Warehouses For Sale",
+    "website": "https://www.cityfeet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:showcase.com",
+    "business_name": "Dixie County Warehouses For Sale",
+    "website": "https://www.showcase.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Dixie County, FL Commercial real estate for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:myelisting.com",
+    "business_name": "Dixie County, FL Industrial Properties For Lease",
+    "website": "https://myelisting.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dixiecounty.us",
+    "business_name": "Dixie Building-Code-Zoning",
+    "website": "https://www.dixiecounty.us"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dixiecounty.us",
+    "business_name": "411 Service Directory",
+    "website": "https://www.dixiecounty.us"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realmo.com",
+    "business_name": "Dixie County, FL Office buildings for sale",
+    "website": "https://realmo.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:thecountyoffice.com",
+    "business_name": "Building Department in Dixie County, FL",
+    "website": "https://www.thecountyoffice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:thecountyoffice.com",
+    "business_name": "Government Offices in Dixie County, FL",
+    "website": "https://www.thecountyoffice.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:permithunt.com",
+    "business_name": "Dixie County Planning & Zoning Building Permits",
+    "website": "https://permithunt.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:findglocal.com",
+    "business_name": "Dixie County Building and Zoning Department",
+    "website": "https://www.findglocal.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:cityfeet.com",
+    "business_name": "Dixie County, FL Office Space For Lease",
+    "website": "https://www.cityfeet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:allpermitsearch.org",
+    "business_name": "Dixie County Permits",
+    "website": "https://allpermitsearch.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dixiebg.com",
+    "business_name": "New Buick GMC & Used Car Dealer in Fort Myers, FL",
+    "website": "https://www.dixiebg.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:victorylaynechevrolet.com",
+    "business_name": "Chevrolet Dealer Fort Myers, Port Charlotte, Cape Coral FL",
+    "website": "https://www.victorylaynechevrolet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:jenkinscars.com",
+    "business_name": "Jenkins Auto Group",
+    "website": "https://www.jenkinscars.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dixiesalvage.net",
+    "business_name": "Dixie Salvage",
+    "website": "http://www.dixiesalvage.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:mystore411.com",
+    "business_name": "Chevrolet Dealer",
+    "website": "https://www.mystore411.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usedcarsofswfl.com",
+    "business_name": "Used Cars Of SWFL",
+    "website": "https://www.usedcarsofswfl.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:dixiecars.net",
+    "business_name": "dixiecars.net",
+    "website": "http://dixiecars.net"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Churches in Dixie, FL",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:faithstreet.com",
+    "business_name": "Dixie Churches by Denomination",
+    "website": "https://www.faithstreet.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:realitymiami.com",
+    "business_name": "Reality is a church community in Miami.",
+    "website": "https://realitymiami.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:usgenwebsites.org",
+    "business_name": "Churches",
+    "website": "https://www.usgenwebsites.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:famousfix.com",
+    "business_name": "List of Churches in Dixie County, Florida",
+    "website": "https://www.famousfix.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchfinder.com",
+    "business_name": "Churches in Old Town FL",
+    "website": "https://www.churchfinder.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:en.wikipedia.org",
+    "business_name": "Category:Churches in Dixie County, Florida",
+    "website": "https://en.wikipedia.org"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:churchesinusa.com",
+    "business_name": "Methodist Churches in Dixie",
+    "website": "https://churchesinusa.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:hotels.com",
+    "business_name": "Best Hotels in Dixie County",
+    "website": "https://www.hotels.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitdixie.com",
+    "business_name": "Places to Stay in Dixie County",
+    "website": "https://www.visitdixie.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:visitdixie.com",
+    "business_name": "Charming Places to Stay in Dixie County, Florida's Hidden Coast",
+    "website": "https://www.visitdixie.com"
+  },
+  {
+    "business_id": "hyd:websearch:ddg:travelmath.com",
+    "business_name": "Hotels near Dixie County, Florida",
+    "website": "https://www.travelmath.com"
+  }
+]
