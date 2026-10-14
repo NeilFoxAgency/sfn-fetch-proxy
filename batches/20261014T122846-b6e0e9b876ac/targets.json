@@ -1,0 +1,407 @@
+[
+  {
+    "business_id": "hyd:osm:osm:node/472026003",
+    "business_name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mo/excelsior-springs/123-crown-hill-plaza"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/859628834",
+    "business_name": "Chipotle",
+    "website": "https://locations.chipotle.com/mo/kansas-city/8700-ne-flintlock-rd"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/1072119260",
+    "business_name": "Five Guys",
+    "website": "https://restaurants.fiveguys.com/118-north-conistor"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/1076435557",
+    "business_name": "La Costa Mexicana",
+    "website": "https://lacostamexicana.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/3581923343",
+    "business_name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mo/kansas-city/7207-n-prospect-ave"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/3757132525",
+    "business_name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mo/claycomo/401-e-highway-69"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/4211575452",
+    "business_name": "Panera Bread",
+    "website": "https://locations.panerabread.com/mo/kansas-city/8580-church-road.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/4211575453",
+    "business_name": "Pizza Shoppe",
+    "website": "https://pizzashoppe.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/4240097546",
+    "business_name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mo/liberty/820-b-south-291-hwy"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/4240097551",
+    "business_name": "Dunkin'",
+    "website": "https://locations.dunkindonuts.com/en/mo/liberty/953-w-liberty-dr/354276"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/5003233602",
+    "business_name": "Subway",
+    "website": "https://restaurants.subway.com/united-states/mo/kansas-city/4722-ne-vivion-road"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/6572990116",
+    "business_name": "Ginger Sue's",
+    "website": "https://gingersues.com/locations/liberty/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/6573374062",
+    "business_name": "MOD Pizza",
+    "website": "https://locations.modpizza.com/usa/mo/liberty/1912-star-dr"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/6687191432",
+    "business_name": "All Areas North Service Company",
+    "website": "http://aansco.com"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/10111916584",
+    "business_name": "Jimmy John's",
+    "website": "https://locations.jimmyjohns.com/mo/liberty/sandwiches-1052.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/10111916594",
+    "business_name": "Domino's",
+    "website": "https://pizza.dominos.com/missouri/liberty/118-conistor-ln-suite-c"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/10111916623",
+    "business_name": "Goodcents Deli Fresh Subs",
+    "website": "https://goodcentssubs.com"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/10111916631",
+    "business_name": "A&W",
+    "website": "https://awrestaurants.com/locations/missouri/liberty/1175-elizabeth-st/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/10111916655",
+    "business_name": "Papa John's",
+    "website": "https://locations.papajohns.com/united-states/mo/64068/liberty/603-s-state-route-291"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/12291042801",
+    "business_name": "Tasty Baghdad",
+    "website": "https://www.tastybaghdad.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/13456019805",
+    "business_name": "Longboards Wraps and Bowls",
+    "website": "https://longboardswrapsandbowls.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/13530429056",
+    "business_name": "HomeGrown",
+    "website": "https://homegrownkitchen.com/store-locations/homegrown-kitchen-liberty/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/13687095985",
+    "business_name": "Urban Egg",
+    "website": "https://www.urbanegg.com/location/liberty/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/13937592757",
+    "business_name": "Aromatic Nepal",
+    "website": "https://aromaticnepal.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/14002446672",
+    "business_name": "Conrad's",
+    "website": "https://conrads816.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:node/14262191877",
+    "business_name": "Hunan Garden",
+    "website": "https://www.hunangardenliberty.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/92365904",
+    "business_name": "Hampton",
+    "website": "https://hamptoninn3.hilton.com/en/hotels/missouri/hampton-inn-kansas-city-liberty-MKCLBHX/index.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/178169553",
+    "business_name": "Kansas City Missouri Temple",
+    "website": "https://www.churchofjesuschrist.org/temples/details/kansas-city-missouri-temple"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/179067004",
+    "business_name": "Steak 'n Shake",
+    "website": "https://www.steaknshake.com/locations/mo-kansas-city-north-east-barry-road/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/179067011",
+    "business_name": "Burger King",
+    "website": "https://www.bk.com/store-locator/store/restaurant_6429"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/179067015",
+    "business_name": "Freddy's",
+    "website": "https://freddysusa.com/store/liberty/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/179067016",
+    "business_name": "Waffle House",
+    "website": "https://locations.wafflehouse.com/kansascity-mo-1223/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195207885",
+    "business_name": "Cracker Barrel",
+    "website": "https://locations.crackerbarrel.com/mo/kansas-city/163/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195207892",
+    "business_name": "54th Street Grill and Bar",
+    "website": "https://www.54thstreetgrill.com/liberty-mo.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195207893",
+    "business_name": "KFC",
+    "website": "https://locations.kfc.com/mo/kansas-city/9551-ne-83rd-ter"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195207901",
+    "business_name": "Joy Wok",
+    "website": "https://www.joywokkcmo.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195207915",
+    "business_name": "Comfort Suites Kansas City-Liberty",
+    "website": "https://www.choicehotels.com/missouri/platte-city/quality-inn-hotels"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195207916",
+    "business_name": "Fairfield Inn & Suites",
+    "website": "https://www.marriott.com/mcilb"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195211911",
+    "business_name": "Mo' Bettahs Hawaiian Style Food",
+    "website": "https://mobettahs.com/locations/liberty/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195211912",
+    "business_name": "Culver's",
+    "website": "https://www.culvers.com/restaurants/liberty"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195211924",
+    "business_name": "Veterinary Center of Liberty",
+    "website": "https://www.vetcenterofliberty.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195211931",
+    "business_name": "Valvoline",
+    "website": "https://store.vioc.com/mo/liberty/oil-change-050115.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195217175",
+    "business_name": "Texas Roadhouse",
+    "website": "https://www.texasroadhouse.com/locations/252-libertymo"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195217186",
+    "business_name": "Chick-fil-A",
+    "website": "https://www.cfarestaurant.com/liberty-mo/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195217194",
+    "business_name": "Saint Stephen Lutheran Church",
+    "website": "http://ststephensliberty.org/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195217201",
+    "business_name": "Relevant Church",
+    "website": "https://www.relevantchurchofliberty.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/195217214",
+    "business_name": "El Potro",
+    "website": "https://www.pizzaranch.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/196737170",
+    "business_name": "Saint Andrew the Apostle Catholic Church",
+    "website": "https://www.sataps.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/227604206",
+    "business_name": "Belvoir Winery",
+    "website": "https://www.belvoirwinery.com"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/230395554",
+    "business_name": "The Elms Hotel & Spa, a Destination by Hyatt Hotel",
+    "website": "https://www.elmshotelandspa.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/245270243",
+    "business_name": "Sleep Inn & Suites Indoor Waterpark",
+    "website": "https://www.choicehotels.com/missouri/platte-city/quality-inn-hotels"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/258781627",
+    "business_name": "Sonic",
+    "website": "https://locations.sonicdrivein.com/mo/kansascity/10101-n.e.-cookingham-road.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/258781629",
+    "business_name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/28844.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/297261491",
+    "business_name": "Taco Bell",
+    "website": "https://locations.tacobell.com/mo/liberty/315-s-291-hwy.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/297261492",
+    "business_name": "Sonic",
+    "website": "https://locations.sonicdrivein.com/mo/liberty/615-s-291-highway.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/299504455",
+    "business_name": "Santa Fe Glass",
+    "website": "https://www.santafeglass.net/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/361625891",
+    "business_name": "Wayne Croy Car Care",
+    "website": "https://www.waynecroycarcare.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/427244620",
+    "business_name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/mo/excelsior-springs/2221-happy-lane/30529.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/493602283",
+    "business_name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/29621.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/510635932",
+    "business_name": "McDonald's",
+    "website": "https://www.mcdonalds.com/us/en-us/location/1349.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/511509730",
+    "business_name": "Church's Chicken",
+    "website": "https://locations.churchs.com/mo/kansas-city/4601-ne-vivion-road"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/572915813",
+    "business_name": "Smoothie King",
+    "website": "https://www.smoothieking.com/location/view?store=1113"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/572915814",
+    "business_name": "PepperJax Grill",
+    "website": "https://pepperjaxgrill.com/locations-menus/liberty/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/572922369",
+    "business_name": "Buffalo Wild Wings",
+    "website": "https://www.buffalowildwings.com/locations/us/mo/kansas-city/464-ne-barry-road/sports-bar-1732/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/573405112",
+    "business_name": "Taco Bell",
+    "website": "https://locations.tacobell.com/mo/kansas-city/9301-ne-highway-152.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/573405123",
+    "business_name": "Arby's",
+    "website": "https://www.arbys.com/locations/us/mo/kansas-city/8261-n--oxford-ave/store-8219/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/672500701",
+    "business_name": "TownePlace Suites",
+    "website": "https://www.marriott.com/mcilt"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/689239601",
+    "business_name": "Home2 Suites",
+    "website": "https://www.hilton.com/en/hotels/mkclnht-home2-suites-liberty-ne-kansas-city/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/987932475",
+    "business_name": "DQ Grill & Chill",
+    "website": "https://www.dairyqueen.com/locations/mo/kansas-city/10350-ne-cookingham-dr/13388"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1063755320",
+    "business_name": "Liberty Christian Church",
+    "website": "https://www.lccdoc.org/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1063755324",
+    "business_name": "Second Baptist Church",
+    "website": "https://www.2bcliberty.org/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1076375484",
+    "business_name": "Chandler Baptist Church",
+    "website": "https://chandlerbc.org/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1105021506",
+    "business_name": "Pizza Hut",
+    "website": "https://locations.pizzahut.com/mo/kansas-city/10440-ne-cookingham-drive"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1105021508",
+    "business_name": "Zaxby's",
+    "website": "https://www.zaxbys.com/locations/mo/kansas-city/10430-ne-cookingham-dr"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1105021512",
+    "business_name": "Red Door Woodfired Grill",
+    "website": "https://reddoorgrill.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1105021521",
+    "business_name": "Joe Kilowatt",
+    "website": "https://joekilowatt.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1149946934",
+    "business_name": "Applebee's",
+    "website": "https://restaurants.applebees.com/en-us/mo/excelsior-springs/2301-vintage-court-79033"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1149946935",
+    "business_name": "Arby's",
+    "website": "https://www.arbys.com/locations/us/mo/excelsior-springs/2303-vintage-ct/store-7637/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1156521191",
+    "business_name": "Wabash BBQ",
+    "website": "https://www.wabashbbq.com/"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1189529720",
+    "business_name": "Whataburger",
+    "website": "https://locations.whataburger.com/mo/kansas-city/8607-ne-85th-st.html"
+  },
+  {
+    "business_id": "hyd:osm:osm:way/1229502912",
+    "business_name": "Pizza Hut",
+    "website": "https://locations.pizzahut.com/mo/excelsior-springs/1103-rose-ave"
+  }
+]
